@@ -75,7 +75,7 @@
     }
     /*popups-design-main*/
     .popup {
-        width: 690px;
+        width: 48.94%;
     }
     .popup-title-free-design {
         font-size: 36px;
@@ -89,7 +89,7 @@
         margin-top: 60px;
     }
     .input-popup {
-        width: 252px;
+        width: 47.2%;
         font-size: 14px;
         line-height: 17px;
     }
@@ -109,7 +109,7 @@
         line-height: 17px;
     }
     .btn-popup-free-design {
-        width: 252px;
+        width: 47.2%;
         font-size: 14px;
         line-height: 17px;
     }

@@ -21,12 +21,15 @@ $(document).ready(function(){
 
     
     $('.main-btn').on('click', function(){
-        console.log($('#popup-free-design'));
+        $('.overlay_popup').show();
         $('#popup-free-design').show("slow");
     });
 
-    $('.popup-close').on('click', function(){
+    $('.popup-close, .overlay_popup').on('click', function(){
+        $('.overlay_popup').hide();
         $(this).parents('.popup').first().hide("slow");
     });
-
+    $('.overlay_popup').on('click', function(){
+        $('.popup').hide();
+    });
 })
