@@ -73,4 +73,44 @@
     .main-prompt {
         width: 200px;
     }
+    /*popups-design-main*/
+    .popup {
+        width: 690px;
+    }
+    .popup-title-free-design {
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .popup-text-free-design {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .form-popup {
+        margin-top: 60px;
+    }
+    .input-popup {
+        width: 252px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .input-popup::placeholder {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .popup-label-checkbox {
+        margin-top: 30px;
+        display: block;
+        position: relative;
+    }
+    .text-checkbox {
+        width: 510px;
+        margin-left: 20px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .btn-popup-free-design {
+        width: 252px;
+        font-size: 14px;
+        line-height: 17px;
+    }
 }

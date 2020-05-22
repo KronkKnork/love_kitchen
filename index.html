@@ -6,16 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/style.css">
     
-    <link rel="stylesheet" href="src/styles/main/main1920.css">
-    <link rel="stylesheet" href="src/styles/main/main1410.css">
-    <link rel="stylesheet" href="src/styles/main/main1090.css">
-    <link rel="stylesheet" href="src/styles/main/main680.css">
-    <link rel="stylesheet" href="src/styles/main/main320.css">
-    <!-- lib styles -->
+    <!-- story -->
     <link rel="stylesheet" href="dist/zuck.min.css">
-    
-    <!-- lib skins -->
     <link rel="stylesheet" href="dist/skins/snapgram.css">
     <link rel="stylesheet" href="dist/skins/vemdezap.css">
     <link rel="stylesheet" href="dist/skins/facesnap.css">
@@ -38,24 +32,24 @@
           <div class="light-main-img"></div>
 
           <div class="main-img">
-            <div class="main-prompt">Дополнительные ниши для кофе и сухих смесей</div>
-            <div class="wrapper-circle-plus wrapper-circle-plus-1"></div>
+            <div class="main-prompt"></div>
+            <div data-prompt="Дополнительные ниши papopidispioaopas" class="wrapper-circle-plus wrapper-circle-plus-1"></div>
             <div class="circle-plus circle-plus-1">
               <div class="horizontal-line"></div><div class="vertical-line"></div>
             </div>
-            <div class="wrapper-circle-plus wrapper-circle-plus-2"></div>
-            <div data-prompt="Дополнительные ниши для кофе и сухих смесей" class="circle-plus circle-plus-2">
+            <div data-prompt="Дополнительные ниши для кофе и сухих смесей-2" class="wrapper-circle-plus wrapper-circle-plus-2"></div>
+            <div class="circle-plus circle-plus-2">
               <div class="horizontal-line"></div><div class="vertical-line"></div>
             </div>
-            <div class="wrapper-circle-plus wrapper-circle-plus-3"></div>
+            <div data-prompt="Дополнительные ниши для кофе и сухих смесей-3 sdhjklfsjdklf jsdajlkfjs dajlfjd;sf;skdlf kdsg;jadsgljfs dgjfdsgljd sfgkj" class="wrapper-circle-plus wrapper-circle-plus-3"></div>
             <div class="circle-plus circle-plus-3">
               <div class="horizontal-line"></div><div class="vertical-line"></div>
             </div>
-            <div class="wrapper-circle-plus wrapper-circle-plus-4"></div>
+            <div data-prompt="Дополнительные ниши для кофе и сухих смесей-4" class="wrapper-circle-plus wrapper-circle-plus-4"></div>
             <div class="circle-plus circle-plus-4">
               <div class="horizontal-line"></div><div class="vertical-line"></div>
             </div>
-            <div class="wrapper-circle-plus wrapper-circle-plus-5"></div>
+            <div data-prompt="Дополнительные ниши для кофе и сухих смесей-5" class="wrapper-circle-plus wrapper-circle-plus-5"></div>
             <div class="circle-plus circle-plus-5">
               <div class="horizontal-line"></div><div class="vertical-line"></div>
             </div>
@@ -65,10 +59,30 @@
           <div class="main-btn"><span>заказать бесплатный проект</span></div>
 
           <div class="main-text">А ещё вы можете <a href="#" class="main-text-a">записаться в ближайший салон</a> или <a href="#" class="main-text-a" >заказать выезд дизайнера на дом</a></div>
-
+          
+          <!-- Popups -->
+          
       </div>
     </div>
     
+    <div class="overlay_popup"></div>
+    <div class="popup" id="popup-free-design">
+      <div class="container-fluid">
+        <div class="popup-close"></div>
+        <div class="popup-title popup-title-free-design">Закажите бесплатный дизайн-проект</div>
+        <div class="popup-text popup-text-free-design">оставьте заявку, и мы свяжемся с вами, чтобы обсудить детали</div>
+        <form class="form-popup form-popup-free-design" action="" method="">
+          <input class="input-popup popup-free-design__name" type="text" placeholder="Ваше имя*">
+          <input class="input-popup popup-free-design__phone" type="text" placeholder="Ваш телефон*">
+          <label class="popup-label-checkbox">
+            <input class="checkbox-popup popup-free-design__checkbox" type="checkbox">
+            <span class="fake-checkbox"></span>
+            <span class="text-checkbox">Я согласен с <a class="" href="#">условиями обработки персональных данных</a></span>
+          </label>
+        </form>
+        <div class="btn-popup-free-design"><span>заказать проект</span></div>
+      </div>
+    </div>
 
     <script src="src/js/jquery/jquery-3.5.1.slim.min.js"></script>
     <script src="src/js/main-prompt.js"></script>

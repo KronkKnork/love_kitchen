@@ -6,7 +6,7 @@
     /*изображение на главном модуле*/
     .main-img {
         position: absolute;
-        width: 300px;
+        width: 285px;
         height: 300px;
         left: 20px;
         top: 549px;
@@ -62,5 +62,62 @@
     .circle-plus-5 {
         right: 20px;
         top: 171px;
+    }
+/*popups-design-main*/
+    .popup {
+        width: 100vw;
+        height: 850px;
+        min-height: 100vh;
+    }
+    .popup .container-fluid {
+        margin: 0 20px;
+    }
+    .popup-title-free-design {
+        width: 275px;
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .popup-text-free-design {
+        font-size: 16px;
+        line-height: 19px;
+        width: 275px;
+    }
+    .form-popup {
+        margin-top: 30px;
+    }
+    .input-popup {
+        width: 233px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .popup-free-design__phone {
+        margin-top: 30px;
+    }
+    .input-popup::placeholder {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .popup-label-checkbox {
+        width: 233px;
+    }
+    .fake-checkbox {
+        width: 30px;
+        height: 30px;
+    }
+    .fake-checkbox::before {
+        width: 14px;
+        height: 14px;
+    }
+    .text-checkbox {
+        width: 210px;
+        margin-left: 10px;
+        font-size: 13px;
+        line-height: 16px;
+        top: 9;
+    }
+    .btn-popup-free-design {
+        width: 233px;
+        font-size: 12px;
+        line-height: 14px;
     }
 }

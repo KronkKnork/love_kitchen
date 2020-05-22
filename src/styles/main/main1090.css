@@ -67,4 +67,17 @@
         right: 40px;
         top: 391px;
     }
+    /*popups-design-main*/
+    .popup {
+        width: 590px;
+    }
+    .input-popup {
+        width: 230px;
+    }
+    .text-checkbox {
+        width: 420px;
+    }
+    .btn-popup-free-design {
+        width: 230px;
+    }
 }

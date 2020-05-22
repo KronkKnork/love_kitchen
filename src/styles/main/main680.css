@@ -82,4 +82,8 @@
         right: 40px;
         top: 218px;
     }
+/*popups-design-main*/
+    .popup {
+        width: 100vw;
+    }
 }
