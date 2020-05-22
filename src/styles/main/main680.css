@@ -1,0 +1,85 @@
+@media screen and (max-width: 680px) {
+    /*главый контейнер*/   
+    .container-fluid {
+        padding: 0 40px;
+    }
+    /*изображение на главном модуле*/
+    .main-img {
+        position: absolute;
+        width: 320px;
+        height: 420px;
+        left: 360px;
+        top: 70px;
+        background: url("../../img/main680.jpg") no-repeat;
+    }
+    .light-main-img {
+        width: 160px;
+        height: 420px;
+        left: 360px;
+        top: 70px;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 99.65%);
+    }
+    /*Название главного модуля*/
+    .main-title {
+        width: 480px;
+        height: 96px;
+        left: 40px;
+        top: 128px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    /*кнопка на главном модуле*/
+    .main-btn {
+        width: 280px;
+        height: 80px;
+        left: 40px;
+        top: 264px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    /*текс на главном модуле*/
+    .main-text {
+        width: 280px;
+        height: 57px;
+        left: 40px;
+        top: 374px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    /*Плюсики*/
+    .wrapper-circle-plus { display: none; }
+    .circle-plus {
+        width: 40px;
+        height: 40px;
+    }
+    .horizontal-line {
+        width: 16px;
+        height: 3px;
+        margin: 16.5px 10px;
+    }
+    .vertical-line {
+        width: 3px;
+        height: 16px;
+        margin: 10.2px 16.4px;
+    }
+    .circle-plus-1 {
+        left: 40px;
+        top: 208px;
+    }
+    .circle-plus-2 {
+        left: 96px;
+        top: 113px;
+    }
+    .circle-plus-3 {
+        left: 197px;
+        top: 288px;
+    }
+    .circle-plus-4 {
+        left: 240px;
+        top: 123px;
+    }
+    .circle-plus-5 {
+        right: 40px;
+        top: 218px;
+    }
+}

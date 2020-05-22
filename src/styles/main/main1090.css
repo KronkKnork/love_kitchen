@@ -1,0 +1,70 @@
+@media screen and (max-width: 1090px) {
+    /*главый контейнер*/
+    .container-fluid {
+        padding: 0 40px;
+    }
+    /*изображение на главном модуле*/
+    .main-img {
+        position: absolute;
+        width: 790px;
+        height: 600px;
+        left: 300px;
+        top: 120px;
+        background: url("../../img/main1090.jpg") no-repeat;
+    }
+    .light-main-img {
+        width: 395px;
+        height: 600px;
+        left: 300px;
+        top: 120px;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 99.65%);
+    }
+    /*Название главного модуля*/
+    .main-title {
+        width: 490px;
+        height: 288px;
+        left: 40px;
+        top: 142px;
+        font-size: 60px;
+        line-height: 72px;
+    }
+    /*кнопка на главном модуле*/
+    .main-btn {
+        width: 230px;
+        height: 80px;
+        left: 40px;
+        top: 490px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    /*текс на главном модуле*/
+    .main-text {
+        width: 230px;
+        height: 88px;
+        left: 40px;
+        top: 610px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    /*Плюсики*/
+    .circle-plus-1, .wrapper-circle-plus-1 {
+        left: 81px;
+        top: 330px;
+    }
+    .circle-plus-2, .wrapper-circle-plus-2 {
+        left: 206px;
+        top: 196px;
+    }
+    .circle-plus-3, .wrapper-circle-plus-3 {
+        left: 477px;
+        top: 468px;
+    }
+    .circle-plus-4, .wrapper-circle-plus-4 {
+        left: 681px;
+        top: 163px;
+    }
+    .circle-plus-5, .wrapper-circle-plus-5 {
+        right: 40px;
+        top: 391px;
+    }
+}

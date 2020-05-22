@@ -1,0 +1,196 @@
+@font-face {
+	font-family: 'PFBeauSansPro';
+	src: url('../../fonts/pfbeausanspro-reg.eot');
+	src: local('☺'), url('../../fonts/pfbeausanspro-reg.woff') format('woff'), url('../../fonts/pfbeausanspro-reg.ttf') format('truetype'), url('../../fonts/pfbeausanspro-reg.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PFBeauSansPro';
+	src: url('../../fonts/pfbeausanspro-bold.eot');
+	src: local('☺'), url('../../fonts/pfbeausanspro-bold.woff') format('woff'), url('../../fonts/pfbeausanspro-bold.ttf') format('truetype'), url('../../fonts/pfbeausanspro-bold.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+body {
+    font-family: "PFBeauSansPro";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+a { text-decoration: underline; color: #787878; font-weight: bold; }
+a:hover { color: #787878; }
+
+
+/*главый контейнер*/
+.container-fluid {
+    margin: 0;
+    padding: 0 80px;
+}
+/*изображение на главном модуле*/
+.main-img {
+    position: absolute;
+    width: 1390px;
+    height: 700px;
+    left: 530px;
+    top: 120px;
+    background: url("../../img/main1920.jpg") no-repeat;
+    background-size: auto 100%;
+    overflow: hidden;
+    border-radius: 20px 0px 0px 20px;
+}
+.dark-main-img  { 
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: #000;
+    opacity: 0;
+    border-radius: 20px 0px 0px 20px;
+    transition: .5s linear;
+ }
+.light-main-img {
+    position: absolute;
+    z-index: 1;
+    width: 695px;
+    height: 700px;
+    left: 530px;
+    top: 120px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 99.65%);
+}
+/*Название главного модуля*/
+.main-title {
+    position: absolute;
+    z-index: 2;
+    width: 760px;
+    height: 172px;
+    left: 80px;
+    top: 238px;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+}
+/*кнопка на главном модуле*/
+.main-btn {
+    position: absolute;
+    cursor: pointer;
+    width: 410px;
+    height: 80px;
+    left: 80px;
+    top: 490px;
+    padding-top: 31px;
+    background: #B22432;
+    border-radius: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.main-btn:hover { background: #D21F39; }
+/*текс на главном модуле*/
+.main-text {
+    position: absolute;
+    width: 410px;
+    height: 72px;
+    left: 80px;
+    top: 630px;
+}
+/*плюсики*/
+.circle-plus {
+    width: 60px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 2px solid #FDB73B;
+    border-radius: 50%;
+    transition: .5s linear;
+}
+.horizontal-line {
+    position: absolute;
+    width: 24px;
+    height: 4px;
+    background: #B22432;
+    border-radius: 5px;
+    margin: 26px 16px;
+    transition-property: background;
+    transition-duration: 1s;
+    transition: .5s linear;
+}
+.vertical-line {
+    width: 4px;
+    height: 24px;
+    background: #B22432;
+    border-radius: 5px;
+    margin: 16px 26px;
+    transition: .5s linear;
+}
+.circle-plus-1, .wrapper-circle-plus-1 {
+    position: absolute;
+    z-index: 3;
+    left: 261px;
+    top: 390px;
+}
+.circle-plus-2, .wrapper-circle-plus-2 {
+    position: absolute;
+    z-index: 3;
+    left: 486px;
+    top: 226px;
+}
+.circle-plus-3, .wrapper-circle-plus-3 {
+    position: absolute;
+    z-index: 3;
+    left: 782px;
+    top: 561px;
+}
+.circle-plus-4, .wrapper-circle-plus-4 {
+    position: absolute;
+    z-index: 3;
+    left: 1041px;
+    top: 133px;
+}
+.circle-plus-5, .wrapper-circle-plus-5 {
+    position: absolute;
+    z-index: 3;
+    right: 229px;
+    top: 480px;
+}
+.wrapper-circle-plus {
+    z-index: 5;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid #FDB73B;
+    transition: transform 1s;
+}
+.wrapper-circle-plus:hover ~ .dark-main-img {
+    opacity: .2;
+}
+.wrapper-circle-plus:hover {
+    transform: scale(1.3);
+}
+.wrapper-circle-plus:hover + .circle-plus {
+    background: #FDB73B;
+}
+.wrapper-circle-plus:hover + .circle-plus .horizontal-line {
+    background: #fff;
+}
+.wrapper-circle-plus:hover + .circle-plus .vertical-line {
+    background: #fff;
+}
+/*подсказка на плюсиках*/
+.main-prompt {
+    z-index: 5;
+    display: none;
+    width: 240px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
