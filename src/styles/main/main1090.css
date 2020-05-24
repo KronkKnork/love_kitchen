@@ -67,9 +67,10 @@
         right: 40px;
         top: 391px;
     }
-    /*popups-design-main*/
+/*popups-design-main*/
     .popup {
         width: 54.13%;
+        min-height: 100%;
     }
     .popup-free-design__phone {
         margin-top: 30px;
@@ -82,5 +83,35 @@
     }
     .btn-popup-free-design {
         width: 230px;
+    }
+
+/*popup-record-salon*/
+    .popup-record-salon .input-popup {
+        width: 47.15%;
+    }
+    .popup-label-checkbox-record-salon{
+        width: 47.15%;
+    }
+    .btn-popup-record-salon {
+        width: 47.15%;
+    }
+/*popup-plus*/
+    .popup-plus .btn-popup-free-design {
+        width: 233px;
+    }
+    .popup-text-plus {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .popup-plus-img {
+        height: 300px;
+    }
+    .popup-plus-img img {
+        height: 315px;
+        left: -70px;
+        top: -25px
+    }
+    .popup-text-plus {
+        margin-top: 55px;
     }
 }

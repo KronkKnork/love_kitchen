@@ -1,0 +1,20 @@
+@media screen and (max-width: 320px) {
+/*production*/
+    .wrapper-about-production {
+        margin-left: 0;
+    }
+    .time-production {
+        font-size: 180px;
+        line-height: 216px;
+    }
+    .time-production_day {
+        font-size: 36px;
+        line-height: 43px;
+        left: 118px;
+        top: 163px;
+    }
+    .btn-about-production {
+        width: 100%;
+        padding: 31px 25px;
+    }
+}

@@ -1,0 +1,61 @@
+@media screen and (max-width: 1410px) {
+
+/*production*/
+    .wrapper-about-production {
+        margin-left: 330px;
+        margin-top: 40px;
+    }
+    .time-production {
+        font-size: 220px;
+        line-height: 264px;
+    }
+    .time-production_day {
+        font-size: 52px;
+        line-height: 62px;
+        top: 207px;
+        left: 144px;
+    }
+    .about-production {
+        width: 66%;
+        margin-left: 5.3%;
+    }
+    .text-about-production {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .btn-about-production {
+        margin-top: 40px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+/*popup-about-production*/
+    #poopup-about-product-img {
+        height: 400px;
+    }
+    .poopup-about-product-img video {
+        height: 400px;
+    }
+    .product-block {
+        min-height: 400px;
+    }
+    .play-stop-video {
+        height: 400px;
+    }
+    .popup-about-production-text-right .kol-vo {
+        font-size: 52px;
+        line-height: 62px;
+    }
+    .popup-about-production-text-right .text {
+        font-size: 18px;
+        line-height: 22px;
+        top: 33px;
+    }
+    .product-block-4 .popup-about-production-text-right {
+        width: 47.3%;
+        margin-right: 30px;
+    }
+    .product-block-4 .popup-about-production-text-right:last-child {
+        margin-right: 0px;
+    }
+
+}

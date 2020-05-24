@@ -1,0 +1,152 @@
+/*перевход на попап в столбик 973px*/
+@media screen and (max-width: 973px) {
+/*production*/
+    .time-production {
+        font-size: 140px;
+        line-height: 172px;
+    }
+    .time-production_day {
+        font-size: 36px;
+        line-height: 43px;
+        left: 80px;
+        top: 135px;
+    }
+    .about-production {
+        width: 60%;
+        margin-left: 4.1%;
+    }
+    .text-about-production {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .btn-about-production {
+        width: 100%;
+        padding: 23px 30px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    /*production*/
+    .wrapper-about-production {
+        margin-left: 0;
+    }
+    .time-production {
+        font-size: 180px;
+        line-height: 216px;
+    }
+    .time-production_day {
+        font-size: 36px;
+        line-height: 43px;
+        left: 118px;
+        top: 163px;
+    }
+    .about-production {
+        width: 46.55%;
+        margin-left: 85px;
+        margin-top: 30px;
+    }
+    .btn-about-production {
+        margin-top: 30px;
+        padding: 31px 30px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+/*popup production*/
+    .product-block-2-2 {
+        margin-left: 20px;
+    }
+    .product-block-2-2 {
+        width: 48.5%;
+    }
+}
+
+/*перевход на попап в столбик 528px*/
+@media screen and (max-width: 528px) {
+/*production*/
+    .wrapper-about-production {
+        margin-left: 0;
+    }
+    .time-production {
+        font-size: 180px;
+        line-height: 216px;
+    }
+    .time-production_day {
+        font-size: 36px;
+        line-height: 43px;
+        left: 118px;
+        top: 163px;
+    }
+    .about-production {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .btn-about-production {
+        margin-top: 30px;
+        padding: 31px 30px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+/*popup production*/
+    .popup-about-production_left-line {
+        background: #fff;
+    }
+    .product-block-1-1 {
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+    .product-block-1-1 .popup-about-production-title {
+        margin-top: 80px;
+    }
+    .product-block-1-2{
+        display: block;
+        position: relative;
+        margin: 0;
+    }
+    .product-block-2-2{
+        display: block;
+        position: relative;
+        width: 100%;
+        margin: 40px 0 0 0 ;
+        max-height: 300px;
+    }
+    .popup-about-production-close {
+        background: url("../../img/close_popup1090.jpg") no-repeat;
+    }
+    .popup-about-production-close:hover {
+        background: url("../../img/close_popup_hover1090.jpg") no-repeat;
+    }
+    .popup-about-production-text {
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .product-block  .popup-about-production-text {
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .popup-about-production-text-right .kol-vo {
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .popup-about-production-text-right-1 {
+        top: 0;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .popup-about-production-text-right .text {
+        font-size: 16px;
+        line-height: 19px;
+        top: 21px;
+    }
+    .product-block-4-p {
+        margin-bottom: 0;
+    }
+    .product-block-4 .product-block-2-2 {
+        margin-top: 75px;
+        margin-bottom: 60px;
+    }
+}

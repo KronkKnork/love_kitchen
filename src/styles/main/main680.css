@@ -1,4 +1,24 @@
+/*перевход на попап в столбик 973px*/
+@media screen and (max-width: 973px) {
+    .popup-record-salon .input-popup {
+        width: 90%;
+    }
+    .popup-record-salon .input-popup:not(:first-child) {
+        margin-top: 30px;
+    }
+    .popup-label-checkbox-record-salon{
+        width: 90%;
+    }
+    .btn-popup-record-salon {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
 @media screen and (max-width: 680px) {
+    .wrapper-main {
+        height: 490px;
+    }
     /*главый контейнер*/   
     .container-fluid {
         padding: 0 40px;
@@ -85,5 +105,51 @@
 /*popups-design-main*/
     .popup {
         width: 100vw;
+    }
+/*popup-record-salon*/
+    .popup-record-salon .input-popup {
+        width: 47.15%;
+    }
+    .popup-label-checkbox-record-salon{
+        width: 47.15%;
+    }
+    .btn-popup-record-salon {
+        width: 47.15%;
+    }
+/*popup-plus*/
+    .popup-plus-img {
+        width: 660px;
+        height: 440px;
+    }
+    .popup-plus-img img {
+        width: 660px;
+        height: 400px;
+        left: -10px;
+        top: -45px
+    }
+    .popup-plus-img-light {
+        width: 660px;
+        height: 400px;
+        left: -10px;
+        top: -45px;
+    }
+    .popup-text-plus {
+        margin-top: 0px;
+    }
+}
+
+/*перевход на попап в столбик 528px*/
+@media screen and (max-width: 528px) {
+    .popup-record-salon .input-popup {
+        width: 90%;
+    }
+    .popup-record-salon .input-popup:not(:first-child) {
+        margin-top: 30px;
+    }
+    .popup-label-checkbox-record-salon{
+        width: 90%;
+    }
+    .btn-popup-record-salon {
+        width: 90%;
     }
 }

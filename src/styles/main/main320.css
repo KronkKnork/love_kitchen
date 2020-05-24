@@ -1,4 +1,7 @@
 @media screen and (max-width: 320px) {
+    .wrapper-main {
+        height: 849px;
+    }
     /*главый контейнер*/
     .container-fluid {
         padding: 0 20px;
@@ -66,7 +69,6 @@
 /*popups-design-main*/
     .popup {
         width: 100vw;
-        height: 850px;
         min-height: 100vh;
     }
     .popup .container-fluid {
@@ -119,5 +121,31 @@
         width: 233px;
         font-size: 12px;
         line-height: 14px;
+        margin-bottom: 20px;
+    }
+/*popup-plus*/
+    .popup-text-plus {
+        font-size: 16px;
+        line-height: 19px;
+        width: 95%;
+    }
+    .popup-plus-img {
+        width: 310px;
+        height: 300px;
+    }
+    .popup-plus-img img {
+        width: 340px;
+        height: 250px;
+        left: -10px;
+        top: -45px
+    }
+    .popup-plus-img-light {
+        width: 660px;
+        height: 420px;
+        left: -10px;
+        top: -45px;
+    }
+    .popup-text-plus {
+        margin-top: -10px;
     }
 }

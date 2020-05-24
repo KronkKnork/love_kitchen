@@ -1,0 +1,196 @@
+.wrapper-about-production {
+    position: relative;
+    margin-left: 450px;
+    margin-top: 60px;
+}
+.time-production {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 260px;
+    line-height: 312px;
+    color: #FDB73B;
+}
+.time-production_20 {
+    display: block;
+}
+.time-production_day {
+    position: absolute;
+    top: 241px;
+    left: 180px;
+    font-size: 60px;
+    line-height: 72px;
+}
+.about-production {
+    position: absolute;
+    display: inline-block;
+    width: 64%;
+    margin-left: 6.88%;
+    margin-top: 80px;
+}
+.btn-about-production {
+    margin-top: 60px;
+    background: #FFFFFF;
+    border: 1px dashed #505050;
+    box-sizing: border-box;
+    border-radius: 40px;
+    height: 80px;
+    width: 49.2%;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    padding-top: 31px;
+    transition: .5s linear;
+}
+.btn-about-production:hover {
+    color: #fff;
+    background: #D21F39;
+    border: none;
+}
+
+/*popup-about-production*/
+#popup-about-production {
+    display: none;
+    position: fixed; 
+    width: 100vw;
+    margin-top: 0;
+    padding: 0;
+}
+.popup-about-production_left-line {
+    position: fixed;
+    background: #f0f0f0;
+    width: 72.4%;
+    top: 0;
+    bottom: 0;
+    max-height: 100%;
+}
+.popup-about-production-close {
+    background: url("../../img/close-popup-production1920.jpg") no-repeat;
+}
+.popup-about-production-close:hover {
+    background: url("../../img/close-production-hover1920.jpg") no-repeat;
+}
+.product-block-1-1 {
+    display: inline-block;
+    width: 49.52%;
+}
+.product-block-1-2 {
+    display: inline-block;
+    z-index: 12;
+    width: 23%;
+    margin-left: 26.85%;
+}
+.popup-about-production-text-right {
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+.popup-about-production-text-right .kol-vo{
+    font-size: 60px;
+    line-height: 72px;
+    color: #FDB73B;
+}
+.popup-about-production-text-right .text{
+    position: absolute;
+    left: 20px;
+    top: 39px;
+}
+.product-block-2 .popup-about-production-title {
+    font-size: 36px;
+    line-height: 43px;
+    margin-top: 40px;
+}
+.quote {
+    margin-top: 40px;
+}
+.quote-name {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+.quote-profession {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #787878;
+}
+.product-block-2-2 {
+    display: inline-block;
+    position: absolute;
+    width: 49.2%;
+    height: 500px;
+    margin-left: 40px;
+    top: 0px;
+}
+.poopup-about-product-img img {
+    border-radius: 20px;
+    height: 500px;
+    max-width: 100%;
+}
+.play-stop-video img{
+    border-radius: 0;
+    width: 42px;
+    height: 60px;
+}
+.product-block-2 {
+    position: relative;
+}
+.poopup-about-product-img video {
+    border-radius: 20px;
+    height: 500px;
+    max-width: 100%;
+    /*если хочется обрезаное видео*/
+    object-fit: cover;
+}
+.play-stop-video {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    transition: 1s;
+}
+.play-stop-video img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+}
+.play-stop-video:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+.product-block-4 .popup-about-production-text-right {
+    display: inline-block;
+    width: 41.7%;
+    margin-right: 40px;
+}
+.product-block-4 {
+    margin-bottom: 40px;
+}
+.popup-about-production-text-right-1 {
+    position: absolute;
+    top: 51px;
+}
+.popup-about-production-text-right-1 div {
+    margin-top: 31px;
+}
+#popup-about-production-main-title {
+    margin-top: 51px;
+}
+#popup-about-production-first-text {
+    margin-top: 0;
+}
+.product-block-1 {
+    position: relative;
+}
+.product-block {
+    position: relative;
+    margin-top: 80px;
+    min-height: 500px;
+}

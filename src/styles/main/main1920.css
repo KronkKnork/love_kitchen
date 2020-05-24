@@ -24,11 +24,16 @@ body {
     overflow-x: hidden;
 }
 a { text-decoration: underline; color: #787878; font-weight: bold; }
+.main-text-a { text-decoration: underline; color: #787878; font-weight: bold; }
 a:hover { color: #787878; }
 
-
+.wrapper-main {
+    position: relative;
+    height: 820px;
+}
 /*главый контейнер*/
 .container-fluid {
+    position: relative;
     margin: 0;
     padding: 0 80px;
 }
@@ -41,7 +46,7 @@ a:hover { color: #787878; }
     top: 120px;
     background: url("../../img/main1920.jpg") no-repeat;
     background-size: auto 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     border-radius: 20px 0px 0px 20px;
 }
 .dark-main-img  { 
@@ -93,6 +98,7 @@ a:hover { color: #787878; }
     line-height: 19px;
     text-transform: uppercase;
     color: #fff;
+    transition: .5s linear;
 }
 .main-btn:hover { background: #D21F39; }
 /*текс на главном модуле*/
@@ -198,22 +204,36 @@ a:hover { color: #787878; }
 /*overlay_popup*/
 .overlay_popup {
     display: none;
-    position: absolute;
+    position: fixed;
     z-index: 6;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background: #000;
     opacity: .2;
 }
-/*popups-design-main*/
-.popup {
+.overlay_popup_like_design {
     display: none;
-    position: absolute;
+    position: fixed;
+    z-index: 6;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    opacity: .2;
+}
+.popup {
+    /*popups-design-main*/
+    position: fixed;
+    overflow-y: scroll;
+    display: none;
     z-index: 10;
     width: 48.96%;
     height: 100vh;
     right: 0;
     background: #fff;
+}
+.popup::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
 }
 .popup-close {
     position: relative;
@@ -225,14 +245,25 @@ a:hover { color: #787878; }
 .popup-close:hover {
     background: url("../../img/close_popup_hover1090.jpg") no-repeat;
 }
-.popup-title-free-design {
+.close-like-design {
     position: relative;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    background: url("../../img/close_popup1090.jpg") no-repeat;
+}
+.close-like-design:hover {
+    background: url("../../img/close_popup_hover1090.jpg") no-repeat;
+}
+.popup-title {
+    position: relative;
+    z-index: 11;
     margin-top: 40px;
     font-weight: bold;
     font-size: 48px;
     line-height: 58px;
 }
-.popup-text-free-design {
+.popup-text {
     margin-top: 40px;
     font-weight: 300;
     font-size: 20px;
@@ -333,3 +364,61 @@ a:hover { color: #787878; }
     margin-top: 51px;
 }
 .btn-popup-free-design:hover { background: #D21F39; }
+/*popup-record-salon*/
+.popup-record-salon {
+    display: none;
+}
+.popup-record-salon .input-popup {
+    width: 47.55%;
+}
+.popup-record-salon__name {
+    margin-right: 20px;
+}
+.popup-label-checkbox-record-salon{
+    width: 47.55%;
+}
+.popup-label-checkbox-record-salon .text-checkbox{
+    width: 80%;
+    margin-top: 6px;
+}
+.popup-label-checkbox-record-salon .fake-checkbox {
+    transform: translate(0,15px);
+}
+.popup-record-salon__email {
+    margin-right: 20px;
+}
+/*popup-plus*/
+.popup-plus {
+    display: none;
+    position: fixed;
+}
+.popup-plus .btn-popup-free-design {
+    width: 271px;
+    margin-bottom: 20px;
+}
+.popup-plus-img {
+    position: relative;
+    width: 51.04%;
+    height: 460px;
+}
+.popup-plus-img img {
+    position: absolute;
+    border-radius: 20px 0px 0px 20px;
+    height: 460px;
+    left: -120px;
+    top: -34px
+}
+.popup-plus-img-light {
+    position: absolute;
+    z-index: 10;
+    width: 980px;
+    height: 230px;
+    left: -120px;
+    top: -34px;
+    border-radius: 20px 0px 0px 0px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 99.65%);
+}
+.section-1 {
+    position: relative;
+    background: #000;
+}
