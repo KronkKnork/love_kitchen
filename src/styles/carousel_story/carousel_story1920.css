@@ -1,0 +1,26 @@
+.slick-slide {
+    width: 860px;
+    height: 600px;
+    transition: .5s;
+}
+.it-next-slick {
+    display: block;
+    width: 80px;
+    height: 560px;
+    border-radius: 0 20px 20px 0;
+}
+.it-next-next-slick {
+    display: block;
+    width: 60px;
+    height: 520px;
+    border-radius: 0 20px 20px 0;
+}
+.slick-slide-dn {
+    display: none !important;
+}
+.it-next-slick .story .item-link .item-preview {
+    display: block;
+    width: 80px;
+    height: 560px;
+    border-radius: 0 20px 20px 0;
+}

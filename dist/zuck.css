@@ -510,8 +510,7 @@
 }
 .stories.carousel .story {
   display: inline-block;
-  width: 18vw;
-  max-width: 90px;
+  width: 860px;
   margin: 0 6px;
   vertical-align: top;
 }
@@ -526,17 +525,14 @@
   text-align: center;
   display: block;
 }
-.stories.carousel .story > .item-link:active > .item-preview {
-  transform: scale(0.9);
-}
 .stories.carousel .story > .item-link > .item-preview {
   display: block;
   box-sizing: border-box;
   font-size: 0;
-  max-height: 90px;
+  height: 600px;
   height: 18vw;
   overflow: hidden;
-  transition: transform 0.2s;
+  transition: transform 0.5s;
 }
 .stories.carousel .story > .item-link > .item-preview img {
   display: block;
@@ -549,6 +545,7 @@
 }
 .stories.carousel .story > .item-link > .info {
   display: inline-block;
+  display: none;
   margin-top: 0.5em;
   line-height: 1.2em;
   width: 100%;
