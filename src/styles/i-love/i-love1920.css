@@ -1,0 +1,289 @@
+.red {
+    border: 1px solid black;
+    min-height: 10px;
+}
+.wrapper-i-love {
+    margin-top: 161px;
+}
+.i-love-title {
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 62px;
+}
+.i-love-cards-a {
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size: 20px;
+    line-height: 24px;
+}
+.i-love-cards-a-actived {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+.wrapper-cards {
+    margin-top: 60px;
+}
+.wrapper-card-items {
+    min-height: 595px;
+}
+.card-title {
+    transition: .5s;
+}
+.wrapper-card-items:hover .card-item .wrapper-card-text .card-title{
+    color: #D21F39;
+}
+.wrapper-card-items:hover .card-item .wrapper-card-text {
+    transform: translateY(-20px);
+}
+.wrapper-card-items:hover .card-item .wrapper-card-img {
+    transform: translateY(-20px);
+}
+.wrapper-card-items:hover .card-item .wrapper-card-img img{
+    transform: scale(1.1);
+    /*overflow: hidden; */
+    /* max-width: 500px;
+    width: 500px; */
+}
+.card-item {
+    /* position: absolute; */
+    max-width: 100%;
+    /* bottom: 0; */
+}
+.wrapper-card-item {
+    position: absolute;
+    background: red;
+    bottom: 0;
+}
+.wrapper-card-gradient {
+    position: absolute;
+    width: 100%;
+    /* background: blueviolet; */
+    bottom: 0;
+}
+.wrapper-card-img {
+    position: absolute;
+    max-width: 100%;
+    bottom: 45px;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: .5s;
+}
+.wrapper-card-btn {
+    position: absolute;
+    max-width: 100%;
+    width: 93%;
+    bottom: 50px;
+}
+.card-btn {
+    border: 1px dashed #505050;
+    box-sizing: border-box;
+    border-radius: 20px;
+    max-width: 100%;
+    height: 460px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.card-btn:hover {
+    border: none;
+    background: #D21F39;
+    color: #fff;
+}
+.card-btn span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    width: 100%;
+}
+.wrapper-card-img img {
+    border-radius: 20px;
+    max-width: 100%;
+    transition: .5s;
+}
+.wrapper-card-text {
+    position: absolute;
+    bottom: 0;
+    margin-left: 40px;
+    transition: .5s;
+}
+.card-text {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+}
+.card-price {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+.card-gradient {
+    width: 100%;
+    height: 230px;
+    border-radius: 0 0 20px 20px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 99.65%);
+}
+.wrapper-card-img-2 {
+    bottom: 110px;
+}
+.wrapper-card-gradient-2 {
+    bottom: 110px;
+}
+.wrapper-card-text-2 {
+    bottom: 65px;
+}
+.wrapper-card-img-3 {
+    bottom: -50px;
+}
+.wrapper-card-gradient-3 {
+    bottom: -50px;
+}
+.wrapper-card-text-3 {
+    bottom: -95px;
+}
+
+/*.wrapper-cards {
+    margin-top: 80px;
+}
+.card-img {
+    position: absolute;
+    border-radius: 20px;
+    width: 100%;
+}
+.card-img img{
+    border-radius: 20px;
+    max-width: 100%;
+    bottom: 0;
+}
+.wrapper-card-item {
+    min-height: 595px;
+}
+.card-text {
+    position: absolute;
+    margin-left: 40px;
+    top: 438px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+}
+.card-price {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: normal;
+}
+.card-img-gradient {
+    position: absolute;
+    width: 100%;
+    height: 230px;
+    top: 230px;
+    border-radius: 0 0 20px 20px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 99.65%);
+}
+#card-1{
+
+}
+.i-love-gradient {
+    position: absolute;
+    background: red;
+    width: 100%;
+    height: 100%;
+}*/
+
+
+
+
+
+
+
+
+/*отступ от узнать о производстве, косяк в Узнать о производстве*/
+@media screen and (max-width: 1600px) {
+    .wrapper-i-love {
+        margin-top: 139px;
+    }
+    .wrapper-card-items {
+        min-height: 480px;
+    }
+    .card-btn {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1410px) {
+    .wrapper-i-love {
+        margin-top: 100px;
+    }
+    .wrapper-i-love {
+        margin-top: 139px;
+    }
+    .wrapper-card-items {
+        min-height: 440px;
+    }
+    .wrapper-card-btn {
+        width: 98%;
+    }
+    .card-btn {
+        height: 300px;
+    }
+    .wrapper-card-img img{
+        height: 300px;
+        width: 100%;
+    }
+    .wrapper-cards .row:nth-child(2) .wrapper-card-items:nth-child(2) .wrapper-card-img img {
+        height: 360px;
+    }
+    .wrapper-cards .row:nth-child(2) .wrapper-card-items:nth-child(3) .wrapper-card-img img {
+        height: 240px;
+    }
+    .card-text {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .card-price {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .wrapper-card-text {
+        bottom: 5px;
+    }
+    .wrapper-card-text-2 {
+        bottom: 72px;
+    }
+    .wrapper-card-text-3 {
+        bottom: -88px;
+    }
+    .card-btn span {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .wrapper-i-love {
+        margin-top: 231px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .wrapper-i-love {
+        margin-top: 290px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .wrapper-i-love {
+        margin-top: 157px;
+    }
+}
+@media screen and (max-width: 528px) { 
+    .wrapper-i-love {
+        margin-top: 363px;
+    }
+}
