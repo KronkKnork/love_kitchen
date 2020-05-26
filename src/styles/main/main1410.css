@@ -164,4 +164,9 @@
         left: -70px;
         top: -25px;
     }
+    .h2-title {
+      	font-size: 52px;
+    	  line-height: 62px;
+    }
+
 }

@@ -5,11 +5,11 @@
 .wrapper-i-love {
     margin-top: 161px;
 }
-.i-love-title {
+/* .i-love-title {
     font-weight: bold;
     font-size: 52px;
     line-height: 62px;
-}
+} */
 .i-love-cards-a {
     margin-top: 20px;
     margin-right: 50px;
@@ -282,7 +282,7 @@
         margin-top: 157px;
     }
 }
-@media screen and (max-width: 528px) { 
+@media screen and (max-width: 528px) {
     .wrapper-i-love {
         margin-top: 363px;
     }
