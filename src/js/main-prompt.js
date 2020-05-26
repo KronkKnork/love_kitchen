@@ -81,7 +81,7 @@ $(window).ready(function(){
         document.body.style.overflowY = $('.wrapper-circle-plus-2').is(':hidden') ? "scroll" : "hidden";
     });
     $('.wrapper-circle-plus-3').on('click', function(){
-        $('.popup').fadeOut(500);
+        //$('.popup').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
         $('#popup-plus-3').fadeIn(500);
         document.body.style.overflowY = $('.wrapper-circle-plus-3').is(':hidden') ? "scroll" : "hidden";
@@ -110,12 +110,12 @@ $(window).ready(function(){
         $('#popup-plus-2').fadeIn(500);
         document.body.style.overflowY = $('#popup-plus-2').is(':hidden') ? "scroll" : "hidden";
     });
-    $('.circle-plus-3').on('click', function(){
-        $('.popup').fadeOut(500);
-        $('.overlay_popup').fadeIn(500);
-        $('#popup-plus-3').fadeIn(500);
-        document.body.style.overflowY = $('#popup-plus-3').is(':hidden') ? "scroll" : "hidden";
-    });
+    // $('.circle-plus-3').on('click', function(){
+    //     $('.popup').fadeOut(500);
+    //     $('.overlay_popup').fadeIn(500);
+    //     $('#popup-plus-3').fadeIn(500);
+    //     document.body.style.overflowY = $('#popup-plus-3').is(':hidden') ? "scroll" : "hidden";
+    // });
     $('.circle-plus-4').on('click', function(){
         $('.popup').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
@@ -128,6 +128,16 @@ $(window).ready(function(){
         $('#popup-plus-5').fadeIn(500);
         document.body.style.overflowY = $('#popup-plus-5').is(':hidden') ? "scroll" : "hidden";
     });
+
+    /*offers*/
+    $('.js-offer2').on('click', function(){
+        $('.overlay_popup').fadeIn(500);
+        $('#popup-offer-2').fadeIn(500);
+        document.body.style.overflowY = $('#popup-offer-2').is(':hidden') ? "scroll" : "hidden";
+    });
+
+/*/offers*/
+
 /** Принятая заявка */
     $('.js-btn-buy').on('click', function(){
         $('.popup').fadeOut(500);

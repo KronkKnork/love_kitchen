@@ -35,7 +35,7 @@ a:hover { color: #787878; }
 .container-fluid {
     position: relative;
     margin: 0;
-    padding: 0 80px;
+    padding: 0 36px 0 80px;
 }
 /*изображение на главном модуле*/
 .main-img {
@@ -49,7 +49,7 @@ a:hover { color: #787878; }
     overflow-x: hidden;
     border-radius: 20px 0px 0px 20px;
 }
-.dark-main-img  { 
+.dark-main-img  {
     position: absolute;
     z-index: 2;
     width: 100%;
@@ -230,6 +230,10 @@ a:hover { color: #787878; }
     height: 100vh;
     right: 0;
     background: #fff;
+		/*fix*/
+		padding-left: 40px;
+    background-clip: content-box;
+    box-sizing: content-box;
 }
 .popup::-webkit-scrollbar{
     width: 0px;
@@ -268,6 +272,7 @@ a:hover { color: #787878; }
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
+		letter-spacing: -0.14;
 }
 .form-popup {
     margin-top: 60px;
@@ -312,7 +317,10 @@ a:hover { color: #787878; }
     margin-left: 20px;
     font-size: 16px;
     line-height: 19px;
+		letter-spacing: -0.14;
 }
+.text-checkbox a { font-weight: 300; color: #000; }
+
 .checkbox-popup {
     display: none;
 }
@@ -361,7 +369,7 @@ a:hover { color: #787878; }
     line-height: 19px;
     text-transform: uppercase;
     color: #fff;
-    margin-top: 51px;
+    margin-top: 32px;
 }
 .btn-popup-free-design:hover { background: #D21F39; }
 /*popup-record-salon*/
@@ -422,3 +430,55 @@ a:hover { color: #787878; }
     position: relative;
     background: #000;
 }
+
+/*скопировала из i-love-title*/
+/* .cards-title {
+  	font-weight: bold;
+	  font-size: 60px;
+	  line-height: 62px;
+} */
+
+.h2-title {
+  	font-weight: bold;
+	  font-size: 60px;
+	  line-height: 72px;
+		padding-left: 0;
+}
+
+
+#compact-down .col-md-3:nth-child(3) .wrapper-card-img { max-height: 380px; }
+.popup-offer .popup-plus-img { top: 74px; height: 482px;     margin-bottom: 93px; }
+.popup-offer .popup-plus-img img { height: 482px; }
+.popup-plus-img + .popup-title { font-size: 36px; }
+.popup-plus-img + .popup-title + .popup-text { margin-top: 12px; }
+.popup-plus-img + .popup-title + .popup-text + .form-popup { margin-top: 40px; }
+
+.btn { cursor: pointer;
+    width: 410px;
+    height: 80px;
+    padding-top: 31px;
+    background: #B22432;
+    border-radius: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: .5s linear;}
+
+.kitchen-test .h2-title { margin-bottom: 60px; }
+.test-btn { margin-top: 67px; }
+
+.popup-test { position: fixed; width: 100vw !important; margin-top: 0; padding: 0; }
+.test-title { font-weight: bold;
+font-size: 36px;
+line-height: 43px; }
+.test-about-kitchen { font-size: 24px;
+line-height: 29px; }
+.popup-label-checkbox:hover { cursor: pointer; }
+.popup-test .popup-label-checkbox:hover .text-checkbox { color: #B22432; }
+.popup-test .popup-label-checkbox:hover .fake-checkbox { background: 		  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADvSURBVHgBpVOxDYNADPSbAtFlBDYII4SSCtgkGwAbJJMAoqBMRmCDMEI6RAPxoRAhFEX/n2uwH/v+bN0r2qFpmpPjOLFSKpHUx9k8z53knYRFFEX9tl6tQVmWB8/zMik+0w8I0WUYhiJN0+eHAM2u697kZ0AagKJxHEOQMA5ws27zW0WAniVu29aX74PsEEJBRpaYpilhmUdb+h7MHLPJ7F/gM/0JEPRkCZgLO6jJEvADdlCRPQoWb9+F6UqGQA/exbJEsWUOOQbNsHKOeCGAp+FtHSWoWd8BcrUvgLWlKJfwuPFIL66rxTgVRt7WvwDunHA3GytNqQAAAABJRU5ErkJggg==') center no-repeat;
+}
+.popup-test  .checkbox-popup:checked + .fake-checkbox + .text-checkbox { color: #B22432; }
+.test-img img { width: 100%; height: auto; }
