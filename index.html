@@ -1028,6 +1028,34 @@
     <script src="dist/zuck.min.js"></script>
     <script src="demo/script.js"></script>
 
+    <!-- for slaider (кол-во столько же сколько Zuck.buildTimelineItem)-->
+    <div  class="text-for-slaider">
+      <div>Ребята очень ответственно подошли к вопросу планирования кухни</div>
+      <div>«Хочу поделиться радостью…»</div>
+      <div>text-3</div>
+      <div>text-4</div>
+      <div>text-5</div>
+      <div>text-6</div>
+      <div>text-7</div>
+    </div>
+    <div  class="text-for-slaider-designer">
+      <div>Евгения Хеллер, дизайнер</div>
+      <div>Валерия Мухина, дизайнер</div>
+      <div>text-3</div>
+      <div>text-4</div>
+      <div>text-5</div>
+      <div>text-6</div>
+      <div>text-7</div>
+    </div>
+    <div  class="text-for-slaider-name-client">
+      <div>Савинов Александр</div>
+      <div>Виктор Комаров</div>
+      <div>text-3</div>
+      <div>text-4</div>
+      <div>text-5</div>
+      <div>text-6</div>
+      <div>text-7</div>
+    </div>
     <script>
       var currentSkin = getCurrentSkin();
       var stories = new Zuck('stories', {
@@ -1049,9 +1077,9 @@
             "",
             timestamp(),
             [
-              ["client1-1", "photo", 0, "src/img/story/story-1.jpg", "src/img/story/story-1.jpg", '#', "Visit my Portfolio", false, timestamp()],
-              ["client1-2", "photo", 3, "src/img/story/story2.jpg", "src/img/story/story2.jpg", '#', "Visit my Portfolio", false, timestamp()],
-              ["client1-2", "photo", 3, "src/img/story/story3.jpg", "src/img/story/story3.jpg", '#', "Visit my Portfolio", false, timestamp()],
+              ["client1-1", "photo", 5, "src/img/story/story-1.jpg", "src/img/story/story-1.jpg", 'Ребята очень ответственно подошли к вопросу планирования кухни', "Александр и Виктория пришли на обсуждение проекта будущей кухни на этапе чернового ремонта. Работать с ними было очень легко и приятно, ведь они уже четко знали, что хотят получить в итоге.", false, timestamp()],
+              ["client1-2", "photo", 5, "src/img/story/story2.jpg", "src/img/story/story2.jpg", '«Хочу поделиться радостью…»', "Согласитесь, большая редкость, когда ты заказываешь услугу и она с первой минуты тебя устраивает на все 100!!! Это именно тот случай!", false, timestamp()],
+              ["client1-2", "photo", 5, "src/img/story/story3.jpg", "src/img/story/story3.jpg", '«Мы молодая семья с ребенком…»', "...покупали квартиру в новом доме и это наша первая квартира и кухня) Очень рады и довольны, что заказали кухню именно в салоне Любимая кухня. Получилась кухня нашей мечты!", false, timestamp()],
             ]
           ),
           Zuck.buildTimelineItem(
