@@ -1,6 +1,6 @@
 .red {
     border: 1px solid black;
-    min-height: 10px;
+    min-height: 50px;
 }
 .wrapper-i-love {
     margin-top: 161px;
@@ -26,6 +26,7 @@
     margin-top: 60px;
 }
 .wrapper-card-items {
+    cursor: pointer;
     min-height: 595px;
 }
 .card-title {
@@ -77,6 +78,7 @@
     bottom: 50px;
 }
 .card-btn {
+    cursor: pointer;
     border: 1px dashed #505050;
     box-sizing: border-box;
     border-radius: 20px;
@@ -150,58 +152,127 @@
 .wrapper-card-text-3 {
     bottom: -95px;
 }
+.i-love-a {
+    transition: .5s;
+}
+.i-love-a .main-text-a {
+    transition: .5s;
+}
+.i-love-a .main-text-a:hover {
+    color: #000;
+    text-decoration: none;
+    transition: .5s;
+}
+#functions, #space, #style-design {
+    display: none;
+}
+.wrapper-animation-i-love {
+    min-height: 1190px;
+}
+.i-love-position-absolute {
+    position: absolute;
+}
 
-/*.wrapper-cards {
-    margin-top: 80px;
-}
-.card-img {
-    position: absolute;
-    border-radius: 20px;
+/*popup-i-love*/
+#popup-i-love {
+    display: none;
+    position: fixed;
     width: 100%;
+    z-index: 5;
 }
-.card-img img{
-    border-radius: 20px;
-    max-width: 100%;
-    bottom: 0;
+.wrapper-popup-i-text {
+    padding-top: 20px;
 }
-.wrapper-card-item {
-    min-height: 595px;
-}
-.card-text {
-    position: absolute;
-    margin-left: 40px;
-    top: 438px;
+.wrapper-popup-i-text .title{
     font-weight: bold;
-    font-size: 36px;
-    line-height: 43px;
+    font-size: 48px;
+    line-height: 58px;
 }
-.card-price {
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: normal;
+.wrapper-popup-i-text .text {
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 40px;
 }
-.card-img-gradient {
-    position: absolute;
+.popup-i-btn {
+    cursor: pointer;
+    border-radius: 40px;
+    height: 80px;
     width: 100%;
-    height: 230px;
-    top: 230px;
-    border-radius: 0 0 20px 20px;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 99.65%);
+    text-align: center;
+    padding-top: 31px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    transition: .5s;
 }
-#card-1{
-
+.popup-i-btn-1 {
+    border: 1px dashed #505050;
+    transition: .5s;
 }
-.i-love-gradient {
-    position: absolute;
-    background: red;
+.popup-i-btn-1:hover {
+    background: #D21F39;
+    border: none;
+    color: #fff;
+}
+.popup-i-btn-2 {
+    background: #B22432;
+    color: #fff;
+    transition: .5s;
+}
+.popup-i-btn-2:hover {
+    background: #D21F39;
+}
+.wrapper-popup-i-img {
+    width: 100%;
+    max-height: 85vh;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 17px;
+    transition: .5s;
+}
+#i-love-gallery {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.popup-i-top-content {
+    margin-top: 40px;
+}
+.popup-i-middle-content {
+    margin-top: 60px;
+}
+.wrapper-popup-i-img-mimi {
+    padding: 0 5px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    opacity: .5;
+    transition: .5s;
+}
+.wrapper-popup-i-img-mimi img{
+    border-radius: 10px;
     width: 100%;
     height: 100%;
-}*/
-
-
-
-
-
+    object-fit: cover;
+}
+.actived-img {
+    opacity: 1;
+}
+.i-love-info-p { margin-top: 30px; }
+#popup-i-love p {
+    font-size: 16px;
+    line-height: 19px;
+}
+.i-love-info {
+    font-weight: bold;
+}
+.popup-i-top-end {
+    margin-top: 17px;
+    margin-bottom: 80px;
+}
 
 
 
@@ -219,9 +290,6 @@
 }
 
 @media screen and (max-width: 1410px) {
-    .wrapper-i-love {
-        margin-top: 100px;
-    }
     .wrapper-i-love {
         margin-top: 139px;
     }
@@ -265,6 +333,32 @@
         font-size: 14px;
         line-height: 17px;
     }
+    /*popup i love*/
+    .wrapper-popup-i-text {
+        padding-top: 25px;
+    }
+    .wrapper-popup-i-text .title{
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .wrapper-popup-i-text .text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .popup-i-btn {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    #popup-i-love p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .popup-i-top-end {
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
 }
 
 @media screen and (max-width: 1090px) {
@@ -277,13 +371,158 @@
         margin-top: 290px;
     }
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 767px) {
+    .wrapper-card-items {
+        min-height: 380px;
+    }
     .wrapper-i-love {
         margin-top: 157px;
     }
+    .i-love-a .main-text-a {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .card-title {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .wrapper-card-img-3 {
+        bottom: 50px;
+    }
+    .wrapper-card-gradient-3 {
+        bottom: 50px;
+    }
+    .wrapper-card-text {
+        bottom: 10px;
+    }
+    .wrapper-card-text-2 {
+        bottom: 75px;
+    }
+    .wrapper-card-img-4 {
+        bottom: 100px;
+    }
+    .wrapper-card-gradient-4 {
+        bottom: 80px;
+    }
+    .wrapper-card-text-4 {
+        bottom: 65px;
+    }
+    .card-btn {
+        height: 357px;
+    }
 }
-@media screen and (max-width: 528px) {
+@media screen and (max-width: 680px) {
+    /*popup i love*/
+    .wrapper-popup-i-text {
+        padding-top: 25px;
+    }
+    .wrapper-popup-i-text .title{
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .wrapper-popup-i-text .text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .popup-i-btn {
+        font-size: 12px;
+        line-height: 14px;
+        margin-top: 30px;
+    }
+    #popup-i-love p {
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 0;
+    }
+    .popup-i-top-end {
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 30px;
+    }
+    .wrapper-popup-i-img-mimi {
+        height: 50px;
+    }
+}
+@media screen and (max-width: 575px) {
     .wrapper-i-love {
         margin-top: 363px;
+    }
+    .wrapper-card-items {
+        min-height: 380px;
+    }
+    .wrapper-i-love {
+        margin-top: 157px;
+    }
+    .card-title {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .wrapper-card-img {
+        bottom: -90px;
+    }
+    .wrapper-card-gradient {
+        bottom: -90px;
+    }
+    .wrapper-card-text {
+        bottom: -115px;
+    }
+    .card-btn {
+        height: 140px;
+    }
+    .wrapper-card-items-1 {
+        min-height: 200px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .wrapper-i-love {
+        margin-top: 363px;
+    }
+    .wrapper-card-items {
+        min-height: 380px;
+    }
+    .wrapper-i-love {
+        margin-top: 157px;
+    }
+    .card-title {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .wrapper-card-img {
+        bottom: -90px;
+    }
+    .wrapper-card-gradient {
+        bottom: -90px;
+    }
+    .wrapper-card-text {
+        bottom: -115px;
+    }
+    .card-btn {
+        height: 140px;
+    }
+    .wrapper-card-btn {
+        width: 280px;
+    }
+    .wrapper-card-items-1 {
+        min-height: 200px;
+    }
+    /*popup i love*/
+    #popup-i-love .container-fluid {
+        margin-left: 0;
+    }
+    .wrapper-popup-i-text {
+        padding-top: 25px;
+    }
+    .wrapper-popup-i-text .text {
+        margin-left: 0px;
+        margin-top: 20px;
+        display: block;
+    }
+    .popup-i-btn {
+        font-size: 12px;
+        line-height: 14px;
+        margin-top: 30px;
+    }
+    #popup-i-love p:first-child {
+        margin-top: 40px;
     }
 }

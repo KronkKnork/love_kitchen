@@ -31,8 +31,8 @@ $(window).ready(function(){
     });*/
 
 /**клик на кнопку заказать бесплатный проект*/
-    $('.main-btn').on('click', function(){
-        $('.popup').fadeOut(500);
+    $('.main-btn, .popup-i-btn-2').on('click', function(){
+        $('.popup:not(#popup-i-love)').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
         $('#popup-free-design').fadeIn(500);
         document.body.style.overflowY = $('#popup-free-design').is(':hidden') ? "scroll" : "hidden";
@@ -157,7 +157,7 @@ $(window).ready(function(){
         document.body.style.overflowY = "scroll";
     });
     $('.overlay_popup').on('click', function(){
-        $('.popup').fadeOut(500);
+        $('.popup:not(#popup-i-love)').fadeOut(500);
         document.body.style.overflowY = "scroll";
     });
 })

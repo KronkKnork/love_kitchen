@@ -4,7 +4,7 @@
 }
 .stories.snapgram .story > .item-link > .item-preview {
   border-radius: 20px;
-  height: 600px;
+  height: 100%;
 }
 .stories.snapgram .it-next-slick .story > .item-link > .item-preview {
   border-radius: 0 20px 20px 0;
@@ -24,10 +24,6 @@
 }
 .stories.snapgram .story > .item-link > .item-preview img {
   border-radius: 20px;
-}
-
-.stories.snapgram .story.seen {
-
 }
 .stories.snapgram .story.seen > a > .item-preview {
   background: #999;
