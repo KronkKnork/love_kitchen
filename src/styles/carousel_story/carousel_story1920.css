@@ -24,6 +24,7 @@
     transition: .5s;
 }
 .item-preview:after {
+    pointer-events: none;
     content: "";
 	display: block;    
 	width: 50%;
@@ -85,12 +86,14 @@
     position: absolute;
     height: 100%;
     width: 860px;
+    pointer-events: none;
 }
 .text-for-slaider, .text-for-slaider-designer, .text-for-slaider-name-client { display: none; }
 .story-user { position: absolute; top: 120px; }
 .user-text-story { font-weight: bold; font-size: 36px; line-height: 43px; }
 .story-client { position: absolute; bottom: 80px; font-size: 16px; line-height: 19px; color: #787878; }
 .name-client { font-weight: bold; font-size: 20px; line-height: 24px; color: #000000; }
+.text-mobile-story { display: none; }
 
 @media screen and (max-width: 1410px) {
     .main-name-story { font-size: 52px; line-height: 62px; margin-bottom: 60px; margin-top: 120px; }
@@ -110,4 +113,14 @@
     .carousel-text { width: 490px; }
     .left-block-dn { width: 259px; }
     .next { height: 146px; bottom: 150px; right: 0; }
+}
+@media screen and (max-width: 680px) {
+    .story-client { display: none; }
+    .next { display: none; }
+    .story { box-shadow: none; }
+    .no-padding-story { padding-left: 0; padding-right: 0; }
+    #stories { transform: translateX(0px); width: 100%;}
+    .left-block-dn { display: none; }
+    .story-user { display: none; }
+    .text-mobile-story { display: block; }
 }

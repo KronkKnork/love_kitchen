@@ -20,7 +20,9 @@
 $(document).ready(function() {
     var carousel_width = 860, 
         carousel_height = 600,
-        carousel_separation = 110;
+        carousel_separation = 110,
+        carousel_sizeMultiplier = 0.9,
+        carousel_separationMultiplier = 0.8;
     if ($(window).width() < 1900) {
         carousel_width = 650;
         carousel_height = 500;
@@ -31,19 +33,28 @@ $(document).ready(function() {
         carousel_height = 500;
         carousel_separation = 90;
     }
+    if ($(window).width() < 1000) {
+        carousel_width = 280;
+        carousel_height = 300;
+        carousel_separation = 400;
+        carousel_sizeMultiplier = 1;
+        carousel_separationMultiplier = 1;
+    }
     console.log(carousel_width);
     var carousel = $('#stories').waterwheelCarousel({
         keyboardNav: false,
         edgeFadeEnabled: true,
+        speed: 200,
         forcedImageHeight: carousel_height,
         forcedImageWidth: carousel_width,
         activeClassName: 'slick-current',
         flankingItems: 2,
         separation: carousel_separation,
-        separationMultiplier: 0.8,
-        sizeMultiplier: 0.9,
+        separationMultiplier: carousel_separationMultiplier,
+        sizeMultiplier: carousel_sizeMultiplier,
         opacityMultiplier: 0.99,
         imageNav: false,
+        keyboardNavOverride: false,
     });
     /*console.log($('.story .slick-current'));
     if ($('.slick-current').next().length === 1) {
@@ -103,6 +114,15 @@ $(document).ready(function() {
             };
             data.itemsContainer.find('div.story').removeClass(options.activeClassName);
         }
+        /** свайп */
+        $('.wrapper-story').on('swipeleft', function() {
+            moveOnce('forward');
+            $('.text-mobile-story').css({'opacity' : '1'});
+        });
+        $('.wrapper-story').on('swiperight', function() {
+            moveOnce('backward');
+            $('.text-mobile-story').css({'opacity' : '1'});
+        });
 
         /**
          * This function will set the autoplay for the carousel to

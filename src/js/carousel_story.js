@@ -3,6 +3,16 @@ $(window).ready(function(){
     $('#stories div:last-child').fadeTo(0, 0);
     $('#stories div:nth-last-child(2)').fadeTo(0, 0);
 
+    /*$('.carousel-text').on('click', function() {
+        console.log('click');
+        $('.slick-current').trigger('click');
+    })*/
+
+    $('#stories div').each(function(i,elem){
+        console.log(i);
+        console.log($(elem).append($('<div class="text-mobile-story">'+ $('.text-for-slaider div').eq(i).text() +'</div>')));
+    })
+    
     //console.log($('#zuck-modal-content').find('wrap'));
     $('#zuck-modal-content .wrap span').on('click', function(){
         var number = $(this).attr('data-index');

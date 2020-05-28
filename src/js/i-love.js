@@ -50,7 +50,7 @@ $(window).ready(function(){
     /**open popup i love */
     $('.js-open-popup-i-love').on('click', function(){
         $('.popup:not(#popup-i-love)').fadeOut(500);
-        $('.popup-i-love').fadeIn(500);
+        $('#popup-i-love').fadeIn(500);
         document.body.style.overflowY = $('.popup-i-love').is(':hidden') ? "scroll" : "hidden";
     });
 
