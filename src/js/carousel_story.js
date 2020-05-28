@@ -3,10 +3,10 @@ $(window).ready(function(){
     $('#stories div:last-child').fadeTo(0, 0);
     $('#stories div:nth-last-child(2)').fadeTo(0, 0);
 
-    console.log($('#zuck-modal-content').find('wrap'));
+    //console.log($('#zuck-modal-content').find('wrap'));
     $('#zuck-modal-content .wrap span').on('click', function(){
         var number = $(this).attr('data-index');
-        console.log(number);
+        //console.log(number);
     })
     /*$('#stories div:not([style="opscity: 0;"])').hover(function(){
         $(this).fadeTo(250, 0.5);
