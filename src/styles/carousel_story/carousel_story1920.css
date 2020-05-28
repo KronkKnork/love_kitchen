@@ -94,6 +94,7 @@
 .story-client { position: absolute; bottom: 80px; font-size: 16px; line-height: 19px; color: #787878; }
 .name-client { font-weight: bold; font-size: 20px; line-height: 24px; color: #000000; }
 .text-mobile-story { display: none; }
+#zuck-modal-content .story-viewer .head .right .time { display: none; }
 
 @media screen and (max-width: 1410px) {
     .main-name-story { font-size: 52px; line-height: 62px; margin-bottom: 60px; margin-top: 120px; }
@@ -106,6 +107,10 @@
     .storiesWrapper { height: 500px; }
     .left-block-dn { width: 339px; }
     .next { height: 146px; bottom: 150px; right: 0; }
+    #zuck-modal-content .story-viewer .tip { bottom: 54px; left: 40px; font-size: 18px; line-height: 22px;}
+    #zuck-modal-content .story-viewer .title-in-story { font-size: 36px; line-height: 43px; }
+    #zuck-modal-content .story-viewer .head .right .close { left: 40px; }
+    #zuck-modal-content .story-viewer .slides-pointers { left: 40px; right: 40px; width: 94.33%; }
 }
 
 @media screen and (max-width: 1090px) {
@@ -119,8 +124,23 @@
     .next { display: none; }
     .story { box-shadow: none; }
     .no-padding-story { padding-left: 0; padding-right: 0; }
-    #stories { transform: translateX(0px); width: 100%;}
+    #stories { transform: translateX(-150px); width: 125%;}
     .left-block-dn { display: none; }
     .story-user { display: none; }
-    .text-mobile-story { display: block; }
+    .text-mobile-story { display: block; position: absolute; white-space: normal; top: 50%; left: -80px; transform: translate(0,-50%); max-width: 180px; font-weight: bold; font-size: 20px; line-height: 24px; text-align: left;}
+    .storiesWrapper { height: 350px; margin-top: 0;}
+    .main-name-story { margin-top: 40px; font-size: 36px; line-height: 43px; margin-bottom: 0;}
+    #zuck-modal-content .story-viewer .tip { padding: 0; left: 40px; right: 40px; width: 88.24%; font-size: 16px; line-height: 19px; bottom: 44px;}
+    #zuck-modal-content .story-viewer .head .right .close { display: block; width: 24px; height: 24px; background-position: center;}
+    #zuck-modal-content .story-viewer .title-in-story { font-size: 24px; line-height: 29px;  top: 107px; left: 40px; }
+    #zuck-modal-content .story-viewer .slides-pointers { width: 88.24%; }
+}
+@media screen and (max-width: 320px) {
+    #stories { transform: translateX(-143px); width: 250%;}
+    .main-name-story { margin-left: 20px; }
+    #zuck-modal-content .story-viewer .head { position: relative; }
+    #zuck-modal-content .story-viewer .head .right .close { position: absolute; left: 20px; top: 0; transform: translateY(-27px);}
+    #zuck-modal-content .story-viewer .tip { left: 20px; right: 20px; width: 87%; }
+    #zuck-modal-content .story-viewer .title-in-story { top: 57px; left: 20px; }
+    #zuck-modal-content .story-viewer .slides-pointers { width: 87.5%; left: 20px; right: 20px; }
 }
