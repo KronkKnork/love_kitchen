@@ -34,7 +34,6 @@ $(document).ready(function() {
     console.log(carousel_width);
     var carousel = $('#stories').waterwheelCarousel({
         keyboardNav: false,
-        imageNav: false,
         edgeFadeEnabled: true,
         forcedImageHeight: carousel_height,
         forcedImageWidth: carousel_width,
@@ -44,7 +43,22 @@ $(document).ready(function() {
         separationMultiplier: 0.8,
         sizeMultiplier: 0.9,
         opacityMultiplier: 0.99,
+        imageNav: false,
     });
+    /*console.log($('.story .slick-current'));
+    if ($('.slick-current').next().length === 1) {
+        
+    }*/
+    /*$('#stories div').on('click',function(){
+        if ($(this).hasClass('slick-current')) {
+            if ($(this).next().length === 1) {
+                console.log(true);
+            } else {
+                console.log(false);
+            }
+        }
+    })
+    $('#stories div').hasClass('slick-current');*/
 });
 ;
 (function($) {

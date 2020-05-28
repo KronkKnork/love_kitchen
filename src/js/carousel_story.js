@@ -8,7 +8,6 @@ $(window).ready(function(){
         var number = $(this).attr('data-index');
         console.log(number);
     })
-
     /*$('#stories div:not([style="opscity: 0;"])').hover(function(){
         $(this).fadeTo(250, 0.5);
     }, function(){
