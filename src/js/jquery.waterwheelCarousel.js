@@ -18,7 +18,7 @@
 
 
 $(document).ready(function() {
-    var carousel_width = 860, 
+    var carousel_width = 860,
         carousel_height = 600,
         carousel_separation = 110,
         carousel_sizeMultiplier = 0.9,
@@ -58,7 +58,7 @@ $(document).ready(function() {
     });
     /*console.log($('.story .slick-current'));
     if ($('.slick-current').next().length === 1) {
-        
+
     }*/
     /*$('#stories div').on('click',function(){
         if ($(this).hasClass('slick-current')) {
@@ -146,7 +146,7 @@ $(document).ready(function() {
                             $('.user-text-story').html($('.text-for-slaider div').eq(0).text());
                             $('.name-designer-story').html($('.text-for-slaider-designer div').eq(0).text());
                             $('.name-client').html($('.text-for-slaider-name-client div').eq(0).text());
-                        } else { 
+                        } else {
                             $('.user-text-story').html($('.text-for-slaider div').eq(i/2).text());
                             $('.name-designer-story').html($('.text-for-slaider-designer div').eq(i/2).text());
                             $('.name-client').html($('.text-for-slaider-name-client div').eq(i/2).text());
@@ -160,7 +160,7 @@ $(document).ready(function() {
                             $('.user-text-story').html($('.text-for-slaider div').last().text());
                             $('.name-designer-story').html($('.text-for-slaider-designer div').last().text());
                             $('.name-client').html($('.text-for-slaider-name-client div').last().text());
-                        } else { 
+                        } else {
                             $('.user-text-story').html($('.text-for-slaider div').eq(i/2).text());
                             $('.name-designer-story').html($('.text-for-slaider-designer div').eq(i/2).text());
                             $('.name-client').html($('.text-for-slaider-name-client div').eq(i/2).text());
@@ -726,7 +726,7 @@ $(document).ready(function() {
                 $('.user-text-story').html($('.text-for-slaider div').eq(0).text());
                 $('.name-designer-story').html($('.text-for-slaider-designer div').eq(0).text());
                 $('.name-client').html($('.text-for-slaider-name-client div').eq(0).text());
-            } else { 
+            } else {
                 $('.user-text-story').html($('.text-for-slaider div').eq(i/2).text());
                 $('.name-designer-story').html($('.text-for-slaider-designer div').eq(i/2).text());
                 $('.name-client').html($('.text-for-slaider-name-client div').eq(i/2).text());
@@ -755,7 +755,7 @@ $(document).ready(function() {
                 //     $(this).css({'box-shawdow': 'none'});
                 // }
             });*/
-           
+
         })
 
         /**
@@ -836,7 +836,7 @@ $(document).ready(function() {
         sizeMultiplier: 0.8, // determines how drastically the size of each item changes
         opacityMultiplier: 0.9, // determines how drastically the opacity of each item changes
         horizon: 0, // how "far in" the horizontal/vertical horizon should be set from the container wall. 0 for auto
-        flankingItems: 3, // the number of items visible on either side of the center                  
+        flankingItems: 3, // the number of items visible on either side of the center
 
         // animation
         speed: 500, // speed in milliseconds it will take to rotate from one to the next
@@ -854,7 +854,7 @@ $(document).ready(function() {
         imageNav: true, // clicking a non-center image will rotate that image to the center
 
         // preloader
-        preloadImages: false, // disable/enable the image preloader. 
+        preloadImages: false, // disable/enable the image preloader.
         forcedImageWidth: 152, // specify width of all images; otherwise the carousel tries to calculate it
         forcedImageHeight: 206, // specify height of all images; otherwise the carousel tries to calculate it
 

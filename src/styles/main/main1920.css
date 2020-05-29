@@ -29,7 +29,7 @@ a:hover { color: #787878; }
 
 .wrapper-main {
     position: relative;
-    height: 700px;
+    height: 820px;
 }
 /*главый контейнер*/
 .container-fluid {
@@ -43,7 +43,7 @@ a:hover { color: #787878; }
     width: 1390px;
     height: 700px;
     left: 530px;
-    top: 0px;
+    top: 120px;
     background: url("../../img/main1920.jpg") no-repeat;
     background-size: auto 100%;
     overflow-x: hidden;
@@ -66,7 +66,7 @@ a:hover { color: #787878; }
     width: 695px;
     height: 700px;
     left: 530px;
-    top: 0px;
+    top: 120px;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 99.65%);
 }
 /*Название главного модуля*/
@@ -88,7 +88,7 @@ a:hover { color: #787878; }
     width: 410px;
     height: 80px;
     left: 80px;
-    top: 370px;
+    top: 490px;
     padding-top: 31px;
     background: #B22432;
     border-radius: 40px;
@@ -107,7 +107,7 @@ a:hover { color: #787878; }
     width: 410px;
     height: 72px;
     left: 80px;
-    top: 510px;
+    top: 630px;
 }
 /*плюсики*/
 .circle-plus {
@@ -517,7 +517,7 @@ line-height: 29px; }
 .footer .logo { position: relative; top: 6px; }
 .footer a {color: #787878; font-weight: normal; text-decoration: underline; }
 .footer a {color: #787878; font-weight: normal; text-decoration: underline; }
-.base-service { background: #F0F0F0;
+.base-service.container-fluid { background: #F0F0F0;
     margin-top: 248px; padding-bottom: 272px; margin-bottom: 139px; }
 
 .bs-items .bs-img { transition: .5s;     padding: 59px 0 0 26px; }
@@ -556,11 +556,11 @@ line-height: 29px; }
 
     position: relative;
     top: 19px; }
-.base-service .wrapper-cards .row .bs-items:nth-child(2) .card-title { font-size: 30px;
+.bsi-2 .card-title { font-size: 30px;
 line-height: 36px; }
 .blog { margin-top: 100px; }
 .base-service  .wrapper-card-text {      bottom: auto;
-    top: 220px;     margin-left: 25px;  }
+    top: 92%;   margin-left: 25px;  }
 .bs-sub-title { padding: 24px 18px 21px 0; }
 .kitchen-test .wrapper-card-items:hover { cursor: default; }
 .footer .header-phone { margin-bottom: 31px; }
