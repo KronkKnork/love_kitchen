@@ -115,14 +115,40 @@ $(document).ready(function() {
             data.itemsContainer.find('div.story').removeClass(options.activeClassName);
         }
         /** свайп */
-        $('.wrapper-story').on('swipeleft', function() {
+        /*$('.wrapper-story').on('swipeleft', function() {
             moveOnce('forward');
             $('.text-mobile-story').css({'opacity' : '1'});
         });
         $('.wrapper-story').on('swiperight', function() {
             moveOnce('backward');
             $('.text-mobile-story').css({'opacity' : '1'});
-        });
+        });*/
+        var initialPoint;
+        var finalPoint;
+        document.addEventListener('touchstart', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            initialPoint=event.changedTouches[0];
+        }, false);
+        document.addEventListener('touchend', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            finalPoint=event.changedTouches[0];
+            var xAbs = Math.abs(initialPoint.pageX - finalPoint.pageX);
+            var yAbs = Math.abs(initialPoint.pageY - finalPoint.pageY);
+            if (xAbs > 20 || yAbs > 20) {
+                if (xAbs > yAbs) {
+                    if (finalPoint.pageX < initialPoint.pageX){
+                        moveOnce('forward');}
+                    else{
+                    moveOnce('backward');}
+                    } else {
+                        if (finalPoint.pageY < initialPoint.pageY){
+                            /*СВАЙП ВВЕРХ*/} else{
+                                /*СВАЙП ВНИЗ*/}
+                        }
+                    }
+        }, false);
 
         /**
          * This function will set the autoplay for the carousel to
@@ -677,12 +703,14 @@ $(document).ready(function() {
                 $('.name-client').html($('.text-for-slaider-name-client div:first-child').text());
             } else {
                 i = $('#stories div').index($('.slick-current'));
-                $('.user-text-story').html($('.text-for-slaider div').eq(i+1).text());
-                $('.name-designer-story').html($('.text-for-slaider-designer div').eq(i+1).text());
-                $('.name-client').html($('.text-for-slaider-name-client div').eq(i+1).text());
+                $('.user-text-story').html($('.text-for-slaider div').eq(i/2).text());
+                $('.name-designer-story').html($('.text-for-slaider-designer div').eq(i/2).text());
+                $('.name-client').html($('.text-for-slaider-name-client div').eq(i/2).text());
             }
+            console.log($('#stories div').index($('.slick-current')));
             moveOnce('forward');
-            $('#stories div').each(function() {
+
+            /*$('#stories div').each(function() {
                 if ($(this).css('opacity') === '1') {
                     $(this).fadeTo(0, 0);
                     $(this).prev().fadeTo(0, 0);
@@ -691,7 +719,8 @@ $(document).ready(function() {
                 //     console.log($(this));
                 //     $(this).css({'box-shawdow': 'none'});
                 // }
-            });
+            });*/
+           
         })
 
         /**
