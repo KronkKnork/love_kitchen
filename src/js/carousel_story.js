@@ -9,8 +9,7 @@ $(window).ready(function(){
     })*/
 
     $('#stories div').each(function(i,elem){
-        console.log(i);
-        console.log($(elem).append($('<div class="text-mobile-story">'+ $('.text-for-slaider div').eq(i).text() +'</div>')));
+        $(elem).append($('<div class="text-mobile-story">'+ $('.text-for-slaider div').eq(i).text() +'</div>'));
     })
     
     //console.log($('#zuck-modal-content').find('wrap'));

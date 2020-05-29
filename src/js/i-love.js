@@ -62,12 +62,18 @@ $(window).ready(function(){
         var src = $(this).find('img').attr('src');
         $('#i-love-gallery').attr('src', src);
     })
-
     /** open popup kitchen i love */
     $('.popup-i-btn-1').on('click', function(){
         $('.popup:not(#popup-i-love)').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
         $('#popup-it-kitchen').fadeIn(500);
         document.body.style.overflowY = $('#popup-it-kitchen').is(':hidden') ? "scroll" : "hidden";
+    });
+    /** open popup free-steps*/
+    $('.btn-text-free-steps').on('click', function(){
+        $('.popup:not(#popup-i-love)').fadeOut(500);
+        $('.overlay_popup').fadeIn(500);
+        $('#popup-free-steps').fadeIn(500);
+        document.body.style.overflowY = $('#popup-free-steps').is(':hidden') ? "scroll" : "hidden";
     });
 })

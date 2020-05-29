@@ -670,6 +670,7 @@ $(document).ready(function() {
         $('.next').on('click', function(){
             /** Замена текста в карусели*/
             let i;
+            //console.log(('#stories div:eq(-1)').hasClass('slick-current'));
             if ($('#stories div:eq(-1)').hasClass('slick-current')) {
                 $('.user-text-story').html($('.text-for-slaider div:first-child').text());
                 $('.name-designer-story').html($('.text-for-slaider-designer div:first-child').text());
