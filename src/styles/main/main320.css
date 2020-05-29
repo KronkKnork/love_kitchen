@@ -1,6 +1,6 @@
 @media screen and (max-width: 320px) {
     .wrapper-main {
-        height: 849px;
+        height: 799px;
     }
     /*главый контейнер*/
     .container-fluid {
@@ -12,7 +12,7 @@
         width: 285px;
         height: 300px;
         left: 20px;
-        top: 549px;
+        top: 499px;
         background: url("../../img/main320.jpg") no-repeat;
     }
     .light-main-img {
@@ -23,7 +23,7 @@
         width: 280px;
         height: 192px;
         left: 20px;
-        top: 90px;
+        top: 40px;
         font-size: 40px;
         line-height: 48px;
     }
@@ -32,7 +32,7 @@
         width: 280px;
         height: 80px;
         left: 20px;
-        top: 322px;
+        top: 272px;
         font-size: 12px;
         line-height: 14px;
     }
@@ -41,7 +41,7 @@
         width: 280px;
         height: 57px;
         left: 20px;
-        top: 432px;
+        top: 382px;
         font-size: 16px;
         line-height: 19px;
     }
