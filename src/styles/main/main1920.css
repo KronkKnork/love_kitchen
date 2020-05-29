@@ -76,7 +76,7 @@ a:hover { color: #787878; }
     width: 760px;
     height: 172px;
     left: 80px;
-    top: 238px;
+    top: 118px;
     font-weight: bold;
     font-size: 72px;
     line-height: 86px;
@@ -205,7 +205,7 @@ a:hover { color: #787878; }
 .overlay_popup {
     display: none;
     position: fixed;
-    z-index: 11;
+    z-index: 6;
     width: 100%;
     height: 100vh;
     background: #000;
@@ -214,7 +214,7 @@ a:hover { color: #787878; }
 .overlay_popup_like_design {
     display: none;
     position: fixed;
-    z-index: 11;
+    z-index: 6;
     width: 100%;
     height: 100vh;
     background: #000;
@@ -225,7 +225,7 @@ a:hover { color: #787878; }
     position: fixed;
     overflow-y: scroll;
     display: none;
-    z-index: 12;
+    z-index: 10;
     width: 48.96%;
     height: 100vh;
     right: 0;
@@ -482,3 +482,50 @@ line-height: 29px; }
 }
 .popup-test  .checkbox-popup:checked + .fake-checkbox + .text-checkbox { color: #B22432; }
 .test-img img { width: 100%; height: auto; }
+.main-header { font-size: 14px; line-height: 17px; padding: 30px 0; }
+.menu-item { text-decoration: none; color: #000; text-transform: uppercase; margin: 0 3.3% 0 0; }
+.ph-number { font-weight: bold; font-size: 30px; line-height: 36px; }
+.header-but { display: none; }
+.region {     padding: 6px 0 19px; }
+.region span { font-weight: bold; }
+.call-di {     padding: 6px 0; }
+.ph-number {     padding: 0 11px 0 14px;}
+.call-free { font-size: 12px; line-height: 14px; max-width: 74px; }
+@media screen and (max-width: 1510px) {
+	.ph-number {
+		font-size: 24px;
+		line-height: 29px;
+		}
+	.menu-item { margin: 0 4.5% 0 0; }
+	.region {
+	    padding: 6px 0 15px;
+	}
+}
+@media screen and (max-width: 1280px) {
+	.ph-number {
+		font-size: 24px;
+		line-height: 29px;
+		}
+	.menu-item { margin: 0 3% 0 0; font-size: 12px; line-height: 14px; }
+	.region {
+	        padding: 6px 0 13px;
+	}
+	.call-free {     max-width: 110px;
+	    margin-left: 15px; }
+}
+
+@media screen and (max-width: 1089px) {
+	.header-but { display: block; }
+	.header-nav, .call-di { display: none; }
+  .main-header, .call-free { font-size: 10px; line-height: 12px; }
+	.call-free { max-width: 55px; }
+
+  .main-header .col-sm-6 { -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;}
+  .main-header .col-sm-6 + .col-sm-3 {-webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;}
+}
