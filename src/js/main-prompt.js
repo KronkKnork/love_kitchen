@@ -138,6 +138,15 @@ $(window).ready(function(){
 
 /*/offers*/
 
+$('.js-menu-toggle').on('click', function(){
+    $(this).toggleClass('close');
+    $('.main-header').toggleClass('menu-popup');
+    $('.logo-1').toggleClass('dn');
+    $('.logo-2').toggleClass('dn');
+    $('.header-nav').toggleClass('mhn');
+});
+
+
 /** Принятая заявка */
     $('.js-btn-buy').on('click', function(){
         $('.popup').fadeOut(500);

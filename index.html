@@ -20,7 +20,7 @@
   <body>
 
 
-    
+
     <div class="overlay_popup"></div>
     <div class="overlay_popup_like_design"></div>
 
@@ -484,14 +484,17 @@
         <div class="row">
           <div class="col-sm-3">
             <a href="" class="logo">
-              <object type="image/svg+xml" data="src/img/lk_logo.svg" width="170" height="60">
+              <object type="image/svg+xml" data="src/img/lk_logo.svg" width="170" height="60" class="logo-1">
                 <img src="src/img/lk_logo.png" width="170" height="60" alt="Любимая кухня" />
+              </object>
+              <object type="image/svg+xml" data="src/img/logo_white.svg" width="85" height="30" class="logo-2 dn">
+                <img src="src/img/logo_white.png" width="85" height="30" alt="Любимая кухня" />
               </object>
             </a>
           </div>
           <div class="col-sm-6">
             <div class="region">Доставка и установка в <span>Екатеринбурге</span></div>
-            <div class="header-nav">
+            <div class="header-nav mhn">
               <nav class="header-menu">
                 <a class="menu-item" href="#catalogue">каталог</a>
                 <a class="menu-item" href="#offers">акции</a>
@@ -507,17 +510,13 @@
               <div class="phone row"><span class="ph-number coll align-self-center">8 800 222 08 01</span><span class="call-free coll">звонок бесплатный</span></div>
             </div>
 
-            <div class="header-menu-toggle">
-              <button class="header-but" type="button" aria-label="Открыть меню">
-                <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="24" height="2" fill="#B22432"/>
-                <rect y="8" width="24" height="2" fill="#B22432"/>
-                <rect y="16" width="24" height="2" fill="#B22432"/>
-                </svg>
-              </button>
-            </div>
           </div>
         </div>
+        <div class="header-menu-toggle">
+          <span class="header-but js-menu-toggle active" type="button" aria-label="Открыть меню">
+          </span>
+        </div>
+
       </header>
     </div>
 
