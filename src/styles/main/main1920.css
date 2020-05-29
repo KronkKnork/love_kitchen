@@ -12,6 +12,7 @@
 	font-weight: bold;
 	font-style: normal;
 }
+::-webkit-scrollbar { width: 0px; background: transparent; }
 
 body {
     font-family: "PFBeauSansPro";
@@ -537,6 +538,19 @@ line-height: 29px; }
 	min-height: 240px;
 }
 .base-service .title-free-steps {transform: translateY(-36px);}
+
+
+.reviews { margin: 150px 0; }
+.reviews-flamp img { width: 100%; }
+.sc-title { font-size: 36px; line-height: 43px;     padding: 0 0 59px; }
+.sc-vk { background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAMCAYAAACNzvbFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAF5SURBVHgBlZNLUsJAEIa7Ow+LHUfIEWSnRqvCxiqyghPIDeQGyAnAEwgnADeEnViKuuQIuYHs5JGZdkJIGCBC+VclVZNMf/PNC8XI/QaGIiQJaW6VsDaexY3l8LJhILVBC7Osmf7nIG1Hw5sqosj6sIQWIcNUq3HE2cJLG9birAsIMx0qGYt6OwGikz5MFJKQ/Kp3IqT7rEAZs5TP8Eei4KqewLJ0rcr7mMyl3dFtGMBbBdcenAgHFw4CNLfKMFuCaCViykYKftQLDOb2SSgbfd1SqLUsVL7CNTR+HdginPPIzQUbpNY9cJ/iPpkk8sD2J52t9CbJLsq+DiDgB2as6oB8690TgfrPKHC76sMd/D+hWs/yzvTTGHOrocYNj1WrQcfM0Nv77NhgvPyozTuAxptGIMvHwJHknulP6sxU2zvDazD3vSIdmKgp0Nwu5djsxPTfBoK4vA+GwqpJeQWxcWyjLsYGvjFXAFQ3Ju1n335M12BtZhKg/gv2OKsblgqqjAAAAABJRU5ErkJggg==') center no-repeat; }
+.sc-inst { background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGNSURBVHgBpVNNTsJQEJ55r1R3cgP1BrgzxUS2ZaOcwHgDPAFwArmB9Qa40CauagLGnfUE9gjdGQvvjW9aSmopkuIkzUzm5+s3b2YweXZa1gLvCKEFu0mkNPVQ+c4nAB7BPwQRQlEXRBHcSHeG/AlQx+wjgpaAmoKI4cp236Lcrg9Eqlnlt/4qIoCANL2kAALPEaAjBF7NH510MMY+3AqkAUcNdzos+ub+2VAQDISAy3J+sTWPAIOcSRmEhX2GVZqz1N4akJnCNWmdtqFJP8BGpnTP2uzOB9dUMeLfNGGLaKI0x7zPQdH/C4iAItYWiotNQHksH0IlUON7zzOsYvNGHfKdQRmEfRxjey50UIyZE2kTG7yprJOndl8i3C7jkaE5SRMZfHmPxYnm9Wvjt7uz8cJ3YlM4SM8HoZ+1naLFSsPI7k7H5brKPbLcV4/800CB6JDOWJjDCuWXPZG9IK6qWbWmdHKiElmZtEmkrZpS2O8ZI4LQUG6xQ+5DTZG5EQllkVmqbOw7iSGiJPV+ALRtmwYq61kHAAAAAElFTkSuQmCC') center no-repeat; }
+.sc-fb { background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAUCAYAAABbLMdoAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACySURBVHgB7ZGxEcIwDEWlXMIcXgNckBoaRoAJYBOOCViBznRQ0dCYDcIEUHPgj3MHPjkkuUDN7770/C1bTDXCtj8HkgmIclEt+BPUSwda1IVE8N0Mpky8pgal8UkeRh5kHWPVAJOCvAm3WW90tG+fUIsyyi7St8JV8cNo8SDkvqRCk7EB+PrqFSWMLqke2nceAw6ntIwXU6kKEnr+p2y0FGf0Tq44cVA8PpyDpy/0h3+Gn7nLO2OUwvJiAAAAAElFTkSuQmCC') center no-repeat; }
+.reviews-soc a { display: inline-block;
+    padding: 40px;
+    border: 1px dashed #505050;
+    margin: 0 10px 20px 0;
+    border-radius: 50%;}
 
 .card-price {
 
