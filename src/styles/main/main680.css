@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 680px) {
     .wrapper-main {
-        height: 490px;
+        height: 420px;
     }
     /*главый контейнер*/
     .container-fluid {
@@ -29,14 +29,14 @@
         width: 320px;
         height: 420px;
         left: 360px;
-        top: 70px;
+        top: 0px;
         background: url("../../img/main680.jpg") no-repeat;
     }
     .light-main-img {
         width: 160px;
         height: 420px;
         left: 360px;
-        top: 70px;
+        top: 0px;
         background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 99.65%);
     }
     /*Название главного модуля*/
@@ -44,7 +44,7 @@
         width: 480px;
         height: 96px;
         left: 40px;
-        top: 8px;
+        top: 58px;
         font-size: 40px;
         line-height: 48px;
     }
@@ -53,7 +53,7 @@
         width: 280px;
         height: 80px;
         left: 40px;
-        top: 264px;
+        top: 194px;
         font-size: 12px;
         line-height: 14px;
     }
@@ -62,7 +62,7 @@
         width: 280px;
         height: 57px;
         left: 40px;
-        top: 374px;
+        top: 304px;
         font-size: 16px;
         line-height: 19px;
     }
