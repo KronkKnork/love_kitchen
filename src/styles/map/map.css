@@ -1,9 +1,11 @@
 .section-map { margin: 0; }
-.map-title { font-weight: bold; font-size: 60px; line-height: 72px; margin-bottom: 80px; }
-.wrapper-map-img { /*height: 700px; width: 1470px; position: absolute; right: 460px;*/}
+.map-title { font-weight: bold; font-size: 60px; line-height: 72px; margin-bottom: 80px; margin-left: 80px; margin-right: 80px;}
+.wrapper-map-img { height: 700px; width: 1470px; position: absolute; right: 460px; left: 0;}
 .wrapper-map-img img:first-child { max-height: 100%; }
 .map-and-list-salon { height: 700px; }
+.list-salon::-webkit-scrollbar {width:0px;}
 .list-salon { height: 100%; overflow: scroll; }
+.fixed-list-salon:-webkit-scrollbar { width: 0px; background: transparent; }
 .fixed-list-salon div div:nth-child(1) { padding: 40px; background: #F0F0F0; border-radius: 20px; font-weight: bold; font-size: 24px; line-height: 29px; }
 .fixed-list-salon div div:nth-child(2) { padding: 40px; padding-top: 10px; background: #F0F0F0; border-radius: 0 0 20px 20px; transform: translateY(-35px); font-size: 16px; line-height: 19px; font-weight: normal; }
 .list-salon-text-2 { font-size: 16px; line-height: 19px; font-weight: normal; }
@@ -13,16 +15,37 @@
 
 @media screen and (max-width: 1410px) {
     .fixed-list-salon div div:nth-child(1) { font-size: 20px; line-height: 24px; }
-    .wrapper-map-img { width: 1090px; position: absolute; right: 720px;}
-    .wrapper-map-img img:first-child { transform: translateX(100px); }
+    .wrapper-map-img { height: 700px; width: 1090px; position: absolute; left: -360px; }
+    .wrapper-map-img img:first-child { max-height: 100%; }
+    .map-title { font-size: 52px; line-height: 62px; margin-right: 40px; margin-left: 40px;}
 }
 
 @media screen and (max-width: 1090px) {
-
+    .wrapper-map-img { height: 737px; width: 1090px; position: absolute; left: -165px; }
+    .wrapper-map-img img:first-child { width: 1056.43px; height: 737px; left: -111.02px; }
+    .fixed-list-salon div div:nth-child(1) { font-size: 20px; line-height: 24px; }
+    .map-icon-1 { left: 440px; top: 351px; width: 48px; height: 60px;}
+    .fixed-list-salon div div:nth-child(1) { padding: 40px 30px; }
+    .list-salon { height: 737px; }
 }
 @media screen and (max-width: 680px) {
- 
+    .wrapper-map-img { height: 500px; width: 1090px; position: absolute; left: -110px; }
+    .wrapper-map-img img:first-child { width: 497.14px; height: 526.43px; left: -92.24px; }
+    .fixed-list-salon div div:nth-child(1) { font-size: 16px; line-height: 19px; }
+    .map-icon-1 { left: 200px; top: 251px; width: 40px; height: 50px;}
+    .fixed-list-salon div div:nth-child(2) { padding: 40px 30px; }
+    .fixed-list-salon div div:nth-child(1) { padding: 40px 30px; }
+    .list-salon { height: 500px; }
+    .map-title { font-size: 36px; line-height: 43px;}
 }
 @media screen and (max-width: 320px) {
-
+    .wrapper-map-img { width: 200px; height: 400px; position: absolute; left: -280px; }
+    .wrapper-map-img img:first-child { width: 497.14px; height: 526.43px; left: -92.24px; }
+    .fixed-list-salon div div:nth-child(1) { font-size: 16px; line-height: 19px; }
+    .map-icon-1 { left: 340px; top: 251px; width: 40px; height: 50px;}
+    .fixed-list-salon div div:nth-child(1) { padding: 30px 20px; }
+    .fixed-list-salon div div:nth-child(2) { padding: 30px 20px; }
+    .list-salon { height: 400px; }
+    .wrapper-adres-salon { padding: 0; }
+    .map-title { margin-right: 20px; margin-left: 20px;}
 }

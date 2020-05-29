@@ -9,14 +9,14 @@
         width: 790px;
         height: 600px;
         left: 300px;
-        top: 120px;
+        top: 0;
         background: url("../../img/main1090.jpg") no-repeat;
     }
     .light-main-img {
         width: 395px;
         height: 600px;
         left: 300px;
-        top: 120px;
+        top: 0;
         background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 99.65%);
     }
     /*Название главного модуля*/
@@ -33,7 +33,7 @@
         width: 230px;
         height: 80px;
         left: 40px;
-        top: 490px;
+        top: 370px;
         font-size: 14px;
         line-height: 17px;
     }
@@ -42,7 +42,7 @@
         width: 230px;
         height: 88px;
         left: 40px;
-        top: 610px;
+        top: 490px;
         font-size: 18px;
         line-height: 22px;
     }
