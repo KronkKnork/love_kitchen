@@ -20,7 +20,7 @@
   <body>
 
 
-    
+
     <div class="overlay_popup"></div>
     <div class="overlay_popup_like_design"></div>
 
@@ -500,14 +500,17 @@
         <div class="row">
           <div class="col-sm-3">
             <a href="" class="logo">
-              <object type="image/svg+xml" data="src/img/lk_logo.svg" width="170" height="60">
+              <object type="image/svg+xml" data="src/img/lk_logo.svg" width="170" height="60" class="logo-1">
                 <img src="src/img/lk_logo.png" width="170" height="60" alt="Любимая кухня" />
+              </object>
+              <object type="image/svg+xml" data="src/img/logo_white.svg" width="85" height="30" class="logo-2 dn">
+                <img src="src/img/logo_white.png" width="85" height="30" alt="Любимая кухня" />
               </object>
             </a>
           </div>
           <div class="col-sm-6">
             <div class="region">Доставка и установка в <span>Екатеринбурге</span></div>
-            <div class="header-nav">
+            <div class="header-nav mhn">
               <nav class="header-menu">
                 <a class="menu-item" href="#catalogue">каталог</a>
                 <a class="menu-item" href="#offers">акции</a>
@@ -523,17 +526,13 @@
               <div class="phone row"><span class="ph-number coll align-self-center">8 800 222 08 01</span><span class="call-free coll">звонок бесплатный</span></div>
             </div>
 
-            <div class="header-menu-toggle">
-              <button class="header-but" type="button" aria-label="Открыть меню">
-                <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="24" height="2" fill="#B22432"/>
-                <rect y="8" width="24" height="2" fill="#B22432"/>
-                <rect y="16" width="24" height="2" fill="#B22432"/>
-                </svg>
-              </button>
-            </div>
           </div>
         </div>
+        <div class="header-menu-toggle">
+          <span class="header-but js-menu-toggle active" type="button" aria-label="Открыть меню">
+          </span>
+        </div>
+
       </header>
     </div>
 
@@ -598,7 +597,7 @@
     </div>
 
     <!-- Я люблю -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="catalogue">
       <div class="wrapper-i-love">
         <div class="i-love-title col-12 h2-title">Я люблю</div>
         <div class=" row col-12 i-love-a">
@@ -1044,10 +1043,13 @@
       <div class="wrapper-offers">
         <div class="wrapper-cards">
           <div class="row">
-            <div class="col-sm-6 col-12 wrapper-card-items">
-              <!-- что-то надо сделать -->
-              <div class="col-sm-6">
-                  <img alt="card" src="src/img/test.png">
+            <div class="col-sm-6 wrapper-card-items text-sm-right">
+              <div class="row kt-img-row">
+                <div class="col-sm-6">
+                </div>
+                <div class="col-sm-6">
+                  <img alt="card" src="src/img/test.png" class="img-test">
+                </div>
               </div>
 
 
@@ -1056,7 +1058,16 @@
               <div class="h2-title">Внимательны к каждому слову</div>
               <p>Нам важна любая мелочь. Какие блюда вы готовите дома? Сколько времени проводите на кухне? Пьете чай или кофе?</p>
               <p>Пройдите тест, чтобы узнать, какая кухня нужна именно вам.</p>
-              <div class="btn test-btn js-test-btn"><span>Пройти тест</span></div>
+
+              <div class="row kt-btn-row">
+                <div class="col-sm-6">
+                  <div class="btn test-btn js-test-btn"><span>Пройти тест</span></div>
+                </div>
+                <div class="col-sm-6">
+                </div>
+              </div>
+
+
 
 
             </div>
@@ -1067,7 +1078,7 @@
     <!-- /тест -->
 
     <!-- акции -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="offers">
       <div class="wrapper-offers">
         <div class="h2-title col-12">Помогаем сберечь средства</div>
 
@@ -1133,8 +1144,58 @@
 
     <!-- /акции -->
 
+    <!-- сервис основа -->
+    <div class="container-fluid base-service">
+        <div class="row h2-title col-12 col-lg-6 offset-lg-3 title-free-steps">Сервис – основа результата</div>
+        <div class="row col-12 col-lg-6 offset-lg-3 bs-sub-title">Наши инженеры контролируют качество каждого элемента. Любая деталь проходит проверку на специальном оборудовании. А наши сервисные центры есть во всех крупных городах России.</div>
+
+        <div class="wrapper-cards" >
+          <div class="row col-12">
+            <div class="col-12 col-sm-6 col-lg-6 bs-items wrapper-card-items">
+              <div class="card-item">
+                <div class="bs-img">
+                  <object type="image/svg+xml" data="src/img/bs1.svg" width="120" height="120" class="">
+                    <img src="src/img/bs1.png" width="120" height="120" alt="" />
+                  </object>
+                </div>
+                <div class="wrapper-card-text">
+                  <div class="card-text"><span class="card-title">Бесплатно разработаем дизайн проект</span><br><span class="card-price">в течение 12 часов</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 bs-items wrapper-card-items">
+              <div class="card-item">
+                <div class="bs-img">
+                  <object type="image/svg+xml" data="src/img/bs2.svg" width="120" height="120" class="">
+                    <img src="src/img/bs2.png" width="120" height="120" alt="" />
+                  </object>
+                </div>
+                <div class="wrapper-card-text">
+                  <div class="card-text"><span class="card-title">Предоставим беспроцентную рассрочку</span><br><span class="card-price">от банков партнеров до 6 месяцев</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 bs-items wrapper-card-items">
+              <div class="card-item">
+                <div class="bs-img">
+                  <object type="image/svg+xml" data="src/img/bs3.svg" width="120" height="120" class="">
+                    <img src="src/img/bs3.png" width="120" height="120" alt="" />
+                  </object>
+                </div>
+                <div class="wrapper-card-text">
+                  <div class="card-text"><span class="card-title">Доставим в срок</span><br><span class="card-price">по договору и произведем монтаж кухни в удобное для вас время</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- /сервис основа -->
+
+
     <!-- Наши дизайнеры -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="blog">
       <div class="row">
         <div class="col-12 title-experts">Наши дизайнеры и эксперты</div>
       </div>
@@ -1214,7 +1275,7 @@
     <!-- привезем бесплатно -->
 
     <!-- истории -->
-    <div class="container-fluid no-padding-story">
+    <div class="container-fluid no-padding-story" id="stories">
       <div class="wrapper-story">
         <div class="main-name-story">Истории любимых клиентов</div>
         <div class="carousel-story">
@@ -1236,7 +1297,7 @@
     </div>
 
     <!-- карта -->
-    <div class="row no-gutters section-map">
+    <div class="row no-gutters section-map" id="contacts">
       <div class="col-12 no-gutters map-title">Адреса наших салонов в Екатеринбурге</div>
       <div class="col-12 row no-gutters map-and-list-salon">
         <div class="col-6 col-lg-9 wrapper-map-img">
@@ -1296,6 +1357,28 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="footer row container-fluid">
+      <div class="col-sm-3">
+        <a href="" class="logo">
+          <object type="image/svg+xml" data="src/img/lk_logo.svg" width="170" height="60" class="logo-1">
+            <img src="src/img/lk_logo.png" width="170" height="60" alt="Любимая кухня" />
+          </object>
+        </a>
+        <div class="factry">Фабрика кухонь с сетью салонов по всей России</div>
+      </div>
+      <div class="col-sm-6"></div>
+      <div class="col-sm-3">
+        <div clas="header-phone">
+          <div class="call-di">Звоните нашим дизайнерам</div>
+          <div class="phone row"><span class="ph-number coll align-self-center">8 800 222 08 01</span><span class="call-free coll">звонок бесплатный</span></div>
+        </div>
+        <div class=""><a hef="#">Политика конфиденциальности</a><div>
+        <div class=""><a hef="#">Обработка персональных данных</a><div>
+        <div class="copy">сделано в <a hef="#">Madrocks</a><div>
+      </div>
+
     </div>
 
     <script src="dist/zuck.min.js"></script>

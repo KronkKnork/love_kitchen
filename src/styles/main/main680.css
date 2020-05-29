@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 680px) {
     .wrapper-main {
-        height: 420px;
+        height: 490px;
     }
     /*главый контейнер*/
     .container-fluid {
@@ -29,14 +29,14 @@
         width: 320px;
         height: 420px;
         left: 360px;
-        top: 0;
+        top: 70px;
         background: url("../../img/main680.jpg") no-repeat;
     }
     .light-main-img {
         width: 160px;
         height: 420px;
         left: 360px;
-        top: 0;
+        top: 70px;
         background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 99.65%);
     }
     /*Название главного модуля*/
@@ -44,7 +44,7 @@
         width: 480px;
         height: 96px;
         left: 40px;
-        top: 58px;
+        top: 8px;
         font-size: 40px;
         line-height: 48px;
     }
@@ -53,7 +53,7 @@
         width: 280px;
         height: 80px;
         left: 40px;
-        top: 194px;
+        top: 264px;
         font-size: 12px;
         line-height: 14px;
     }
@@ -62,7 +62,7 @@
         width: 280px;
         height: 57px;
         left: 40px;
-        top: 304px;
+        top: 374px;
         font-size: 16px;
         line-height: 19px;
     }
@@ -144,6 +144,16 @@
     line-height: 29px;}
     .test-about-kitchen { font-size: 16px;
     line-height: 19px; }
+    .kt-img-row .col-sm-6:first-child { display: none; }
+    .kt-img-row .col-sm-6:last-child { -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%; }
+    .kt-btn-row .col-sm-6:last-child { display: none; }
+    .kt-btn-row .col-sm-6:first-child { -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%; }
 
 
 }
