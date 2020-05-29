@@ -139,9 +139,33 @@ $(document).ready(function() {
             if (xAbs > 20 || yAbs > 20) {
                 if (xAbs > yAbs) {
                     if (finalPoint.pageX < initialPoint.pageX){
-                        moveOnce('forward');}
-                    else{
-                    moveOnce('backward');}
+                        let i;
+                        i = $('#stories div').index($('.slick-current')) + 2;
+                        //console.log("next" + ($('#stories div').index($('.slick-current').next())))
+                        if ( ($('#stories div').index($('.slick-current').next()) === -1 ) ) {
+                            $('.user-text-story').html($('.text-for-slaider div').eq(0).text());
+                            $('.name-designer-story').html($('.text-for-slaider-designer div').eq(0).text());
+                            $('.name-client').html($('.text-for-slaider-name-client div').eq(0).text());
+                        } else { 
+                            $('.user-text-story').html($('.text-for-slaider div').eq(i/2).text());
+                            $('.name-designer-story').html($('.text-for-slaider-designer div').eq(i/2).text());
+                            $('.name-client').html($('.text-for-slaider-name-client div').eq(i/2).text());
+                        }
+                        moveOnce('forward');
+                    } else {
+                        let i;
+                        i = $('#stories div').index($('.slick-current')) - 2;
+                        //console.log("prev" + ($('#stories div').index($('.slick-current').prev())))
+                        if ( ($('#stories div').index($('.slick-current').prev()) === -1 ) ) {
+                            $('.user-text-story').html($('.text-for-slaider div').last().text());
+                            $('.name-designer-story').html($('.text-for-slaider-designer div').last().text());
+                            $('.name-client').html($('.text-for-slaider-name-client div').last().text());
+                        } else { 
+                            $('.user-text-story').html($('.text-for-slaider div').eq(i/2).text());
+                            $('.name-designer-story').html($('.text-for-slaider-designer div').eq(i/2).text());
+                            $('.name-client').html($('.text-for-slaider-name-client div').eq(i/2).text());
+                        }
+                        moveOnce('backward');}
                     } else {
                         if (finalPoint.pageY < initialPoint.pageY){
                             /*СВАЙП ВВЕРХ*/} else{
@@ -696,8 +720,19 @@ $(document).ready(function() {
         $('.next').on('click', function(){
             /** Замена текста в карусели*/
             let i;
+            i = $('#stories div').index($('.slick-current')) + 2;
+            //console.log("next" + ($('#stories div').index($('.slick-current').next())))
+            if ( ($('#stories div').index($('.slick-current').next()) === -1 ) ) {
+                $('.user-text-story').html($('.text-for-slaider div').eq(0).text());
+                $('.name-designer-story').html($('.text-for-slaider-designer div').eq(0).text());
+                $('.name-client').html($('.text-for-slaider-name-client div').eq(0).text());
+            } else { 
+                $('.user-text-story').html($('.text-for-slaider div').eq(i/2).text());
+                $('.name-designer-story').html($('.text-for-slaider-designer div').eq(i/2).text());
+                $('.name-client').html($('.text-for-slaider-name-client div').eq(i/2).text());
+            }
             //console.log(('#stories div:eq(-1)').hasClass('slick-current'));
-            if ($('#stories div:eq(-1)').hasClass('slick-current')) {
+            /*if ($('#stories div:eq(-2)').hasClass('slick-current')) {
                 $('.user-text-story').html($('.text-for-slaider div:first-child').text());
                 $('.name-designer-story').html($('.text-for-slaider-designer div:first-child').text());
                 $('.name-client').html($('.text-for-slaider-name-client div:first-child').text());
@@ -706,7 +741,7 @@ $(document).ready(function() {
                 $('.user-text-story').html($('.text-for-slaider div').eq(i/2).text());
                 $('.name-designer-story').html($('.text-for-slaider-designer div').eq(i/2).text());
                 $('.name-client').html($('.text-for-slaider-name-client div').eq(i/2).text());
-            }
+            }*/
             console.log($('#stories div').index($('.slick-current')));
             moveOnce('forward');
 

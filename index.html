@@ -523,7 +523,7 @@
                 <a class="menu-item" href="#catalogue">каталог</a>
                 <a class="menu-item" href="#offers">акции</a>
                 <a class="menu-item" href="#blog">блог</a>
-                <a class="menu-item" href="#stories">истории клиентов</a>
+                <a class="menu-item" href="#stories-anchor">истории клиентов</a>
                 <a class="menu-item" href="#contacts">адреса салонов</a>
               </nav>
             </div>
@@ -1283,7 +1283,7 @@
     <!-- привезем бесплатно -->
 
     <!-- истории -->
-    <div class="container-fluid no-padding-story" id="stories">
+    <div class="container-fluid no-padding-story" id="stories-anchor">
       <div class="wrapper-story">
         <div class="main-name-story">Истории любимых клиентов</div>
         <div class="carousel-story">
@@ -1512,18 +1512,17 @@
               ["client7-2", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", '', false, false, timestamp()],
             ]
           ),
-        ]
+        ],
+        callbacks: {
+          onClose (storyId, callback) {
+            callback($('.header-menu').find('.menu-item:nth-child(4)').trigger('click'))
+          },
+        }
       });
     </script>
 
     <script src="src/js/jquery/jquery-3.5.1.slim.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script>
-      $(document).on("mobileinit", function () {
-          $.mobile.ignoreContentEnabled=true;
-      });
-    </script>
-    <!-- <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
     <script src="src/js/main-prompt.js"></script>
     <script src="src/js/about-production.js"></script>
     <script src="src/js/kitchen_test.js"></script>
@@ -1533,7 +1532,6 @@
     <script type="text/javascript" src="src/js/jquery.waterwheelCarousel.js"></script>
     <script src="src/js/carousel_story.js"></script>
 
-    <!-- <script src="src/js/slick.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>

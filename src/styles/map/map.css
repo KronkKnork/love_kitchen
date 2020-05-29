@@ -12,6 +12,7 @@
 .fixed-list-salon div:first-child { margin-bottom: 20px; }
 .btn-list-salon { font-weight: bold; font-size: 16px; line-height: 19px; text-transform: uppercase; margin-top: 30px; }
 .map-icon-1 { position: absolute; left: 627px; top: 351px}
+.list-salon::-webkit-scrollbar { width: 0px; }
 
 @media screen and (max-width: 1410px) {
     .fixed-list-salon div div:nth-child(1) { font-size: 20px; line-height: 24px; }

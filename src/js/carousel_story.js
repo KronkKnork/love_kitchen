@@ -11,7 +11,23 @@ $(window).ready(function(){
     $('#stories div').each(function(i,elem){
         $(elem).append($('<div class="text-mobile-story">'+ $('.text-for-slaider div').eq(i).text() +'</div>'));
     })
+
+    $('.header-menu .menu-item').on('click', function(event) {
+        // отменяем стандартное действие
+        event.preventDefault();
+        var sc = $(this).attr("href"),
+            dn = $(sc).offset().top;
+        /*
+        * sc - в переменную заносим информацию о том, к какому блоку надо перейти
+        * dn - определяем положение блока на странице
+        */
+        $('html, body').animate({scrollTop: dn}, 2000);
+    }); 
     
+    // $('.right .close').on('click', function(){
+    //     $('.header-menu a').eq(4).trigger('click');
+    // })
+
     //console.log($('#zuck-modal-content').find('wrap'));
     $('#zuck-modal-content .wrap span').on('click', function(){
         var number = $(this).attr('data-index');
