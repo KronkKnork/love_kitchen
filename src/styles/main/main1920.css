@@ -12,7 +12,7 @@
 	font-weight: bold;
 	font-style: normal;
 }
-
+::-webkit-scrollbar { width: 0px; background: transparent; }
 
 body {
     font-family: "PFBeauSansPro";
@@ -29,7 +29,7 @@ a:hover { color: #787878; }
 
 .wrapper-main {
     position: relative;
-    height: 700px;
+    height: 820px;
 }
 /*главый контейнер*/
 .container-fluid {
@@ -43,7 +43,7 @@ a:hover { color: #787878; }
     width: 1390px;
     height: 700px;
     left: 530px;
-    top: 0;
+    top: 120px;
     background: url("../../img/main1920.jpg") no-repeat;
     background-size: auto 100%;
     overflow-x: hidden;
@@ -66,7 +66,7 @@ a:hover { color: #787878; }
     width: 695px;
     height: 700px;
     left: 530px;
-    top: 0;
+    top: 120px;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 99.65%);
 }
 /*Название главного модуля*/
@@ -88,7 +88,7 @@ a:hover { color: #787878; }
     width: 410px;
     height: 80px;
     left: 80px;
-    top: 370px;
+    top: 490px;
     padding-top: 31px;
     background: #B22432;
     border-radius: 40px;
@@ -107,7 +107,7 @@ a:hover { color: #787878; }
     width: 410px;
     height: 72px;
     left: 80px;
-    top: 510px;
+    top: 630px;
 }
 /*плюсики*/
 .circle-plus {
@@ -468,7 +468,8 @@ a:hover { color: #787878; }
     transition: .5s linear;}
 
 .kitchen-test .h2-title { margin-bottom: 60px; }
-.test-btn { margin-top: 67px; }
+.kitchen-test .img-test { width: 100%; }
+.test-btn { margin-top: 67px; width: 100%; }
 
 .popup-test { position: fixed; width: 100vw !important; margin-top: 0; padding: 0; }
 .test-title { font-weight: bold;
@@ -492,6 +493,16 @@ line-height: 29px; }
 .ph-number {     padding: 0 11px 0 14px;}
 .call-free { font-size: 12px; line-height: 14px; max-width: 74px; }
 .dn { display: none; }
+.footer { font-size: 14px;
+line-height: 17px;  padding-top: 73px;
+}
+.factory {font-size: 16px;
+line-height: 19px;}
+.footer .logo {     position: relative;
+    top: 3px; }
+.footer a {color: #787878; font-weight: normal; text-decoration: underline; }
+.footer a {color: #787878; font-weight: normal; text-decoration: underline; }
+
 
 @media screen and (max-width: 1510px) {
 	.ph-number {
