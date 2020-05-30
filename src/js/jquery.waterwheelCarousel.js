@@ -715,9 +715,9 @@ $(document).ready(function() {
 
             rotateCarousel(1);
         }
-
+        var clickHandler = ("ontouchstart" in window ? "touchend" : "click");
         /** click mouse arrow */
-        $('.next').on('click', function(){
+        $('.next').on(clickHandler, function(){
             /** Замена текста в карусели*/
             let i;
             i = $('#stories div').index($('.slick-current')) + 2;
