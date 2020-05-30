@@ -1,11 +1,14 @@
 $(window).ready(function(){
-    $('.i-love-a .a-1').on('click',function(){
+    var clickHandler = ("ontouchstart" in window ? "touchend" : "click");
+
+
+    $('.i-love-a .a-1').on(clickHandler,function(){
         $('.i-love-a .main-text-a').removeClass('i-love-cards-a-actived');
         $(this).addClass('i-love-cards-a-actived');
         $('.wrapper-animation-i-love .wrapper-cards').hide(500);
         $('#compact-i-love').delay(500).show(500);
     })
-    $('.i-love-a .a-2').on('click',function(){
+    $('.i-love-a .a-2').on(clickHandler,function(){
         $('.i-love-a .main-text-a').removeClass('i-love-cards-a-actived');
         $(this).addClass('i-love-cards-a-actived');
         $('.wrapper-animation-i-love .wrapper-cards').hide(500);
@@ -26,13 +29,13 @@ $(window).ready(function(){
         // $('#functions').show();
         // $('#functions-up').show();
     })
-    $('.i-love-a .a-3').on('click',function(){
+    $('.i-love-a .a-3').on(clickHandler,function(){
         $('.i-love-a .main-text-a').removeClass('i-love-cards-a-actived');
         $(this).addClass('i-love-cards-a-actived');
         $('.wrapper-animation-i-love .wrapper-cards').hide(500);
         $('#space').delay(500).show(500);
     })
-    $('.i-love-a .a-4').on('click',function(){
+    $('.i-love-a .a-4').on(clickHandler,function(){
         $('.i-love-a .main-text-a').removeClass('i-love-cards-a-actived');
         $(this).addClass('i-love-cards-a-actived');
         $('.wrapper-animation-i-love .wrapper-cards').hide(500);
@@ -40,7 +43,7 @@ $(window).ready(function(){
     })
 
     /** open popup get katalog*/
-    $('.js-get-katalog').on('click', function(){
+    $('.js-get-katalog').on(clickHandler, function(){
         $('.popup').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
         $('#popup-get-katalog-kitchen').fadeIn(500);
@@ -48,7 +51,7 @@ $(window).ready(function(){
     });
 
     /**open popup i love */
-    $('.js-open-popup-i-love').on('click', function(){
+    $('.js-open-popup-i-love').on(clickHandler, function(){
         $('.popup:not(#popup-i-love)').fadeOut(500);
         $('#popup-i-love').fadeIn(500);
         document.body.style.overflowY = $('.popup-i-love').is(':hidden') ? "scroll" : "hidden";
@@ -56,21 +59,21 @@ $(window).ready(function(){
 
     /**gallery swipe photo */
     $('#i-love-gallery').attr('src', $('.actived-img').find('img').attr('src'));
-    $('.wrapper-popup-i-img-mimi').on('click', function(){
+    $('.wrapper-popup-i-img-mimi').on(clickHandler, function(){
         $('.wrapper-popup-i-img-mimi').removeClass('actived-img');
         $(this).addClass('actived-img');
         var src = $(this).find('img').attr('src');
         $('#i-love-gallery').attr('src', src);
     })
     /** open popup kitchen i love */
-    $('.popup-i-btn-1').on('click', function(){
+    $('.popup-i-btn-1').on(clickHandler, function(){
         $('.popup:not(#popup-i-love)').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
         $('#popup-it-kitchen').fadeIn(500);
         document.body.style.overflowY = $('#popup-it-kitchen').is(':hidden') ? "scroll" : "hidden";
     });
     /** open popup free-steps*/
-    $('.btn-text-free-steps').on('click', function(){
+    $('.btn-text-free-steps').on(clickHandler, function(){
         $('.popup:not(#popup-i-love)').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
         $('#popup-free-steps').fadeIn(500);
