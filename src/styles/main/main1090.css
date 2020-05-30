@@ -9,14 +9,14 @@
         width: 790px;
         height: 600px;
         left: 300px;
-        top: 0;
+        top: 120px;
         background: url("../../img/main1090.jpg") no-repeat;
     }
     .light-main-img {
         width: 395px;
         height: 600px;
         left: 300px;
-        top: 0;
+        top: 120px;
         background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 99.65%);
     }
     /*Название главного модуля*/
@@ -33,7 +33,7 @@
         width: 230px;
         height: 80px;
         left: 40px;
-        top: 370px;
+        top: 490px;
         font-size: 14px;
         line-height: 17px;
     }
@@ -42,7 +42,7 @@
         width: 230px;
         height: 88px;
         left: 40px;
-        top: 490px;
+        top: 610px;
         font-size: 18px;
         line-height: 22px;
     }
@@ -114,5 +114,40 @@
     .popup-text-plus {
         margin-top: 55px;
     }
+
+}
+
+@media screen and (max-width: 991px) {
+  .sc-title {font-size: 24px; line-height: 29px;}
+  .base-service.container-fluid { margin-top: 71px; padding-bottom: 107px;  margin-bottom: 80px; }
+  .bs-sub-title { font-size: 16px; line-height: 19px; }
+  .blog { margin-top: 80px; }
+  .bs-items .bs-img { padding: 40px 0 0 30px;}
+  .bs-svg { width: 100px; height: 100px; }
+  .bs-items.wrapper-card-items { min-height: 180px;  margin-bottom: 80px; }
+  .bs-items.wrapper-card-items .card-item { min-height: 180px;}
+  .bsi-2 .card-title, .bsi-3 .card-title { font-size: 20px; line-height: 24px; }
+  .base-service .title-free-steps { transform: translateY(-22px); }
+  .bs-sub-title { padding: 0px 0 3px 0; transform: translateY(8px); }
+  .base-service .wrapper-card-text { top: 163px; margin-left: 30px; }
+  .no-gutters-mobile {
+    margin-right: 0;
+    margin-left: 0;
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+
+  .no-gutters-mobile .col-lg-6, .no-gutters-mobile .col-lg-6,
+  .no-gutters-mobile .col-sm-6, .no-gutters-mobile .col-lg-3 {
+      padding-right: 0; padding-left: 0;
+   }
+  .card-price { top: 10px; }
+  .bsi-2 { padding-right: 20px !important; }
+  .bsi-3 { padding-left: 20px !important; }
+  .base-service .bsi-2 .wrapper-card-text,
+  .base-service .bsi-3 .wrapper-card-text { top: 167px;  max-width: 250px; }
 
 }
