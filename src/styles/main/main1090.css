@@ -114,7 +114,7 @@
     .popup-text-plus {
         margin-top: 55px;
     }
-
+    #updeted-main-modul { margin-right: 0; padding-right: 0; }
 }
 
 @media screen and (max-width: 991px) {
@@ -150,4 +150,6 @@
   .base-service .bsi-2 .wrapper-card-text,
   .base-service .bsi-3 .wrapper-card-text { top: 167px;  max-width: 250px; }
 
+    /*updeted main*/
+    #updeted-main-modul { margin-right: 0; padding-right: 0; }
 }

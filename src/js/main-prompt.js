@@ -2,7 +2,7 @@ $(window).ready(function(){
     var clickHandler = ("ontouchstart" in window ? "touchend" : "click");
 
     var prompt = $('.main-prompt');
-    $('.wrapper-circle-plus').mouseenter(function(){
+    $('.updeted-plus-wrapper').mouseenter(function(){
         var cp = $(this).offset(),
             left = cp.left + 80,
             top = cp.top + 13;
@@ -15,7 +15,9 @@ $(window).ready(function(){
             prompt.text($(this).data("prompt"));
             prompt.fadeIn().offset({top: top, left: left});
         }
+        $('.updeted-dark-img').fadeIn(500);
     }).mouseout(function(){
+        $('.updeted-dark-img').fadeOut(500);
         prompt.fadeOut();
     });
 
@@ -80,7 +82,7 @@ $(window).ready(function(){
         popup_plus.fadeIn(500);
     });
 /*клик на плюсики*/
-    $('.wrapper-circle-plus-1').on(clickHandler, function(){
+    $('.wrapper-circle-plus-1, #plus-1').on(clickHandler, function(){
         $('.popup').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
         $('#popup-plus-1').fadeIn(500);
