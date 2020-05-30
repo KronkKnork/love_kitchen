@@ -10,6 +10,7 @@ $(window).ready(function(){
 
     $('.header-menu .menu-item').on(clickHandler, function(event) {
         // отменяем стандартное действие
+        $('.menu-popup').fadeOut(500);
         event.preventDefault();
         var sc = $(this).attr("href"),
             dn = $(sc).offset().top;
