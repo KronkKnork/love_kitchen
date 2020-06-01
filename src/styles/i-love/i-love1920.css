@@ -21,6 +21,9 @@
     font-weight: bold;
     color: #000;
     text-decoration: none;
+    /* border-bottom:  none !important; */
+}
+.i-love-cards-a-actived span {
     border-bottom:  none !important;
 }
 
@@ -158,12 +161,23 @@
     transition: .5s;
 }
 .i-love-a .main-text-a {
-    transition: .5s; text-decoration: none; border-bottom: 2px dashed #787878;
+    transition: .5s; text-decoration: none;
 }
+.i-love-a .main-text-a span {
+     border-bottom: 2px dashed #787878;
+}
+
 .i-love-a .main-text-a:hover {
     color: #000;
     text-decoration: none;
     transition: .5s;
+    /* border: none; */
+padding-bottom: 2px;
+}
+.i-love-a .main-text-a:hover span {
+    color: #000;
+    /* text-decoration: none;
+    transition: .5s; */
     border: none;
 padding-bottom: 2px;
 }
