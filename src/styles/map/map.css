@@ -14,15 +14,15 @@
 .map-icon-1 { position: absolute; left: 627px; top: 351px}
 .list-salon::-webkit-scrollbar { width: 0px; }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1599px) {
     .fixed-list-salon div div:nth-child(1) { font-size: 20px; line-height: 24px; }
-    .wrapper-map-img { height: 700px; width: 1090px; position: absolute; left: -360px; }
+    .wrapper-map-img { height: 700px; width: 1089px; position: absolute; left: -360px; }
     .wrapper-map-img img:first-child { max-height: 100%; }
     .map-title { font-size: 52px; line-height: 62px; margin-right: 40px; margin-left: 40px;}
 }
 
-@media screen and (max-width: 1410px) {
-    .wrapper-map-img { height: 737px; width: 1090px; position: absolute; left: -165px; }
+@media screen and (max-width: 1409px) {
+    .wrapper-map-img { height: 737px; width: 1089px; position: absolute; left: -165px; }
     .wrapper-map-img img:first-child { width: 1056.43px; height: 737px; left: -111.02px; }
     .fixed-list-salon div div:nth-child(1) { font-size: 20px; line-height: 24px; }
     .map-icon-1 { left: 440px; top: 351px; width: 48px; height: 60px;}
@@ -32,8 +32,8 @@
         height: 737px;
     }
 }
-@media screen and (max-width: 1090px) {
-    .wrapper-map-img { height: 500px; width: 1090px; position: absolute; left: -110px; }
+@media screen and (max-width: 1089px) {
+    .wrapper-map-img { height: 500px; width: 1089px; position: absolute; left: -110px; }
     .wrapper-map-img img:first-child { width: 497.14px; height: 526.43px; left: -92.24px; }
     .fixed-list-salon div div:nth-child(1) { font-size: 16px; line-height: 19px; }
     .map-icon-1 { left: 200px; top: 251px; width: 40px; height: 50px;}
@@ -42,7 +42,7 @@
     .list-salon { height: 500px; }
     .map-title { margin-left: 20px; font-size: 36px; line-height: 43px;}
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 679px) {
     .wrapper-map-img { width: 200px; height: 400px; position: absolute; left: -280px; }
     .wrapper-map-img img:first-child { width: 497.14px; height: 526.43px; left: -92.24px; }
     .fixed-list-salon div div:nth-child(1) { font-size: 16px; line-height: 19px; }
@@ -53,7 +53,7 @@
     .wrapper-adres-salon { padding: 0; }
     .map-title { margin-right: 20px; margin-left: 20px;}
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 679px) {
   .map-and-list-salon {
       height: 544px;
   }

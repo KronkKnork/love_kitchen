@@ -1,5 +1,4 @@
-/*перевход на попап в столбик 973px*/
-@media screen and (max-width: 1090px) {
+@media screen and (max-width: 1089px) {
     .popup-record-salon .input-popup {
         width: 90%;
     }
@@ -13,9 +12,6 @@
         width: 90%;
         margin-bottom: 20px;
     }
-}
-
-@media screen and (max-width: 1090px) {
     .wrapper-main {
         height: 490px;
     }
@@ -186,9 +182,9 @@
     .bsi-3 { padding-left: 20px !important; }
     .base-service .bsi-2 .wrapper-card-text,
     .base-service .bsi-3 .wrapper-card-text { top: 167px;  max-width: 250px; }
-    .main-header {
+    /* .main-header {
         padding: 20px 0 10px;
-    }
+    } */
     .updeted-main-title {
         margin-top: 57px;
     }
@@ -199,7 +195,7 @@
 line-height: 14px; padding-top: 32px;
     }
     .updeted-main-img {
-        background: url(../../img/main680.jpg) center no-repeat;
+        background: url(../../img/main1090.jpg) center no-repeat;
         height: 420px;
     }
   .updeted-plus { transform: scale(0.7, 0.7); }
@@ -228,12 +224,21 @@ top: 24.3%;
           margin-top: 30px;
       }
 
+      .kitchen-test .wrapper-offers .wrapper-card-items {
+          margin-top: 40px;
+      }
+  .main-prompt { display: none !important;}
+  .region-mobile { display: block; position: absolute;     top: 20px;
+    left: 145px;
+ }
+  .region-desc { display: none; }
 
 
 }
 
 
-@media screen and (max-width: 575px) {
+/* @media screen and (max-width: 679px) { */
+@media screen and (max-width: 1089px) {
   .bsi-2 { padding-right: 0 !important; }
   .bsi-3 { padding-left: 0 !important; }
   .bs-items.wrapper-card-items.bsi-2, .bs-items.wrapper-card-items.bsi-3 { margin-bottom: 123px; }
@@ -241,7 +246,7 @@ top: 24.3%;
     .updeted-main-title div { white-space: normal; }
     .updeted-main-title div span { white-space: pre; }
     .logo-2 { margin-left: 20px; }
-    .header-phone {     margin-left: 20px;
+    .header-phone { 
     width: 280px; }
     .updeted-main-text  { margin-bottom: 40px;}
     .wrapper-20 {height: 400px; }
@@ -299,9 +304,6 @@ line-height: 43px; transform: translateY(-63px); }
 
 
 
-
-    /* }
-} */
 
 
 }
