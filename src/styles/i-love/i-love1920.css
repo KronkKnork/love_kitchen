@@ -3,7 +3,7 @@
     min-height: 50px;
 }
 .wrapper-i-love {
-    margin-top: 161px;
+    margin-top: 141px;
 }
 /* .i-love-title {
     font-weight: bold;
@@ -16,10 +16,12 @@
     font-size: 20px;
     line-height: 24px;
 }
+.i-love-cards-a:last-child { margin-right: 0; }
 .i-love-cards-a-actived {
     font-weight: bold;
     color: #000;
     text-decoration: none;
+    border-bottom:  none !important;
 }
 
 .wrapper-cards {
@@ -156,18 +158,20 @@
     transition: .5s;
 }
 .i-love-a .main-text-a {
-    transition: .5s;
+    transition: .5s; text-decoration: none; border-bottom: 2px dashed #787878;
 }
 .i-love-a .main-text-a:hover {
     color: #000;
     text-decoration: none;
     transition: .5s;
+    border: none;
+padding-bottom: 2px;
 }
 #functions, #space, #style-design {
     display: none;
 }
 .wrapper-animation-i-love {
-    min-height: 1190px;
+    /* min-height: 1190px; */
 }
 .i-love-position-absolute {
     position: absolute;
@@ -276,7 +280,7 @@
 /*полный каталог кухонь*/
 #popup-get-katalog-kitchen .popup-record-salon__email {
     width: 98%;
-} 
+}
 #popup-get-katalog-kitchen .popup-label-checkbox-record-salon {
     width: 98%;
 }
@@ -285,10 +289,9 @@
 }
 
 
-/*отступ от узнать о производстве, косяк в Узнать о производстве*/
 @media screen and (max-width: 1600px) {
     .wrapper-i-love {
-        margin-top: 139px;
+        margin-top: 143px;
     }
     .wrapper-card-items {
         min-height: 480px;
@@ -300,7 +303,14 @@
 
 @media screen and (max-width: 1410px) {
     .wrapper-i-love {
-        margin-top: 139px;
+        margin-top: 143px;
+    }
+
+    .wrapper-cards {
+        margin-top: 28px;
+    }
+    .wrapper-card-img-3 {
+        bottom: -10px;
     }
     .wrapper-card-items {
         min-height: 440px;
@@ -336,7 +346,7 @@
         bottom: 72px;
     }
     .wrapper-card-text-3 {
-        bottom: -88px;
+        bottom: -47px;
     }
     .card-btn span {
         font-size: 14px;
@@ -368,12 +378,22 @@
         margin-top: 40px;
         margin-bottom: 60px;
     }
+
 }
 
 @media screen and (max-width: 1090px) {
     .wrapper-i-love {
         margin-top: 231px;
     }
+    .i-love-cards-a {
+        margin-top: 22px;
+        margin-right: 41px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
 }
 @media screen and (max-width: 800px) {
     .wrapper-i-love {
@@ -451,6 +471,10 @@
     .wrapper-popup-i-img-mimi {
         height: 50px;
     }
+
+    .i-love-cards-a {
+        margin-top: 19px;
+        margin-right: 32px; }
 }
 @media screen and (max-width: 575px) {
     .wrapper-i-love {

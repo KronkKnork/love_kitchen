@@ -25,6 +25,8 @@
 .ui-loader { display: none; }
 #stories { overflow-y: hidden; }
 
+.free-steps .row.col-12 { padding: 0; }
+
 @media screen and (max-width: 1410px) {
     .title-free-steps { font-size: 52px; line-height: 62px; transform: translateY(-90px);}
     .big-number { font-size: 160px; line-height: 192px; }
@@ -33,10 +35,17 @@
     .text-free-steps { font-size: 18px; line-height: 22px; }
 }
 @media screen and (max-width: 1090px) {
-    .title-free-steps { font-size: 60px; line-height: 72px; transform: translateY(-180px);}
-    .text-free-steps { transform: translateY(-190px);}
+    .title-free-steps { transform: translateY(-153px);}
+    .text-free-steps { transform: translateY(-173px);     margin-bottom: 57px;}
     .wrapper-text-free-steps { transform: translateY(-170px); }
     .btn-text-free-steps { padding-top: 23px; margin-bottom: 232px;}
+    .title-free-steps span { white-space: pre; }
+    .title-free-steps .tfs { white-space: normal;  max-width: 415px; }
+    .free-steps {
+      margin-top: 249px;
+    }
+    .ts-2, .ts-3 { width: 188px; }
+    .free-steps-num { margin-bottom: -60px; }
 }
 @media screen and (max-width: 680px) {
     .title-free-steps { font-size: 36px; line-height: 43px; transform: translateY(-40px);}
