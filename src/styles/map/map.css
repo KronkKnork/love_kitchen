@@ -28,6 +28,9 @@
     .map-icon-1 { left: 440px; top: 351px; width: 48px; height: 60px;}
     .fixed-list-salon div div:nth-child(1) { padding: 40px 30px; }
     .list-salon { height: 737px; }
+    .map-and-list-salon {
+        height: 737px;
+    }
 }
 @media screen and (max-width: 680px) {
     .wrapper-map-img { height: 500px; width: 1090px; position: absolute; left: -110px; }
@@ -49,4 +52,11 @@
     .list-salon { height: 400px; }
     .wrapper-adres-salon { padding: 0; }
     .map-title { margin-right: 20px; margin-left: 20px;}
+}
+@media screen and (max-width: 575px) {
+  .map-and-list-salon {
+      height: 544px;
+  }
+
+
 }

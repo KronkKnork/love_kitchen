@@ -115,7 +115,63 @@
         margin-top: 55px;
     }
     #updeted-main-modul { margin-right: 0; padding-right: 0; }
+    .updeted-main-title div { white-space: normal; }
+    .updeted-main-title div span { white-space: pre; }
+
+    .updeted-main-title {
+        margin-top: 21px;
+    }
+    #plus-1 {
+        left: 11.1%;
+    }
+    #plus-2 {
+        left: 27%;
+        top: 32.3%;
+    }
+    #plus-3 {
+        left: 60.8%; }
+    #plus-4 {
+        top: 27.2%;
+        left: 86.3%; }
+      #plus-5 {
+          left: 87.5%;
+      }
+
+      .updeted-btn-main {
+          padding-top: 26px; }
+
+      .updeted-main-text {  padding-right: 0;
+          }
+          .kitchen-test {
+              margin-top: 83px;
+          }
+
+          #offers {
+              margin-top: 114px;
+          }
+
+          .base-service .title-free-steps {
+            font-size: 52px;
+            line-height: 62px;
+          }
+          .bs-sub-title {
+              padding: 23px 0 32px 0;
+              font-size: 18px;
+              line-height: 22px;
+          }
+      .base-service .card-price { top: 19px; }
+      .reviews-soc a {
+          padding: 29px; }
+
+          .h2-title.sc-title {padding: 0 0 38px;
+          }
+          .reviews {
+              margin-bottom: 78px;
+          }
+
 }
+
+/* //1090 */
 
 @media screen and (max-width: 991px) {
   .sc-title {font-size: 24px; line-height: 29px;}
@@ -152,4 +208,13 @@
 
     /*updeted main*/
     #updeted-main-modul { margin-right: 0; padding-right: 0; }
+}
+
+@media screen and (max-width: 767px)  {
+  .updeted-main-title div { white-space: pre; }
+  .updeted-main-title div span { white-space: pre; }
+  .updeted-main-title { font-size: 40px;
+line-height: 48px; }
+
+
 }

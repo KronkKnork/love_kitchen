@@ -171,4 +171,96 @@
 
     /*updeted main*/
     #updeted-main-modul { margin-right: 0; padding-right: 0; padding-left: 40px; }
+    .updeted-main-title { font-size: 60px;
+    line-height: 72px;     margin-top: 105px; }
+
+    .updeted-main-img {
+        background: url(../../img/main1410.jpg) center no-repeat;
+        height: 600px;
+    }
+    #plus-1 {
+        left: 16.3%;
+        bottom: 35%; }
+    #plus-2 {
+      left: 32.2%;
+    top: 32.6%; }
+    #plus-3 {
+      left: 56.8%;
+    bottom: 11.9%; }
+    #plus-4 {
+      right: auto;
+    top: 15.4%;
+    left: 78%; }
+    #plus-5 {
+      right: auto;
+    bottom: 25%;
+    left: 83.1%; }
+
+    .updeted-btn-main {
+        max-width: 98%;
+        margin-top: 61px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .updeted-main-text {
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 40px;
+    }
+
+    #compact-i-love-down {     top: -38px; }
+
+    .kitchen-test {
+        margin-top: 88px;
+    }
+    .kitchen-test .wrapper-card-items p {
+      font-size: 18px;
+    line-height: 22px; padding-bottom: 4px;
+    }
+    .kitchen-test .h2-title {
+        margin-bottom: 40px;
+    }
+    .test-btn {
+        margin-top: 39px; }
+    #offers { margin-top: 69px; }
+    .base-service.container-fluid {  margin-top: 55px;     padding-bottom: 176px;     margin-bottom: 121px; }
+    .base-service .title-free-steps { transform: translateY(-62px); margin-bottom: -46px;
+    }
+
+    .bs-items .bs-img { padding: 40px 0 0 30px;}
+    .bs-svg { width: 100px; height: 100px; }
+    .bs-items.wrapper-card-items { min-height: 180px;  margin-bottom: 80px; }
+    .bs-items.wrapper-card-items .card-item { min-height: 180px;}
+    .bsi-2 .card-title, .bsi-3 .card-title { font-size: 24px; line-height: 29px; }
+    .base-service .wrapper-card-text { top: 163px; margin-left: 30px; }
+    .no-gutters-mobile {
+      margin-right: 0;
+      margin-left: 0;
+      }
+
+      .free-steps { margin-top: 205px; }
+      .h2-title.sc-title { font-size: 30px; line-height: 36px; }
+      .reviews {
+          margin: 120px 0;
+      }
+      .footer.container-fluid {
+          padding-top: 55px;
+          padding-bottom: 46px;
+      }
+      .factory {
+          font-size: 14px;
+          line-height: 17px;
+          padding: 26px 0 0;
+          letter-spacing: -0.01em;
+      }
+
+      .footer .col-sm-3 + .col-sm-6 + .col-sm-3 { padding-left: 34px; }
+      .footer .header-phone {
+          margin-bottom: 28px;
+      }
+      .footer .header-phone + div, .footer .header-phone + div + div {
+          margin-bottom: 8px;
+      }
+
+
 }

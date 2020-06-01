@@ -27,12 +27,12 @@
 .item-preview:after {
     pointer-events: none;
     content: "";
-	display: block;    
+	display: block;
 	width: 50%;
     height: 100%;
     position: absolute;
-	top: 0;      
-    left: 0; 
+	top: 0;
+    left: 0;
     background: transparent;
     background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 99.65%);
 }
@@ -82,7 +82,7 @@
     line-height: 72px;
     margin-bottom: 80px;
     margin-top: 140px;
-    margin-left: 80px;
+    margin-left: 0;
 }
 .carousel-text {
     position: absolute;
@@ -99,7 +99,7 @@
 #zuck-modal-content .story-viewer .head .right .time { display: none; }
 
 @media screen and (max-width: 1410px) {
-    .main-name-story { margin-left: 40px; font-size: 52px; line-height: 62px; margin-bottom: 60px; margin-top: 120px; }
+    .main-name-story { font-size: 52px; line-height: 62px; margin-bottom: 60px; margin-top: 120px; }
     .carousel-text { width: 650px; }
     .story-user { top: 100px; }
     .user-text-story { font-size: 30px; line-height: 36px; }
@@ -144,6 +144,10 @@
     #zuck-modal-content .story-viewer .tip { left: 20px; right: 20px; width: 87%; }
     #zuck-modal-content .story-viewer .title-in-story { top: 57px; left: 20px; }
     #zuck-modal-content .story-viewer .slides-pointers { width: 87.5%; left: 20px; right: 20px; }
+    .main-name-story {
+        margin-top: 81px;
+        margin-left: 20px;
+    }
 }
 @media screen and (max-width: 450px) {
     #stories { transform: translateX(15px);}
