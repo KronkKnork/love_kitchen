@@ -98,6 +98,7 @@
 /*popup-plus*/
     .popup-plus .btn-popup-free-design {
         width: 233px;
+        margin-bottom: 100px;
     }
     .popup-text-plus {
         font-size: 16px;
@@ -161,7 +162,7 @@
           }
       .base-service .card-price { top: 19px; }
       .reviews-soc a {
-          padding: 28px; }
+          padding: 21px; }
 
           .h2-title.sc-title {padding: 0 0 38px;
           }

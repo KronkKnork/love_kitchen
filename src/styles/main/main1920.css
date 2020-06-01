@@ -237,6 +237,7 @@ a:hover { color: #787878; }
 		padding-left: 40px;
     background-clip: content-box;
     box-sizing: content-box;
+    overflow-x: hidden;
 }
 .popup::-webkit-scrollbar{
     width: 0px;

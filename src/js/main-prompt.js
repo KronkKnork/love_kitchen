@@ -89,25 +89,25 @@ $(window).ready(function(){
         console.log('jsdgjsdkfjklds');
         document.body.style.overflowY = $('.wrapper-circle-plus-1').is(':hidden') ? "scroll" : "hidden";
     });
-    $('.wrapper-circle-plus-2').on(clickHandler, function(){
+    $('.wrapper-circle-plus-2, #plus-2').on(clickHandler, function(){
         $('.popup').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
         $('#popup-plus-2').fadeIn(500);
         document.body.style.overflowY = $('.wrapper-circle-plus-2').is(':hidden') ? "scroll" : "hidden";
     });
-    $('.wrapper-circle-plus-3').on(clickHandler, function(){
+    $('.wrapper-circle-plus-3, #plus-3').on(clickHandler, function(){
         //$('.popup').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
         $('#popup-plus-3').fadeIn(500);
         document.body.style.overflowY = $('.wrapper-circle-plus-3').is(':hidden') ? "scroll" : "hidden";
     });
-    $('.wrapper-circle-plus-4').on(clickHandler, function(){
+    $('.wrapper-circle-plus-4, #plus-4').on(clickHandler, function(){
         $('.popup').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
         $('#popup-plus-4').fadeIn(500);
         document.body.style.overflowY = $('wrapper-circle-plus-4').is(':hidden') ? "scroll" : "hidden";
     });
-    $('.wrapper-circle-plus-5').on(clickHandler, function(){
+    $('.wrapper-circle-plus-5, #plus-5').on(clickHandler, function(){
         $('.popup').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
         $('#popup-plus-5').fadeIn(500);

@@ -70,6 +70,9 @@ $(document).ready(function() {
         }
     })
     $('#stories div').hasClass('slick-current');*/
+    /*$(document).keyup(function(e){
+        if (e.which == 75) {console.log('kronk'); } 
+    })*/
 });
 ;
 (function($) {

@@ -47,7 +47,7 @@
     .name-expert { font-size: 18px; line-height: 22px; }
     .profession-expert { font-size: 12px; line-height: 14px; margin-top: 10px; }
     .photo-expert img { width: 60px; height: 60px; }
-    .title-card-expert { font-size: 20px; line-height: 24px; }
+    .title-card-expert { font-size: 24px; line-height: 29px; }
     .btn-expert { font-size: 14px; line-height: 17px; }
     .expert { max-height: 60px; }
     /*popup-experts*/
@@ -66,6 +66,7 @@
     .wrapper-name-expert { width: 50%; }
     /*popup-experts*/
     .about-expert { margin-top: 40px; }
+    .title-card-expert { font-size: 20px; line-height: 24px; }
 }
 @media screen and ( max-width: 1090px) {
     .title-experts { font-size: 36px; line-height: 43px; }
@@ -92,4 +93,7 @@
     .wrapper-name-expert { width: 58%; }
     .wrapper-btn-expert { height: 140px; margin-top: 40px; }
     .btn-expert { font-size: 12px; line-height: 14px; margin-top: 20px; }
+}
+@media screen and ( max-width: 1600px ) {
+    .title-card-expert { font-size: 20px; line-height: 24px; }
 }
