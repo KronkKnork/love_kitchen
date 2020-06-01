@@ -19,6 +19,7 @@
     overflow: hidden;
 }
 .story {
+    cursor: pointer;
     border-radius: 20px;
     box-shadow: 70px 0px 62px -54px rgba(0,0,0,0.64);
     opacity: 1;

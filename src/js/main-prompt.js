@@ -6,8 +6,8 @@ $(window).ready(function(){
         var cp = $(this).offset(),
             left = cp.left + 80,
             top = cp.top + 13;
-            left_w = cp.left - 150,
-            top_w = top - 60;
+            left_w = cp.left - 240,
+            top_w = top - 0;
         if (left + prompt.width() > $(document).width()) {
             prompt.text($(this).data("prompt"));
             prompt.fadeIn().offset({top: top_w, left: left_w});
@@ -46,7 +46,7 @@ $(window).ready(function(){
     })
 
 /**клик на кнопку заказать бесплатный проект*/
-    $('.main-btn, .popup-i-btn-2').on(clickHandler, function(){
+    $('.main-btn, .popup-i-btn-2, .updeted-btn-main').on(clickHandler, function(){
         $('.popup:not(#popup-i-love)').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
         $('#popup-free-design').fadeIn(500);
