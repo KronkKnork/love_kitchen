@@ -1,5 +1,5 @@
 /*перевход на попап в столбик 973px*/
-@media screen and (max-width: 973px) {
+@media screen and (max-width: 1090px) {
 /*production*/
     .time-production {
         font-size: 140px;
@@ -25,7 +25,7 @@
     }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 1090px) {
     /*production*/
     .wrapper-about-production {
         margin-left: 0;
@@ -61,7 +61,7 @@
 }
 
 /*перевход на попап в столбик 528px*/
-@media screen and (max-width: 528px) {
+@media screen and (max-width: 680px) {
 /*production*/
     .wrapper-about-production {
         margin-left: 0;

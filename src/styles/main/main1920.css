@@ -579,6 +579,8 @@ line-height: 29px; }
 .kitchen-test { margin-top: 143px; }
 .bsi-2 .card-title { font-size: 30px;
 line-height: 36px; }
+.bsi-3 .card-title { font-size: 30px;
+    line-height: 36px; }
 .blog { margin-top: 100px; }
 .base-service  .wrapper-card-text {      bottom: auto;
     top: 92%;   margin-left: 25px;  }
@@ -630,6 +632,7 @@ max-width: 94%; margin-top: 80px; color: #fff; font-weight: bold; font-size: 16p
 .updeted-plus:hover .updeted-vertical-line, .updeted-plus:hover .updeted-horizontal-line { background: #fff; }
 .updeted-plus:hover { background: #FDB73B; }
 .updeted-dark-img { position: absolute; display: none; z-index: 2; width: 100%; height: 100%; border-radius: 20px 0 0 20px;  background: rgba(0, 0, 0, 0.2 ); }
+.updeted-light-img { position: absolute; width: 100%; height: 100%; border-radius: 20px 0 0 20px;  background: linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(244,244,244,0) 50%); }
 #plus-1 {     left: 18.82%;
     bottom: 35%; }
     /* top: 390px; } */
@@ -661,7 +664,7 @@ max-width: 94%; margin-top: 80px; color: #fff; font-weight: bold; font-size: 16p
 
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1410px) {
 	.ph-number {
 		font-size: 24px;
 		line-height: 29px;

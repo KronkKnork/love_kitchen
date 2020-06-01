@@ -1,5 +1,5 @@
 /*перевход на попап в столбик 973px*/
-@media screen and (max-width: 973px) {
+@media screen and (max-width: 1090px) {
     .popup-record-salon .input-popup {
         width: 90%;
     }
@@ -15,7 +15,7 @@
     }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 1090px) {
     .wrapper-main {
         height: 490px;
     }
@@ -293,7 +293,7 @@ line-height: 43px; transform: translateY(-63px); }
       padding: 0 20px 0 20px;
 }
 .wrapper-offers .wrapper-card-items {
-    min-height: 337px; margin-top: 10px;
+    margin-top: 10px;
 }
 
 

@@ -1,4 +1,4 @@
-@media screen and (max-width: 1090px) {
+@media screen and (max-width: 1410px) {
     /*главый контейнер*/
     .container-fluid {
         padding: 0 40px;
@@ -173,7 +173,7 @@
 
 /* //1090 */
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1090px) {
   .sc-title {font-size: 24px; line-height: 29px;}
   .base-service.container-fluid { margin-top: 71px; padding-bottom: 107px;  margin-bottom: 80px; }
   .bs-sub-title { font-size: 16px; line-height: 19px; }
@@ -183,8 +183,8 @@
   .bs-items.wrapper-card-items { min-height: 180px;  margin-bottom: 80px; }
   .bs-items.wrapper-card-items .card-item { min-height: 180px;}
   .bsi-2 .card-title, .bsi-3 .card-title { font-size: 20px; line-height: 24px; }
-  .base-service .title-free-steps { transform: translateY(-22px); }
-  .bs-sub-title { padding: 0px 0 3px 0; transform: translateY(8px); }
+  .base-service .title-free-steps { margin-left: 1px; transform: translateY(-22px); }
+  .bs-sub-title { margin-left: 1px; padding: 0px 0 3px 0; transform: translateY(8px); }
   .base-service .wrapper-card-text { top: 163px; margin-left: 30px; }
   .no-gutters-mobile {
     margin-right: 0;
@@ -210,7 +210,7 @@
     #updeted-main-modul { margin-right: 0; padding-right: 0; }
 }
 
-@media screen and (max-width: 767px)  {
+@media screen and (max-width: 1090px)  {
   .updeted-main-title div { white-space: pre; }
   .updeted-main-title div span { white-space: pre; }
   .updeted-main-title { font-size: 40px;
