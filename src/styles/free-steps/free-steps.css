@@ -56,10 +56,26 @@
     .text-step { font-size: 20px; line-height: 24px; left: 40px; top: 85px; }
     .btn-text-free-steps { padding-top: 31px; margin-bottom: 120px; margin-top: 90px; font-size: 12px; line-height: 14px; }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 575px) {
     .title-free-steps { transform: translateY(-105px);}
     .text-free-steps { transform: translateY(-115px);}
     .wrapper-text-free-steps { transform: translateY(-95px); margin-top:40px; }
     .wrapper-text-free-steps-3 { margin-top:110px; }
     .btn-text-free-steps { margin-bottom: 80px; margin-top: 50px; }
+    .title-free-steps span {
+        white-space: normal;
+    }
+    .text-step, .ts-2, .ts-3 {
+        width: 250px;
+    }
+    .title-free-steps .tfs {
+        padding-left: 10px; }
+      .text-free-steps {
+        margin-top: 40px;
+      margin-left: -5px;
+      margin-bottom: 0px; }
+
+
+
+
 }

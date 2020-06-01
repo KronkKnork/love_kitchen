@@ -144,6 +144,10 @@
     #zuck-modal-content .story-viewer .tip { left: 20px; right: 20px; width: 87%; }
     #zuck-modal-content .story-viewer .title-in-story { top: 57px; left: 20px; }
     #zuck-modal-content .story-viewer .slides-pointers { width: 87.5%; left: 20px; right: 20px; }
+    .main-name-story {
+        margin-top: 81px;
+        margin-left: 20px;
+    }
 }
 @media screen and (max-width: 450px) {
     #stories { transform: translateX(15px);}

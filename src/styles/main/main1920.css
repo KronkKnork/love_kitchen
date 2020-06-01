@@ -514,7 +514,7 @@ line-height: 29px; }
 .ph-number {     padding: 0 11px 0 14px;}
 .call-free { font-size: 12px; line-height: 14px; max-width: 74px; }
 .dn { display: none; }
-.footer.container-fluid { font-size: 14px; line-height: 17px;  padding-top: 73px; padding-bottom: 50px; }
+.footer.container-fluid { font-size: 14px; line-height: 17px;  padding-top: 73px; padding-bottom: 80px; }
 .factory { font-size: 16px; line-height: 19px; padding: 38px 0 0; }
 .footer .logo { position: relative; top: 6px; }
 .footer a {color: #787878; font-weight: normal; text-decoration: underline; }

@@ -53,3 +53,10 @@
     .wrapper-adres-salon { padding: 0; }
     .map-title { margin-right: 20px; margin-left: 20px;}
 }
+@media screen and (max-width: 575px) {
+  .map-and-list-salon {
+      height: 544px;
+  }
+
+
+}

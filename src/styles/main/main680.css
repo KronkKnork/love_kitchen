@@ -250,6 +250,58 @@ top: 24.3%;
     }
     .kitchen-test .text-sm-right { min-height: 190px; }
 
+  .footer .logo-1 {
+      width: 170px;
+      height: auto;
+  }
+  .footer.container-fluid {
+      padding: 30px 6px 80px; }
+      .factory {
+          font-size: 12px;
+          line-height: 14px;
+          padding: 26px 0 0;
+          letter-spacing: -0.01em;
+      }
+
+  .footer .call-di { display: block; }
+  .footer .header-phone {
+    margin-left: 0px; margin-top: 33px;}
+  .footer .ph-number {
+    font-size: 24px;
+    line-height: 29px;
+    padding: 0px 0 0 14px;
+    }
+    .footer .call-free {
+        padding: 0px 0 0 0px;
+    }
+    .h2-title.sc-title {
+        font-size: 24px;
+        line-height: 29px;
+    }
+.reviews {     margin-top: 55px; }
+.reviews.container-fluid { padding: 0 20px; }
+.reviews-soc { margin-top: 81px; }
+.reviews .h2-title.sc-title  { width: 230px; }
+.reviews #compact-down  { display: none; }
+.base-service.container-fluid {
+    margin-top: 234px; }
+.base-service .title-free-steps  {font-size: 36px;
+line-height: 43px; transform: translateY(-63px); }
+.wrapper-offers .wrapper-card-img {
+    bottom: 0; position: relative; }
+    .container-fluid#offers {
+      padding: 0 20px 0 20px;
+}
+.wrapper-offers .wrapper-card-items {
+    min-height: 337px; margin-top: 10px;
+}
+
+
+
+
+
+    /* }
+} */
 
 
 }
