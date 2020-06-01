@@ -2,7 +2,7 @@ $(window).ready(function(){
     var clickHandler = ("ontouchstart" in window ? "touchend" : "click");
 
     var prompt = $('.main-prompt');
-    $('.updeted-plus-wrapper').mouseenter(function(){
+    $('.updeted-plus-in').hover(function(){
         var cp = $(this).offset(),
             left = cp.left + 80,
             top = cp.top + 13;
@@ -16,7 +16,7 @@ $(window).ready(function(){
             prompt.fadeIn().offset({top: top, left: left});
         }
         $('.updeted-dark-img').fadeIn(500);
-    }).mouseout(function(){
+    }, function(){
         $('.updeted-dark-img').fadeOut(500);
         prompt.fadeOut();
     });
