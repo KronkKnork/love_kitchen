@@ -4,7 +4,11 @@
       -ms-flex: 0 0 50%;
       flex: 0 0 50%;
       max-width: 50%;
+      padding-right: 20px !important;
+      padding-left: 20px !important;
   }
+  .wrapper-i-love .row, #offers .row { margin-right: -20px; margin-left: -20px; }
+
   .reviews .col-lg-9 {
       -webkit-box-flex: 0;
       -ms-flex: 0 0 100%;
@@ -24,4 +28,15 @@
       flex: 0 0 50%;
       max-width: 50%;
   }
+  .wrapper-i-love .col-md-3 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+      padding-right: 20px !important;
+      padding-left: 20px !important;
+  }
+
+
+
 }

@@ -154,4 +154,6 @@
     .popup-test .btn-popup-test {
         margin-bottom: 100px;
     }
+
+    .container-fluid#offers { padding: 0 40px; }
 }

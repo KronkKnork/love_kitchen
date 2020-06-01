@@ -246,7 +246,7 @@ top: 24.3%;
     .updeted-main-title div { white-space: normal; }
     .updeted-main-title div span { white-space: pre; }
     .logo-2 { margin-left: 20px; }
-    .header-phone { 
+    .header-phone {
     width: 280px; }
     .updeted-main-text  { margin-bottom: 40px;}
     .wrapper-20 {height: 400px; }
@@ -294,9 +294,7 @@ top: 24.3%;
 line-height: 43px; transform: translateY(-63px); }
 .wrapper-offers .wrapper-card-img {
     bottom: 0; position: relative; }
-    .container-fluid#offers {
-      padding: 0 20px 0 20px;
-}
+.container-fluid#offers { padding: 0 40px; }
 .wrapper-offers .wrapper-card-items {
     margin-top: 10px;
 }
