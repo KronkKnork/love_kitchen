@@ -16,7 +16,7 @@ $(window).ready(function(){
         $('.popup').fadeOut(500);
         $('.overlay_popup').fadeIn(500);            
         $('#popup-record-salon').fadeIn(500);
-        document.body.style.overflowY = $('#popup-record-salon').is(':hidden') ? "scroll" : "hidden";
+        //document.body.style.overflowY = $('#popup-record-salon').is(':hidden') ? "scroll" : "hidden";
     });
 
 
