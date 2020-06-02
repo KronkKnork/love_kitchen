@@ -106,11 +106,16 @@
     }
     .popup-plus-img {
         height: 300px;
+        width: 118%;
     }
     .popup-plus-img img {
+        width: 100%;
         height: 315px;
         left: -70px;
         top: -25px
+    }
+    .popup-plus-img-light { 
+        width: 118%;
     }
     .popup-text-plus {
         margin-top: 55px;

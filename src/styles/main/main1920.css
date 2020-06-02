@@ -308,6 +308,7 @@ a:hover { color: #787878; }
     text-transform: uppercase;
     color: #787878;
 }
+.input-popup:focus::placeholder { color: transparent; }
 .popup-free-design__name {
     margin-right: 20px;
 }
@@ -426,7 +427,7 @@ a:hover { color: #787878; }
     position: absolute;
     z-index: 10;
     width: 980px;
-    height: 230px;
+    height: 50%;
     left: -120px;
     top: -34px;
     border-radius: 20px 0px 0px 0px;

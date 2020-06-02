@@ -276,6 +276,17 @@ padding-bottom: 2px;
 .actived-img {
     opacity: 1;
 }
+.actived-img-hover {
+    opacity: 1;
+}
+.desctop-text-gallery {
+    display: block;
+    margin-top: 60px;
+    padding-left: 0;
+}
+.mobile-text-gallery {
+    display: none;
+}
 .i-love-info-p { margin-top: 30px; }
 #popup-i-love p {
     font-size: 16px;
@@ -309,6 +320,9 @@ padding-bottom: 2px;
     }
     .card-btn {
         height: 300px;
+    }
+    .wrapper-popup-i-img-mimi {
+        height: 80px;
     }
 }
 
@@ -391,7 +405,6 @@ padding-bottom: 2px;
     }
 
 }
-
 @media screen and (max-width: 1089px) {
     .wrapper-i-love {
         margin-top: 231px;
@@ -402,9 +415,14 @@ padding-bottom: 2px;
         font-size: 18px;
         line-height: 22px;
     }
-
-
-
+}
+@media screen and (max-width: 992px) {
+    .desctop-text-gallery {
+        display: none;
+    }
+    .mobile-text-gallery {
+        display: block;
+    }
 }
 @media screen and (max-width: 800px) {
     .wrapper-i-love {
