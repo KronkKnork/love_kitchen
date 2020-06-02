@@ -23,7 +23,7 @@
 #popup-experts { display: none; position: fixed; width: 100%; z-index: 12; }
 .title-popup-expert { margin-bottom: 60px; }
 .wrapper-img-expert-popup-main { width: 100%; border-radius: 20px; margin-top: 60px; }
-.wrapper-img-expert-popup-main img { max-width: 100%; border-radius: 20px; }
+.wrapper-img-expert-popup-main img { width: 100%; border-radius: 20px; }
 .title-mini-popup-expert { font-weight: bold; font-size: 36px; line-height: 43px; margin-top: 60px; }
 .body-text-popup-expert { margin-top: 40px; }
 .name-expert-popup { font-weight: bold; }
@@ -55,11 +55,12 @@
     .body-text-popup-expert { margin-bottom: 80px; }
     .title-mini-popup-expert { font-size: 30px; line-height: 36px; }
     .wrapper-img-expert-popup-main { margin-top: 40px; }
-    .name-expert-popup { font-size: 18px; line-height: 22px; }
-    .profession-expert-popup { font-size: 12px; line-height: 14px; }
-    .get-advice-title { font-size: 30px; line-height: 36px; margin-top: 40px; }
+    .wrapper-about-expert-popup { margin-top: 10px; }
+    .name-expert-popup { padding-left: 0; font-size: 18px; line-height: 22px; }
+    .profession-expert-popup { padding-left: 0; font-size: 12px; line-height: 14px; }
+    .get-advice-title { font-size: 36px; line-height: 43px; margin-top: 40px; }
     .get-advice-text { font-size: 18px; line-height: 20px; }
-    .title-popup-expert { padding-top: 0; }
+    .title-popup-expert { padding-top: 0; font-size: 48px; line-height: 58px; }
 }
 @media screen and ( max-width: 1509px ) {
     .body-text-popup-expert { margin-bottom: 60px; }
@@ -98,6 +99,13 @@
     .wrapper-btn-expert { height: 140px; margin-top: 40px; }
     .btn-expert { font-size: 12px; line-height: 14px; margin-top: 20px; }
 }
+@media screen and ( max-width: 1700px ) {
+    .title-card-expert { font-size: 20px; line-height: 24px; }
+    .name-expert-popup { padding-left: 10px; font-size: 18px; line-height: 22px; }
+    .profession-expert-popup { padding-left: 10px; font-size: 12px; line-height: 14px; }
+}
 @media screen and ( max-width: 1599px ) {
     .title-card-expert { font-size: 20px; line-height: 24px; }
+    .name-expert-popup { padding-left: 15px; font-size: 18px; line-height: 22px; }
+    .profession-expert-popup { padding-left: 15px; font-size: 12px; line-height: 14px; }
 }

@@ -164,15 +164,15 @@
     transition: .5s; text-decoration: none;
 }
 .i-love-a .main-text-a span {
-     border-bottom: 2px dashed #787878;
+     border-bottom: 2px dashed #787878; transition: .5s;
 }
 
 .i-love-a .main-text-a:hover {
-    color: #000;
+    color: #B22432;
     transition: .5s;
 }
 .i-love-a .main-text-a:hover span {
-    color: #000;
+    color: #B22432;
     /* text-decoration: none;
     transition: .5s; */
     border: none;

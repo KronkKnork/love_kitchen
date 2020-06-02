@@ -26,7 +26,7 @@ body {
 }
 a { text-decoration: underline; color: #787878; font-weight: bold; }
 .main-text-a { cursor: pointer; text-decoration: underline; color: #787878; font-weight: bold; transition: .5s; }
-.main-text-a:hover { color: #000; text-decoration: none; }
+.main-text-a:hover { color: #B22432; text-decoration: none; }
 a:hover { color: #787878; }
 
 /*.wrapper-main {
