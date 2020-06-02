@@ -114,17 +114,17 @@
     }
 /*popup-plus*/
     .popup-plus-img {
-        width: 660px;
+        width:105%;
         height: 440px;
     }
     .popup-plus-img img {
-        width: 660px;
+        width: 105%;
         height: 400px;
         left: -10px;
         top: -45px
     }
     .popup-plus-img-light {
-        width: 660px;
+        width: 105%;
         height: 400px;
         left: -10px;
         top: -45px;

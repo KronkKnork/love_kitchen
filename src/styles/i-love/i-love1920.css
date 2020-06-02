@@ -534,6 +534,8 @@ padding-bottom: 2px;
     }
     .wrapper-card-img {
         bottom: -90px;
+        width: 100%;
+        padding-right: 30px;
     }
     .wrapper-card-gradient {
         bottom: -90px;

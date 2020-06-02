@@ -93,8 +93,9 @@
 }
 .text-for-slaider, .text-for-slaider-designer, .text-for-slaider-name-client { display: none; }
 .story-user { position: absolute; top: 120px; }
-.user-text-story { font-weight: bold; font-size: 36px; line-height: 43px; }
-.story-client { position: absolute; bottom: 80px; font-size: 16px; line-height: 19px; color: #787878; }
+.user-text-story { margin-bottom: 20px; font-weight: bold; font-size: 36px; line-height: 43px; }
+.name-designer-story { line-height: 55px; }
+.story-client { position: absolute; bottom: 80px; font-size: 16px; line-height: 40px; color: #787878; }
 .name-client { font-weight: bold; font-size: 20px; line-height: 24px; color: #000000; }
 .text-mobile-story { display: none; }
 #zuck-modal-content .story-viewer .head .right .time { display: none; }

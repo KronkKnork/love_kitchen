@@ -131,17 +131,17 @@
         width: 95%;
     }
     .popup-plus-img {
-        width: 310px;
+        width: 101%;
         height: 300px;
     }
     .popup-plus-img img {
-        width: 340px;
+        width: 101%;
         height: 250px;
         left: -10px;
         top: -45px
     }
     .popup-plus-img-light {
-        width: 660px;
+        width: 101%;
         height: 420px;
         left: -10px;
         top: -45px;

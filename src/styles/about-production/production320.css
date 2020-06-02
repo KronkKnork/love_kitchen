@@ -21,4 +21,7 @@
     .product-block-4 .product-block-2-2 {
         margin-bottom: 100px;
     }
+    #popup-about-production .container-fluid {
+        margin: 0;
+    }
 }
