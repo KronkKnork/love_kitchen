@@ -164,15 +164,15 @@
     transition: .5s; text-decoration: none;
 }
 .i-love-a .main-text-a span {
-     border-bottom: 2px dashed #787878;
+     border-bottom: 2px dashed #787878; transition: .5s;
 }
 
 .i-love-a .main-text-a:hover {
-    color: #000;
+    color: #B22432;
     transition: .5s;
 }
 .i-love-a .main-text-a:hover span {
-    color: #000;
+    color: #B22432;
     /* text-decoration: none;
     transition: .5s; */
     border: none;
@@ -276,6 +276,17 @@ padding-bottom: 2px;
 .actived-img {
     opacity: 1;
 }
+.actived-img-hover {
+    opacity: 1;
+}
+.desctop-text-gallery {
+    display: block;
+    margin-top: 60px;
+    padding-left: 0;
+}
+.mobile-text-gallery {
+    display: none;
+}
 .i-love-info-p { margin-top: 30px; }
 #popup-i-love p {
     font-size: 16px;
@@ -300,7 +311,7 @@ padding-bottom: 2px;
 }
 
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1599px) {
     .wrapper-i-love {
         margin-top: 143px;
     }
@@ -310,9 +321,12 @@ padding-bottom: 2px;
     .card-btn {
         height: 300px;
     }
+    .wrapper-popup-i-img-mimi {
+        height: 80px;
+    }
 }
 
-@media screen and (max-width: 1410px) {
+@media screen and (max-width: 1409px) {
     .wrapper-i-love {
         margin-top: 143px;
     }
@@ -391,8 +405,7 @@ padding-bottom: 2px;
     }
 
 }
-
-@media screen and (max-width: 1090px) {
+@media screen and (max-width: 1089px) {
     .wrapper-i-love {
         margin-top: 231px;
     }
@@ -402,9 +415,14 @@ padding-bottom: 2px;
         font-size: 18px;
         line-height: 22px;
     }
-
-
-
+}
+@media screen and (max-width: 992px) {
+    .desctop-text-gallery {
+        display: none;
+    }
+    .mobile-text-gallery {
+        display: block;
+    }
 }
 @media screen and (max-width: 800px) {
     .wrapper-i-love {
@@ -451,7 +469,7 @@ padding-bottom: 2px;
         height: 357px;
     }
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 679px) {
     /*popup i love*/
     .wrapper-popup-i-text {
         padding-top: 25px;
@@ -478,6 +496,7 @@ padding-bottom: 2px;
         font-size: 16px;
         line-height: 19px;
         margin-top: 30px;
+        margin-bottom: 100px;
     }
     .wrapper-popup-i-img-mimi {
         height: 50px;
@@ -487,7 +506,7 @@ padding-bottom: 2px;
         margin-top: 19px;
         margin-right: 32px; }
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 679px) {
     .wrapper-i-love {
         margin-top: 363px;
     }
@@ -517,7 +536,7 @@ padding-bottom: 2px;
         min-height: 200px;
     }
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 679px) {
     .wrapper-i-love {
         margin-top: 363px;
     }
@@ -533,6 +552,8 @@ padding-bottom: 2px;
     }
     .wrapper-card-img {
         bottom: -90px;
+        width: 100%;
+        padding-right: 30px;
     }
     .wrapper-card-gradient {
         bottom: -90px;

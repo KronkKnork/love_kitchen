@@ -1,4 +1,4 @@
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 679px) {
 
     .wrapper-main {
         height: 799px;
@@ -122,7 +122,7 @@
         width: 233px;
         font-size: 12px;
         line-height: 14px;
-        margin-bottom: 20px;
+        margin-bottom: 100px;
     }
 /*popup-plus*/
     .popup-text-plus {
@@ -131,17 +131,17 @@
         width: 95%;
     }
     .popup-plus-img {
-        width: 310px;
+        width: 101%;
         height: 300px;
     }
     .popup-plus-img img {
-        width: 340px;
+        width: 101%;
         height: 250px;
         left: -10px;
         top: -45px
     }
     .popup-plus-img-light {
-        width: 660px;
+        width: 101%;
         height: 420px;
         left: -10px;
         top: -45px;
@@ -151,5 +151,9 @@
     }
 
 
+    .popup-test .btn-popup-test {
+        margin-bottom: 100px;
+    }
 
+    .container-fluid#offers { padding: 0 40px; }
 }

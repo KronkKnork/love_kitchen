@@ -2,7 +2,7 @@ $(window).ready(function(){
     var clickHandler = ("ontouchstart" in window ? "touchend" : "click");
 
     var prompt = $('.main-prompt');
-    $('.updeted-plus-wrapper').mouseenter(function(){
+    $('.updeted-plus-in').hover(function(){
         var cp = $(this).offset(),
             left = cp.left + 80,
             top = cp.top + 13;
@@ -16,7 +16,7 @@ $(window).ready(function(){
             prompt.fadeIn().offset({top: top, left: left});
         }
         $('.updeted-dark-img').fadeIn(500);
-    }).mouseout(function(){
+    }, function(){
         $('.updeted-dark-img').fadeOut(500);
         prompt.fadeOut();
     });
@@ -89,25 +89,25 @@ $(window).ready(function(){
         console.log('jsdgjsdkfjklds');
         document.body.style.overflowY = $('.wrapper-circle-plus-1').is(':hidden') ? "scroll" : "hidden";
     });
-    $('.wrapper-circle-plus-2').on(clickHandler, function(){
+    $('.wrapper-circle-plus-2, #plus-2').on(clickHandler, function(){
         $('.popup').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
         $('#popup-plus-2').fadeIn(500);
         document.body.style.overflowY = $('.wrapper-circle-plus-2').is(':hidden') ? "scroll" : "hidden";
     });
-    $('.wrapper-circle-plus-3').on(clickHandler, function(){
+    $('.wrapper-circle-plus-3, #plus-3').on(clickHandler, function(){
         //$('.popup').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
         $('#popup-plus-3').fadeIn(500);
         document.body.style.overflowY = $('.wrapper-circle-plus-3').is(':hidden') ? "scroll" : "hidden";
     });
-    $('.wrapper-circle-plus-4').on(clickHandler, function(){
+    $('.wrapper-circle-plus-4, #plus-4').on(clickHandler, function(){
         $('.popup').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
         $('#popup-plus-4').fadeIn(500);
         document.body.style.overflowY = $('wrapper-circle-plus-4').is(':hidden') ? "scroll" : "hidden";
     });
-    $('.wrapper-circle-plus-5').on(clickHandler, function(){
+    $('.wrapper-circle-plus-5, #plus-5').on(clickHandler, function(){
         $('.popup').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
         $('#popup-plus-5').fadeIn(500);

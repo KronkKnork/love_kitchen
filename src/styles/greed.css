@@ -1,0 +1,57 @@
+@media (min-width: 681px) and (max-width: 1089px) {
+  #offers .col-lg-3 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+      padding-right: 20px !important;
+      padding-left: 20px !important;
+  }
+  .wrapper-i-love .row, #offers .row { margin-right: -20px; margin-left: -20px; }
+
+  .reviews .col-lg-9 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+
+}
+  #updeted-main-modul .col-md-3 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+  }
+  #updeted-main-modul .col-md-9 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+  }
+
+
+  .wrapper-i-love .col-md-3 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+      padding-right: 20px !important;
+      padding-left: 20px !important;
+  }
+
+
+
+}
+
+@media (max-width: 680px) {
+
+  #updeted-main-modul .col-sm-6,
+ .wrapper-i-love .col-sm-6,
+ #offers .col-sm-6 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+
+}

@@ -1,4 +1,4 @@
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1599px) {
     .wrapper-main {
         height: 600px;
     }
@@ -160,7 +160,6 @@
     }
     .popup-plus-img-light {
         width: 720px;
-        height: 400px;
         left: -70px;
         top: -25px;
     }
@@ -262,5 +261,8 @@
           margin-bottom: 8px;
       }
 
-
+      .main-header .call-free {
+          font-size: 10px;
+          line-height: 12px;
+      }
 }

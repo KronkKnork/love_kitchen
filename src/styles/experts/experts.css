@@ -23,7 +23,7 @@
 #popup-experts { display: none; position: fixed; width: 100%; z-index: 12; }
 .title-popup-expert { margin-bottom: 60px; }
 .wrapper-img-expert-popup-main { width: 100%; border-radius: 20px; margin-top: 60px; }
-.wrapper-img-expert-popup-main img { max-width: 100%; border-radius: 20px; }
+.wrapper-img-expert-popup-main img { width: 100%; border-radius: 20px; }
 .title-mini-popup-expert { font-weight: bold; font-size: 36px; line-height: 43px; margin-top: 60px; }
 .body-text-popup-expert { margin-top: 40px; }
 .name-expert-popup { font-weight: bold; }
@@ -47,27 +47,33 @@
     .name-expert { font-size: 18px; line-height: 22px; }
     .profession-expert { font-size: 12px; line-height: 14px; margin-top: 10px; }
     .photo-expert img { width: 60px; height: 60px; }
-    .title-card-expert { font-size: 20px; line-height: 24px; }
+    .title-card-expert { font-size: 24px; line-height: 29px; }
     .btn-expert { font-size: 14px; line-height: 17px; }
     .expert { max-height: 60px; }
     /*popup-experts*/
     .text-top-popup-experts, .body-text-popup-expert { font-size: 18px; line-height: 22px; }
+    .body-text-popup-expert { margin-bottom: 80px; }
     .title-mini-popup-expert { font-size: 30px; line-height: 36px; }
     .wrapper-img-expert-popup-main { margin-top: 40px; }
-    .name-expert-popup { font-size: 18px; line-height: 22px; }
-    .profession-expert-popup { font-size: 12px; line-height: 14px; }
-    .get-advice-title { font-size: 30px; line-height: 36px; margin-top: 40px; }
+    .wrapper-about-expert-popup { margin-top: 10px; }
+    .name-expert-popup { padding-left: 0; font-size: 18px; line-height: 22px; }
+    .profession-expert-popup { padding-left: 0; font-size: 12px; line-height: 14px; }
+    .get-advice-title { font-size: 36px; line-height: 43px; margin-top: 40px; }
     .get-advice-text { font-size: 18px; line-height: 20px; }
-    .title-popup-expert { padding-top: 0; }
+    .title-popup-expert { padding-top: 0; font-size: 48px; line-height: 58px; }
 }
-@media screen and ( max-width: 1090px) {
+@media screen and ( max-width: 1509px ) {
+    .body-text-popup-expert { margin-bottom: 60px; }
+}
+@media screen and ( max-width: 1089px) {
     .profession-expert { margin-top: 8px; }
     .btn-expert { font-size: 14px; line-height: 17px; }
     .wrapper-name-expert { width: 50%; }
     /*popup-experts*/
     .about-expert { margin-top: 40px; }
+    .title-card-expert { font-size: 20px; line-height: 24px; }
 }
-@media screen and ( max-width: 1090px) {
+@media screen and ( max-width: 1089px) {
     .title-experts { font-size: 36px; line-height: 43px; }
     .title-mini-experts { margin-top: 30px; font-size: 16px; line-height: 19px; }
     .cards-expert { margin-top: 40px; }
@@ -86,10 +92,20 @@
     .get-advice-text { margin-top: 30px; font-size: 16px; line-height: 19px; }
     .body-text-popup-expert { margin-top: 30px; }
 }
-@media screen and ( max-width: 680px) {
+@media screen and ( max-width: 679px) {
     .card-expert { margin-top: 40px; }
     .cards-expert { margin-top: 0; }
     .wrapper-name-expert { width: 58%; }
     .wrapper-btn-expert { height: 140px; margin-top: 40px; }
     .btn-expert { font-size: 12px; line-height: 14px; margin-top: 20px; }
+}
+@media screen and ( max-width: 1700px ) {
+    .title-card-expert { font-size: 20px; line-height: 24px; }
+    .name-expert-popup { padding-left: 10px; font-size: 18px; line-height: 22px; }
+    .profession-expert-popup { padding-left: 10px; font-size: 12px; line-height: 14px; }
+}
+@media screen and ( max-width: 1599px ) {
+    .title-card-expert { font-size: 20px; line-height: 24px; }
+    .name-expert-popup { padding-left: 15px; font-size: 18px; line-height: 22px; }
+    .profession-expert-popup { padding-left: 15px; font-size: 12px; line-height: 14px; }
 }

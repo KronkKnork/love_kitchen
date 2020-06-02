@@ -27,14 +27,14 @@
 
 .free-steps .row.col-12 { padding: 0; }
 
-@media screen and (max-width: 1410px) {
+@media screen and (max-width: 1409px) {
     .title-free-steps { font-size: 52px; line-height: 62px; transform: translateY(-90px);}
     .big-number { font-size: 160px; line-height: 192px; }
     .text-step { font-size: 20px; line-height: 24px; left: 40px; top: 119px;}
     .btn-text-free-steps  { margin-top: 10px; margin-bottom: 100px;}
     .text-free-steps { font-size: 18px; line-height: 22px; }
 }
-@media screen and (max-width: 1090px) {
+@media screen and (max-width: 1089px) {
     .title-free-steps { transform: translateY(-153px);}
     .text-free-steps { transform: translateY(-173px);     margin-bottom: 57px;}
     .wrapper-text-free-steps { transform: translateY(-170px); }
@@ -47,7 +47,7 @@
     .ts-2, .ts-3 { width: 188px; }
     .free-steps-num { margin-bottom: -60px; }
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 679px) {
     .title-free-steps { font-size: 36px; line-height: 43px; transform: translateY(-40px);}
     .text-free-steps { font-size: 16px; line-height: 19px; transform: translateY(-65px);}
     .big-number { font-size: 120px; line-height: 144px; }
@@ -56,7 +56,7 @@
     .text-step { font-size: 20px; line-height: 24px; left: 40px; top: 85px; }
     .btn-text-free-steps { padding-top: 31px; margin-bottom: 120px; margin-top: 90px; font-size: 12px; line-height: 14px; }
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 679px) {
     .title-free-steps { transform: translateY(-105px);}
     .text-free-steps { transform: translateY(-115px);}
     .wrapper-text-free-steps { transform: translateY(-95px); margin-top:40px; }

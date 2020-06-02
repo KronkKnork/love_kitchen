@@ -47,7 +47,7 @@
 .btn-about-production:hover {
     color: #fff;
     background: #D21F39;
-    border: none;
+    border: 1px dashed #D21F39;
 }
 
 /*popup-about-production*/
@@ -130,7 +130,7 @@
 .poopup-about-product-img img {
     border-radius: 20px;
     height: 500px;
-    max-width: 100%;
+    width: 100%;
 }
 .play-stop-video img{
     border-radius: 0;

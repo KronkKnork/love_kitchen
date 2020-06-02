@@ -65,6 +65,11 @@ $(window).ready(function(){
         var src = $(this).find('img').attr('src');
         $('#i-love-gallery').attr('src', src);
     })
+    $('.wrapper-popup-i-img-mimi').hover(function(){
+        $(this).addClass('actived-img-hover');
+    }, function(){
+        $(this).removeClass('actived-img-hover');
+    })
     /** open popup kitchen i love */
     $('.popup-i-btn-1').on(clickHandler, function(){
         $('.popup:not(#popup-i-love)').fadeOut(500);

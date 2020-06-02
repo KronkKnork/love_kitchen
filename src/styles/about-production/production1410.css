@@ -1,4 +1,4 @@
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1599px) {
 
 /*production*/
     .wrapper-about-production {
@@ -34,6 +34,7 @@
     }
     .poopup-about-product-img video {
         height: 400px;
+        width: 100%;
     }
     .product-block {
         min-height: 400px;
