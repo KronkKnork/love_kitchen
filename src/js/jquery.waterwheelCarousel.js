@@ -139,6 +139,7 @@ $(document).ready(function() {
             finalPoint=event.changedTouches[0];
             var xAbs = Math.abs(initialPoint.pageX - finalPoint.pageX);
             var yAbs = Math.abs(initialPoint.pageY - finalPoint.pageY);
+            //console.log(xAbs,yAbs);
             if (xAbs > 20 || yAbs > 20) {
                 if (xAbs > yAbs) {
                     if (finalPoint.pageX < initialPoint.pageX){
