@@ -160,7 +160,6 @@
     }
     .popup-plus-img-light {
         width: 720px;
-        height: 400px;
         left: -70px;
         top: -25px;
     }
@@ -267,12 +266,3 @@
           line-height: 12px;
       }
 }
-
-
-font-family: -apple-system;
-font-family: BlinkMacSystemFont;
-font-family: "Segoe UI";
-font-family: Roboto;
-font-family: "Helvetica Neue";
-font-family: Arial;
-font-family: sans-serif;Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";

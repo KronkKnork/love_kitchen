@@ -61,6 +61,7 @@
     .get-advice-title { font-size: 36px; line-height: 43px; margin-top: 40px; }
     .get-advice-text { font-size: 18px; line-height: 20px; }
     .title-popup-expert { padding-top: 0; font-size: 48px; line-height: 58px; }
+    .title-card-expert { font-size: 24px; line-height: 29px; }
 }
 @media screen and ( max-width: 1509px ) {
     .body-text-popup-expert { margin-bottom: 60px; }
@@ -100,11 +101,12 @@
     .btn-expert { font-size: 12px; line-height: 14px; margin-top: 20px; }
 }
 @media screen and ( max-width: 1700px ) {
-    .title-card-expert { font-size: 20px; line-height: 24px; }
     .name-expert-popup { padding-left: 10px; font-size: 18px; line-height: 22px; }
     .profession-expert-popup { padding-left: 10px; font-size: 12px; line-height: 14px; }
 }
 @media screen and ( max-width: 1599px ) {
+    .title-card-expert { font-size: 20px; line-height: 24px; }
+    .get-advice-title { font-size: 30px; line-height: 36px; }
     .title-card-expert { font-size: 20px; line-height: 24px; }
     .name-expert-popup { padding-left: 15px; font-size: 18px; line-height: 22px; }
     .profession-expert-popup { padding-left: 15px; font-size: 12px; line-height: 14px; }

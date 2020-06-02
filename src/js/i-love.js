@@ -47,14 +47,14 @@ $(window).ready(function(){
         $('.popup').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
         $('#popup-get-katalog-kitchen').fadeIn(500);
-        document.body.style.overflowY = $('#popup-get-katalog-kitchen').is(':hidden') ? "scroll" : "hidden";
+       // document.body.style.overflowY = $('#popup-get-katalog-kitchen').is(':hidden') ? "scroll" : "hidden";
     });
 
     /**open popup i love */
     $('.js-open-popup-i-love').on(clickHandler, function(){
         $('.popup:not(#popup-i-love)').fadeOut(500);
         $('#popup-i-love').fadeIn(500);
-        document.body.style.overflowY = $('.popup-i-love').is(':hidden') ? "scroll" : "hidden";
+        //document.body.style.overflowY = $('.popup-i-love').is(':hidden') ? "scroll" : "hidden";
     });
 
     /**gallery swipe photo */
@@ -75,13 +75,13 @@ $(window).ready(function(){
         $('.popup:not(#popup-i-love)').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
         $('#popup-it-kitchen').fadeIn(500);
-        document.body.style.overflowY = $('#popup-it-kitchen').is(':hidden') ? "scroll" : "hidden";
+        //document.body.style.overflowY = $('#popup-it-kitchen').is(':hidden') ? "scroll" : "hidden";
     });
     /** open popup free-steps*/
     $('.btn-text-free-steps').on(clickHandler, function(){
         $('.popup:not(#popup-i-love)').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
         $('#popup-free-steps').fadeIn(500);
-        document.body.style.overflowY = $('#popup-free-steps').is(':hidden') ? "scroll" : "hidden";
+        //document.body.style.overflowY = $('#popup-free-steps').is(':hidden') ? "scroll" : "hidden";
     });
 })

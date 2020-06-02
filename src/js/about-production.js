@@ -27,7 +27,7 @@ $(window).ready(function(){
     $('.btn-about-production').on(clickHandler, function(){
         $('.popup').fadeOut(500);
         $('#popup-about-production').fadeIn(500);
-        document.body.style.overflowY = $('#popup-about-production').is(':hidden') ? "scroll" : "hidden";
+        //document.body.style.overflowY = $('#popup-about-production').is(':hidden') ? "scroll" : "hidden";
     });
 
 /** Замена картинки на более маенькую */
