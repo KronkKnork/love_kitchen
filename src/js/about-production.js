@@ -1,4 +1,4 @@
-$(window).ready(function(){ 
+$(window).ready(function(){
     var clickHandler = ("ontouchstart" in window ? "touchend" : "click");
 
 /**play/pause видеоплеер */
@@ -24,10 +24,15 @@ $(window).ready(function(){
     });
 
 /**клик узнать о производстве*/
-    $('.btn-about-production').on(clickHandler, function(){
+    $('.js-btn-about-production').on(clickHandler, function(){
         $('.popup').fadeOut(500);
         $('#popup-about-production').fadeIn(500);
         //document.body.style.overflowY = $('#popup-about-production').is(':hidden') ? "scroll" : "hidden";
+    });
+
+    $('.js-show-more-offers').on('click', function(){
+        $(this).addClass('dn');
+        $('.offer-next').removeClass('dn-320');
     });
 
 /** Замена картинки на более маенькую */

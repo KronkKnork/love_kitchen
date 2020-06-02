@@ -156,8 +156,7 @@
 
     .container-fluid#offers { padding: 0 40px; }
     .col-12.col-sm-6.col-md-3.updeted-main-left-block { padding-left: 0; }
-    .header-but.close {
-        right: 20px; }
+    /* .header-but.close { right: 20px; } */
   .wrapper-20 {height: 400px; }
   .container-fluid#offers {
       padding: 0 20px;
@@ -166,7 +165,7 @@
       padding-right: 0;
   }
   #offers  .wrapper-card-items { min-height: auto !important; margin-bottom: 40px; }
-
+  .show-more-offers { display: block; }
   .base-service.container-fluid {
       margin-top: 115px;
   }
@@ -178,5 +177,8 @@
 /* .menu-popup.main-header .col-sm-6 { left: 20px; } */
 .menu-popup.main-header .col-sm-6 { position: absolute; top: 20px; left: 0; }
 .main-header.menu-popup .header-nav { left: 0; }
+.wrapper-offers #compact-down {
+    top: 0; }
+  .dn-320 { display: none; }
 
 }

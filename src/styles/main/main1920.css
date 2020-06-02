@@ -519,7 +519,7 @@ line-height: 29px; }
 .call-di {     padding: 6px 0; }
 .ph-number {     padding: 0 11px 0 14px;}
 .call-free { font-size: 12px; line-height: 14px; max-width: 74px; color: #787878; }
-.dn { display: none; }
+.dn { display: none !important; }
 .footer.container-fluid { font-size: 14px; line-height: 17px;  padding-top: 73px; padding-bottom: 80px; }
 .factory { font-size: 16px; line-height: 19px; padding: 38px 0 0; }
 .footer .logo { position: relative; top: 6px; }
@@ -573,7 +573,8 @@ line-height: 29px; }
     top: 10px; }
 #compact-i-love-down {     top: -8px;
     position: relative; }
-.wrapper-offers #compact-down {     top: -83px;
+.wrapper-offers #compact-down {   
+  top: -83px;
     position: relative; }
 /* .card-price {
 
@@ -645,6 +646,8 @@ max-width: 94%; margin-top: 80px; color: #fff; font-weight: bold; font-size: 16p
     bottom: 79px; }
 #plus-4 { left: 75%; top: 19%; }
 #plus-5 { right: 16.4%; bottom: 160px; }
+
+.show-more-offers { display: none; font-size: 0; }
 
 @media screen and (max-width: 1750px) {
 	#plus-4 { left: 80%; }

@@ -241,6 +241,8 @@ top: 24.3%;
 
 /* @media screen and (max-width: 679px) { */
 @media screen and (max-width: 1089px) {
+  .wrapper-offers #compact-down {
+      top: 0; }
   .bsi-2 { padding-right: 0 !important; }
   .bsi-3 { padding-left: 0 !important; }
   .bs-items.wrapper-card-items.bsi-2, .bs-items.wrapper-card-items.bsi-3 { margin-bottom: 123px; }
