@@ -180,5 +180,9 @@
 .wrapper-offers #compact-down {
     top: 0; }
   .dn-320 { display: none; }
+  .bs-items.wrapper-card-items.bsi-2, .bs-items.wrapper-card-items.bsi-3 {
+      margin-top: 40px;
+  }
+.base-service .title-free-steps { max-width: 320px; }
 
 }
