@@ -28,6 +28,8 @@
       flex: 0 0 50%;
       max-width: 50%;
   }
+
+
   .wrapper-i-love .col-md-3 {
       -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
@@ -38,5 +40,18 @@
   }
 
 
+
+}
+
+@media (max-width: 680px) {
+
+  #updeted-main-modul .col-sm-6,
+ .wrapper-i-love .col-sm-6,
+ #offers .col-sm-6 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
 
 }
