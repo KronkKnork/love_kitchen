@@ -1,4 +1,4 @@
-@media (min-width: 681px) and (max-width: 1089px) {
+@media (min-width: 680px) and (max-width: 1089px) {
   #offers .col-lg-3 {
       -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
@@ -39,11 +39,35 @@
       padding-left: 20px !important;
   }
 
+  .base-service .col-lg-6 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+  .base-service .col-lg-3 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+  }
 
+  .footer .col-lg-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+  .footer .col-lg-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
 
 }
 
-@media (max-width: 680px) {
+@media (max-width: 679px) {
 
   #updeted-main-modul .col-sm-6,
  .wrapper-i-love .col-sm-6,

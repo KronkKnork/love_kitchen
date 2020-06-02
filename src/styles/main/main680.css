@@ -236,6 +236,9 @@ top: 24.3%;
 
 }
 
+@media screen and (min-width: 680px) and (max-width: 1089px) {
+  #offers .row .wrapper-card-items:nth-child(odd) { top: 55px; }
+}
 
 /* @media screen and (max-width: 679px) { */
 @media screen and (max-width: 1089px) {
