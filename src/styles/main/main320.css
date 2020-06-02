@@ -156,4 +156,28 @@
     }
 
     .container-fluid#offers { padding: 0 40px; }
+    .col-12.col-sm-6.col-md-3.updeted-main-left-block { padding-left: 0; }
+    .header-but.close {
+        right: 20px; }
+  .wrapper-20 {height: 400px; }
+  .container-fluid#offers {
+      padding: 0 20px;
+  }
+  #offers .wrapper-card-img {
+      padding-right: 0;
+  }
+  #offers  .wrapper-card-items { min-height: auto !important; margin-bottom: 40px; }
+
+  .base-service.container-fluid {
+      margin-top: 115px;
+  }
+  .free-steps .row.col-12 {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+.free-steps { padding-bottom: 40px; }
+/* .menu-popup.main-header .col-sm-6 { left: 20px; } */
+.menu-popup.main-header .col-sm-6 { position: absolute; top: 20px; left: 0; }
+.main-header.menu-popup .header-nav { left: 0; }
+
 }

@@ -242,14 +242,27 @@ top: 24.3%;
   .bsi-2 { padding-right: 0 !important; }
   .bsi-3 { padding-left: 0 !important; }
   .bs-items.wrapper-card-items.bsi-2, .bs-items.wrapper-card-items.bsi-3 { margin-bottom: 123px; }
+  .bs-items.wrapper-card-items.bsi-2 { padding-right: 20px !important; }
+  .bs-items.wrapper-card-items.bsi-3 { padding-left: 20px !important; }
 
     .updeted-main-title div { white-space: normal; }
     .updeted-main-title div span { white-space: pre; }
     .logo-2 { margin-left: 20px; }
+    .menu-popup .logo-2 { margin-left: 0; }
+    .main-header.menu-popup .region-mobile { position: absolute;
+    top: 20px;
+    left: 145px; }
+    .main-header.menu-popup .call-free {
+        color: #fff;
+    }
+    .free-steps .row.col-12.title-free-steps, .free-steps .row.col-12.text-free-steps {
+        padding: 0 40px !important;
+    }
+
     .header-phone {
     width: 280px; }
     .updeted-main-text  { margin-bottom: 40px;}
-    .wrapper-20 {height: 400px; }
+
     .kitchen-test {
         margin-top: 0px;
     }
@@ -298,7 +311,7 @@ line-height: 43px; transform: translateY(-63px); }
 .wrapper-offers .wrapper-card-items {
     margin-top: 10px;
 }
-
+/* .menu-popup.main-header .col-sm-6 { position: absolute; top: 20px; left: 40px; } */
 
 
 

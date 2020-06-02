@@ -26,7 +26,7 @@ body {
 }
 a { text-decoration: underline; color: #787878; font-weight: bold; }
 .main-text-a { cursor: pointer; text-decoration: underline; color: #787878; font-weight: bold; transition: .5s; }
-.main-text-a:hover { color: #B22432; text-decoration: none; }
+.main-text-a:hover { color: #000; text-decoration: none; }
 a:hover { color: #787878; }
 
 /*.wrapper-main {
@@ -308,7 +308,6 @@ a:hover { color: #787878; }
     text-transform: uppercase;
     color: #787878;
 }
-.input-popup:focus::placeholder { color: transparent; }
 .popup-free-design__name {
     margin-right: 20px;
 }
@@ -427,7 +426,7 @@ a:hover { color: #787878; }
     position: absolute;
     z-index: 10;
     width: 980px;
-    height: 50%;
+    height: 230px;
     left: -120px;
     top: -34px;
     border-radius: 20px 0px 0px 0px;
@@ -613,7 +612,7 @@ border-radius: 5px; -webkit-box-flex: 0;
 .test-progress-line span.active { background: #FDB73B; }
 
 /*updeted first-modul main*/
-#updeted-main-modul { margin-right: 0; padding-right: 0; overflow-x: hidden; }
+#updeted-main-modul { margin-right: 0; padding-right: 0; }
 .updeted-main-title { z-index: 2; margin-top: 118px; font-weight: bold; font-size: 72px; line-height: 86px;
     padding: 0; white-space: pre; }
 /* .updeted-main-title span { display: block; } */
@@ -680,7 +679,7 @@ line-height: 12px; }
 @media screen and (max-width: 1089px) {
 	.header-but { display: block; position: absolute; top: 23px; right: 25px; width: 24px; height: 18px; }
 	.header-but { background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAASCAYAAABB7B6eAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAnSURBVHgB7dMBDQAABEVBXxYJRFeQFDazdx1OFdm2yA04TzwAHjwYIu0GH15trPMAAAAASUVORK5CYII=') no-repeat; }
-	.header-but.close { height: 24px; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACSSURBVHgBxZbbCYAwDEWDk7j/jyM4giM4yjWF6ofSNE8s5Kdwz+kj0BKAg+vkWilpNBbXzrVRhyNL0uEP8zMRkQxZGZIpIyJRZz0Sc8YScO9aE0T03iRAGC6B0uCCJA8+kJjgC/09So+o9JJL21QDcEssQbPEsyp1JnKu0ywQ7wxUvmaiJAs+ktyCFPhL0r5D+wWLUvUXm9XzTQAAAABJRU5ErkJggg==') no-repeat; }
+	.header-but.close { right: 40px; height: 24px; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACSSURBVHgBxZbbCYAwDEWDk7j/jyM4giM4yjWF6ofSNE8s5Kdwz+kj0BKAg+vkWilpNBbXzrVRhyNL0uEP8zMRkQxZGZIpIyJRZz0Sc8YScO9aE0T03iRAGC6B0uCCJA8+kJjgC/09So+o9JJL21QDcEssQbPEsyp1JnKu0ywQ7wxUvmaiJAs+ktyCFPhL0r5D+wWLUvUXm9XzTQAAAABJRU5ErkJggg==') no-repeat; }
 
 	.main-header { padding: 20px 0; }
 	.header-nav.mhn, .call-di { display: none; }
@@ -701,7 +700,7 @@ line-height: 12px; }
 	min-height: 100vh;
     z-index: 20;
     top: 0;
-    left: 0px; padding-left: 40px; }
+    left: 0px; padding-left: 40px; padding-right: 40px; }
 		.ph-number {
 			font-size: 18px;
 			line-height: 22px; padding: 5px 0 0 15px;
@@ -713,9 +712,12 @@ line-height: 12px; }
 	.region { padding: 3px 0 13px; width: 105px; }
 
 	.main-header.menu-popup  { padding: }
-	.main-header.menu-popup .header-nav {     position: absolute; top: 91px;     left: -115px; min-width: 291px; }
+	.main-header.menu-popup .header-nav {     position: absolute; top: 91px;     left: 0; min-width: 291px; left: -100%;
+    min-width: 291px;
+    padding-left: 20px;
+    box-sizing: content-box;  }
 	.main-header.menu-popup .region {      position: relative;   left: -6px; }
-	.main-header.menu-popup .ph-number  {  padding-left: 60px; }
+	.main-header.menu-popup .ph-number  {  padding-left: 20px; }
 	.menu-item { font-size: 30px; line-height: 36px; display: block; color: #fff; text-transform: capitalize; padding-bottom: 20px; }
 	.menu-item:hover { color: #fff; }
 }
@@ -734,8 +736,10 @@ line-height: 12px; }
 	    flex: 0 0 60%;
 	    max-width: 60%; }
 	.main-header.menu-popup { padding-left: 20px; }
-	.main-header.menu-popup .header-nav { left: -118px; }
-
+	/* .main-header.menu-popup .header-nav { left: -118px; } */
+	.main-header.menu-popup .header-nav {
+	    /* left: -101px; */
+	}
 	.main-header.menu-popup .col-sm-6 + .col-sm-3 { display: block; flex: none; position: absolute;
     top: 382px; left: 3px; font-size: 14px; line-height: 17px; min-width: 286px; }
 	.main-header.menu-popup .call-di { display: block; }
@@ -743,5 +747,3 @@ line-height: 12px; }
 
 
 }
-
-/* .container-fluid { background-color: green; } */

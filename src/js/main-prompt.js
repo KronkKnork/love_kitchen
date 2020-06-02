@@ -50,7 +50,7 @@ $(window).ready(function(){
         $('.popup:not(#popup-i-love)').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
         $('#popup-free-design').fadeIn(500);
-        document.body.style.overflowY = $('#popup-free-design').is(':hidden') ? "scroll" : "hidden";
+        // document.body.style.overflowY = $('#popup-free-design').is(':hidden') ? "scroll" : "hidden";
     });
 
 /**клик для записи в салон*/
