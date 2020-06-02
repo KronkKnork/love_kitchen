@@ -1,5 +1,4 @@
 $(window).ready(function(){ 
-    var clickHandler = ("ontouchstart" in window ? "touchend" : "click");
 
     $('#stories div:last-child').fadeTo(0, 0);
     $('#stories div:nth-last-child(2)').fadeTo(0, 0);
@@ -8,7 +7,7 @@ $(window).ready(function(){
         $(elem).append($('<div class="text-mobile-story">'+ $('.text-for-slaider div').eq(i).text() +'</div>'));
     })
 
-    $('.header-menu .menu-item').on(clickHandler, function(event) {
+    $('.header-menu .menu-item').on('click', function(event) {
         // отменяем стандартное действие
         $('.menu-popup').fadeOut(500);
         event.preventDefault();
