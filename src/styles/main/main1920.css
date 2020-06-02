@@ -613,7 +613,7 @@ border-radius: 5px; -webkit-box-flex: 0;
 .test-progress-line span.active { background: #FDB73B; }
 
 /*updeted first-modul main*/
-#updeted-main-modul { margin-right: 0; padding-right: 0; }
+#updeted-main-modul { margin-right: 0; padding-right: 0; overflow-x: hidden; }
 .updeted-main-title { z-index: 2; margin-top: 118px; font-weight: bold; font-size: 72px; line-height: 86px;
     padding: 0; white-space: pre; }
 /* .updeted-main-title span { display: block; } */
@@ -743,3 +743,5 @@ line-height: 12px; }
 
 
 }
+
+/* .container-fluid { background-color: green; } */

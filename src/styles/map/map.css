@@ -1,4 +1,4 @@
-.section-map { margin: 0; }
+.section-map { margin: 0; overflow-x: hidden; }
 .map-title { font-weight: bold; font-size: 60px; line-height: 72px; margin-bottom: 80px; margin-left: 80px; margin-right: 80px;}
 .wrapper-map-img { height: 700px; width: 1470px; position: absolute; right: 460px; left: 0;}
 .wrapper-map-img img:first-child { max-height: 100%; }

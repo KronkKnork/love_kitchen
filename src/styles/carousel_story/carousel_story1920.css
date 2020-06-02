@@ -127,7 +127,7 @@
     .story-client { display: none; }
     .next { display: none; }
     .story { box-shadow: none; }
-    .no-padding-story { padding-left: 0; padding-right: 0; }
+    .no-padding-story { padding-left: 0; padding-right: 0; overflow-x: hidden; }
     #stories { transform: translateX(-33.1%); width: 225%;}
     .left-block-dn { display: none; }
     .story-user { display: none; }
