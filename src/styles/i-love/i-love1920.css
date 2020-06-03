@@ -336,13 +336,16 @@ padding-bottom: 2px;
         margin-top: 28px;
     }
     .wrapper-card-img-3 {
-        bottom: -10px;
+        bottom: 80px;
+    }
+    .wrapper-card-gradient-3 {
+        bottom: 80px;
     }
     .wrapper-card-items {
         min-height: 440px;
     }
     .wrapper-card-btn {
-        width: 98%;
+        max-width: 410px;
     }
     .card-btn {
         height: 300px;
@@ -372,11 +375,20 @@ padding-bottom: 2px;
         bottom: 72px;
     }
     .wrapper-card-text-3 {
-        bottom: -47px;
+        bottom: 40px;
     }
     .card-btn span {
         font-size: 14px;
         line-height: 17px;
+    }
+    .wrapper-card-img-4 { 
+        bottom: 140px;
+    }
+    .wrapper-card-gradient-4 {
+        bottom: 140px;
+    }
+    .wrapper-card-text-4 {
+        bottom: 100px;
     }
     /*popup i love*/
     .wrapper-popup-i-text {
@@ -431,6 +443,9 @@ padding-bottom: 2px;
     }
 }
 @media screen and (max-width: 767px) {
+    .wrapper-cards {
+        margin-top: 100px;
+    }
     .wrapper-card-items {
         min-height: 380px;
     }
@@ -445,33 +460,56 @@ padding-bottom: 2px;
         font-size: 24px;
         line-height: 29px;
     }
-    .wrapper-card-img-3 {
-        bottom: 50px;
-    }
-    .wrapper-card-gradient-3 {
-        bottom: 50px;
-    }
     .wrapper-card-text {
         bottom: 10px;
     }
+}
+@media (min-width: 680px) and (max-width: 767px) {
+    .wrapper-card-items-1 .wrapper-card-img {
+        bottom: 90px;
+    }
+    .wrapper-card-items-1 .wrapper-card-gradient {
+        bottom: 90px;
+    }
+    .wrapper-card-items-1 .wrapper-card-text {
+        bottom: 55px;
+    }
+    .wrapper-card-img-2 {
+        bottom: 130px;
+    }
+    .wrapper-card-gradient-2 {
+        bottom: 130px;
+    }
     .wrapper-card-text-2 {
-        bottom: 75px;
+        bottom: 95px;
     }
     .wrapper-card-img-4 {
-        bottom: 100px;
+        bottom: 130px;
     }
     .wrapper-card-gradient-4 {
-        bottom: 80px;
+        bottom: 130px;
     }
     .wrapper-card-text-4 {
-        bottom: 65px;
+        bottom: 95px;
     }
     .card-btn {
         height: 357px;
     }
+    .wrapper-card-img-3 {
+        bottom: 80px;
+    }
+    .wrapper-card-gradient-3 {
+        bottom: 80px;
+    }
+    .wrapper-card-text-3 {
+        bottom: 45px;
+    }
 }
 @media screen and (max-width: 679px) {
     /*popup i love*/
+    .wrapper-cards {
+        margin-top: 40px;
+    }
     .wrapper-popup-i-text {
         padding-top: 25px;
     }
@@ -560,13 +598,14 @@ padding-bottom: 2px;
         bottom: -90px;
     }
     .wrapper-card-text {
-        bottom: -115px;
+        bottom: -125px;
     }
     .card-btn {
         height: 140px;
     }
     .wrapper-card-btn {
-        width: 280px;
+        width: 92.5%;
+        max-width: 624px;
     }
     .wrapper-card-items-1 {
         min-height: 200px;

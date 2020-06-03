@@ -194,3 +194,4 @@
     margin-top: 80px;
     min-height: 500px;
 }
+#poopup-about-product-img { object-fit: cover; }
