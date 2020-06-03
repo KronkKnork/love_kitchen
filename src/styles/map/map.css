@@ -41,7 +41,7 @@
     .fixed-list-salon div div:nth-child(2) { padding: 40px 30px; }
     .fixed-list-salon div div:nth-child(1) { padding: 40px 30px; }
     .list-salon { height: 500px; }
-    .map-title { margin-left: 20px; font-size: 36px; line-height: 43px;}
+    .map-title { margin-left: 40px; font-size: 36px; line-height: 43px;}
     .list-salon { margin-right: 40px; }
 }
 @media screen and (max-width: 679px) {
@@ -54,7 +54,7 @@
     .fixed-list-salon div div:nth-child(2) { padding: 30px 20px; }
     .list-salon { height: 400px; }
     .wrapper-adres-salon { padding: 0; }
-    .map-title { margin-right: 20px; margin-left: 20px;}
+    .map-title { margin-right: 20px; margin-left: 20px; }
 }
 @media screen and (max-width: 679px) {
   .map-and-list-salon {

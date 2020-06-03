@@ -165,6 +165,10 @@
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
+  .free-steps .row.col-12.text-free-steps {
+      padding: 0 20px !important;
+  }
+
 .free-steps { padding-bottom: 40px; }
 /* .menu-popup.main-header .col-sm-6 { left: 20px; } */
 .menu-popup.main-header .col-sm-6 { position: absolute; top: 20px; left: 0; }
@@ -246,7 +250,9 @@ line-height: 14px; }
 .bs-items.wrapper-card-items.bsi-3 {
     padding-left: 0 !important;
 }
-
+.reviews.container-fluid {
+    padding: 0 10px;
+}
 
 .test-progress-line {width: 83%;
 }
