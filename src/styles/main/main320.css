@@ -159,9 +159,8 @@
   }
   #offers  .wrapper-card-items { min-height: auto !important; margin-bottom: 40px; }
   .show-more-offers { display: block; }
-  .base-service.container-fluid {
-      margin-top: 115px;
-  }
+  .base-service.container-fluid { margin-top: 115px; }
+  .header-but { right: 20px; }
   .free-steps .row.col-12 {
     padding-right: 15px !important;
     padding-left: 15px !important;
