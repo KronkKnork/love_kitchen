@@ -111,12 +111,33 @@
         margin: 40px 0 0 0 ;
         max-height: 300px;
     }
-    .popup-about-production-close {
+    /* .popup-about-production-close {
         background: url("../../img/close_popup1090.jpg") no-repeat;
     }
     .popup-about-production-close:hover {
         background: url("../../img/close_popup_hover1090.jpg") no-repeat;
-    }
+    } */
+    .popup-about-production-close  {
+         width: 24px;
+         height: 24px;
+         background: none;
+         margin-top: 23px;
+
+     }
+     .popup-about-production-close:hover { background: none; }
+     .popup-about-production-close:hover:before , .popup-about-production-close:hover:after {
+       background-color: #B22432;
+     }
+     .popup-about-production-close:before,  .popup-about-production-close:after {
+        position: absolute; left: 12px; content: ' ';
+        height: 33px; width: 2px; background-color: #FDB73B; top: -3px;
+     }
+      .popup-about-production-close:before {
+     transform: rotate(45deg);
+     }
+      .popup-about-production-close:after {
+     transform: rotate(-45deg);
+     }
     .popup-about-production-text {
         margin-top: 20px;
         font-size: 16px;

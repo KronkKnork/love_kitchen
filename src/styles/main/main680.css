@@ -160,7 +160,8 @@
     .bs-items.wrapper-card-items .card-item { min-height: 180px;}
     .bsi-2 .card-title, .bsi-3 .card-title { font-size: 20px; line-height: 24px; }
     .base-service .title-free-steps { transform: translateY(-22px); }
-    .bs-sub-title { padding: 0px 0 3px 0; transform: translateY(8px); }
+    /* .bs-sub-title { padding: 0px 0 3px 0; transform: translateY(8px); } */
+    .bs-sub-title { padding: 0px 0 59px 0; transform: translateY(54px); }
     .base-service .wrapper-card-text { top: 163px; margin-left: 30px; }
     .no-gutters-mobile {
       margin-right: 0;
@@ -233,6 +234,11 @@ top: 24.3%;
   .region-desc { display: none; }
 
 
+  .wrapper-offers .wrapper-card-items {
+      min-height: 331px;
+  }
+
+
 }
 
 @media screen and (min-width: 680px) and (max-width: 1089px) {
@@ -302,13 +308,13 @@ top: 24.3%;
     }
 .reviews {     margin-top: 55px; }
 .reviews.container-fluid { padding: 0 20px; }
-.reviews-soc { margin-top: 81px; }
+/* .reviews-soc { margin-top: 81px; } */
 .reviews .h2-title.sc-title  { width: 230px; }
 .reviews #compact-down  { display: none; }
-.base-service.container-fluid {
-    margin-top: 234px; }
+/* .base-service.container-fluid {
+    margin-top: 234px; } */
 .base-service .title-free-steps  {font-size: 36px;
-line-height: 43px; transform: translateY(-63px); }
+line-height: 43px; /*transform: translateY(-63px);*/ }
 .wrapper-offers .wrapper-card-img {
     bottom: 0; position: relative; }
 .container-fluid#offers { padding: 0 40px; }
@@ -316,6 +322,35 @@ line-height: 43px; transform: translateY(-63px); }
     margin-top: 10px;
 }
 /* .menu-popup.main-header .col-sm-6 { position: absolute; top: 20px; left: 40px; } */
+.reviews .h2-title.sc-title {
+    width: auto;
+}
+.reviews-soc {
+    /* margin-top: 81px; */
+}
+.popup-close  {
+     width: 24px;
+     height: 24px;
+     background: none;
+     margin-top: 23px;
+
+ }
+ .popup-close:hover { background: none; }
+ .popup-close:hover:before , .popup-close:hover:after {
+   background-color: #B22432;
+ }
+ .popup-close:before,  .popup-close:after {
+    position: absolute; left: 12px; content: ' ';
+    height: 33px; width: 2px; background-color: #FDB73B; top: -3px;
+ }
+  .popup-close:before {
+ transform: rotate(45deg);
+ }
+  .popup-close:after {
+ transform: rotate(-45deg);
+ }
+
+
 
 
 

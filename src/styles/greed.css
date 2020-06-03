@@ -14,6 +14,7 @@
       -ms-flex: 0 0 100%;
       flex: 0 0 100%;
       width: 100%;
+    max-width: 100%;
 }
 .free-steps-num .col-sm-6 {
   -webkit-box-flex: 0;

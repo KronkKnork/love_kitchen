@@ -619,7 +619,7 @@ border-radius: 5px; -webkit-box-flex: 0;
 	    height: 4px;
 	}
 
- .tpl span.active { background-color: #FDB73B; }
+ .tpl span.active { background-colo: #FDB73B; }
 
 /*updeted first-modul main*/
 #updeted-main-modul { margin-right: 0; padding-right: 0; overflow-x: hidden; }

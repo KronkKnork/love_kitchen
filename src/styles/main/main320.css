@@ -149,7 +149,7 @@
 
     .container-fluid#offers { padding: 0 40px; }
     .col-12.col-sm-6.col-md-3.updeted-main-left-block { padding-left: 0; }
-    /* .header-but.close { right: 20px; } */
+    .header-but.close { right: 20px; }
   .wrapper-20 {height: 400px; }
   .container-fluid#offers {
       padding: 0 20px;
@@ -178,20 +178,22 @@
   }
 .base-service .title-free-steps { max-width: 320px; }
 
-  .popup-test .popup-close  {
-  /* position: absolute;
-  right: 32px;
-  top: 32px; */
-  width: 24px;
-  height: 24px;
-  background: none;
-  margin-top: 13px;
+ .popup-close  {
+      margin-top: 13px;
 
   }
-  .popup-test  .popup-close:hover:before , .popup-test .popup-close:hover:after{
-  background-color: #B22432;
+ /* .popup-close  {
+      width: 24px;
+      height: 24px;
+      background: none;
+      margin-top: 23px;
+
   }
-  .popup-test .popup-close:before, .popup-test .popup-close:after {
+  .popup-close:hover { background: none; }
+  .popup-close:hover:before , .popup-test .popup-close:hover:after{
+    background-color: #B22432;
+  }
+  .popup-close:before, .popup-test .popup-close:after {
   position: absolute;
   left: 12px;
       content: ' ';
@@ -199,12 +201,12 @@
   width: 2px;
   background-color: #FDB73B; top: -3px;
   }
-  .popup-test .popup-close:before {
+   .popup-close:before {
   transform: rotate(45deg);
   }
-  .popup-test .popup-close:after {
+   .popup-close:after {
   transform: rotate(-45deg);
-  }
+  } */
   .popup-test { font-size: 16px; line-height: 19px; }
   .popup-test.popup .container-fluid { margin: 0; }
   .popup-test .row {
