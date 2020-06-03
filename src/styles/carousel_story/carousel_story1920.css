@@ -53,6 +53,7 @@
     height: 100%;
 }
 .next {
+    cursor: pointer;
     position: absolute;
     bottom: 290;
     right: 0;
@@ -101,6 +102,7 @@
 #zuck-modal-content .story-viewer .head .right .time { display: none; }
 
 @media screen and (max-width: 1599px) {
+    .next img { width: 32px; height: 60px; }
     .main-name-story { font-size: 52px; line-height: 62px; margin-bottom: 60px; margin-top: 120px; }
     .carousel-text { width: 650px; }
     .story-user { top: 100px; }
