@@ -22,6 +22,11 @@
         width: 100%;
         padding: 23px 30px;
     }
+
+    .new-number-20 { font-size: 180px; line-height: 216px;  }
+    .new-day-20 { left: 118px; top: 163px; font-size: 36px; line-height: 43px; }
+    .new-text-20 { margin-top: 40px; font-size: 16px; line-height: 19px; }
+    .new-btn-20 { margin-top: 30px; font-size: 12px; line-height: 14px; padding: 32px 0 32px 0; }
 }
 
 @media screen and (max-width: 1089px) {

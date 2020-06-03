@@ -184,5 +184,6 @@
       margin-top: 40px;
   }
 .base-service .title-free-steps { max-width: 320px; }
+.updeted-main-title div { white-space: normal; }
 
 }
