@@ -101,7 +101,7 @@
         line-height: 17px;
     }
     .popup-label-checkbox {
-        width: 233px;
+        width: 233px;     margin-bottom: 0;
     }
     .fake-checkbox {
         width: 30px;
@@ -110,13 +110,6 @@
     .fake-checkbox::before {
         width: 14px;
         height: 14px;
-    }
-    .text-checkbox {
-        width: 210px;
-        margin-left: 10px;
-        font-size: 13px;
-        line-height: 16px;
-        top: 9;
     }
     .btn-popup-free-design {
         width: 233px;
@@ -151,7 +144,7 @@
 
 
     .popup-test .btn-popup-test {
-        margin-bottom: 100px;
+        margin-bottom: 0;
     }
 
     .container-fluid#offers { padding: 0 40px; }
@@ -184,5 +177,76 @@
       margin-top: 40px;
   }
 .base-service .title-free-steps { max-width: 320px; }
+
+  .popup-test .popup-close  {
+  /* position: absolute;
+  right: 32px;
+  top: 32px; */
+  width: 24px;
+  height: 24px;
+  background: none;
+  margin-top: 13px;
+
+  }
+  .popup-test  .popup-close:hover:before , .popup-test .popup-close:hover:after{
+  background-color: #B22432;
+  }
+  .popup-test .popup-close:before, .popup-test .popup-close:after {
+  position: absolute;
+  left: 12px;
+      content: ' ';
+      height: 33px;
+  width: 2px;
+  background-color: #FDB73B; top: -3px;
+  }
+  .popup-test .popup-close:before {
+  transform: rotate(45deg);
+  }
+  .popup-test .popup-close:after {
+  transform: rotate(-45deg);
+  }
+  .popup-test { font-size: 16px; line-height: 19px; }
+  .popup-test.popup .container-fluid { margin: 0; }
+  .popup-test .row {
+      padding: 56px 0;
+  }
+  .test-about-kitchen {
+      margin-top: 30px;
+  }
+  .popup-test .row {
+      padding: 56px 0 0px;
+  }
+  .popup-test .row:last-child { padding-top: 48px; }
+  .popup-test .popup-title {
+    font-size: 36px;
+    line-height: 43px;
+    margin-top: 55px;
+  }
+  .question-step { font-size: 14px;
+line-height: 17px;     margin-top: 19px;}
+.text-checkbox {
+    width: 210px;
+        margin-left: 20px;
+    font-size: 16px;
+    line-height: 19px;
+}
+.question-step +.row {     padding: 10px 0 0px; }
+.fake-checkbox {
+    width: 40px;
+    height: 40px; }
+    .popup-test .btn-popup-test {
+        width: 83%;
+        margin-top: 40px; font-size: 12px;
+line-height: 14px; }
+.bs-items.wrapper-card-items.bsi-2 {
+    padding-right: 0 !important;
+}
+.bs-items.wrapper-card-items.bsi-3 {
+    padding-left: 0 !important;
+}
+
+
+.test-progress-line {width: 83%;
+}
 
 }
