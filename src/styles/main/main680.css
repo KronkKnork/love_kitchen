@@ -308,7 +308,7 @@ top: 24.3%;
     }
 .reviews {     margin-top: 55px; }
 .reviews.container-fluid { padding: 0 20px; }
-/* .reviews-soc { margin-top: 81px; } */
+.reviews-soc { margin-top: 40px; }
 .reviews .h2-title.sc-title  { width: 230px; }
 .reviews #compact-down  { display: none; }
 /* .base-service.container-fluid {

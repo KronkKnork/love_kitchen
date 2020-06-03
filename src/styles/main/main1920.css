@@ -13,6 +13,7 @@
 	font-style: normal;
 }
 
+html { overflow-x: hidden; }
 
 body {
     font-family: "PFBeauSansPro";
@@ -618,7 +619,7 @@ border-radius: 5px; -webkit-box-flex: 0;
 	border-radius: 5px; display: block;
 	    height: 4px;
 	}
-
+	.execute-test { color: #787878; }
  .tpl span.active { background-colo: #FDB73B; }
 
 /*updeted first-modul main*/
