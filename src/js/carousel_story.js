@@ -7,6 +7,16 @@ $(window).ready(function(){
         $(elem).append($('<div class="text-mobile-story">'+ $('.text-for-slaider div').eq(i).text() +'</div>'));
     })
 
+    //$('.slick-current').css({'left':'100px'})
+   /* var left = $('.story').css('left').replace('px','');
+    var minusLeft = left - 40;
+    $('div .story').each(function(index, element){
+        var storyLeft = $(this).css('left').replace('px','');
+        console.log(storyLeft);
+        storyLeft = storyLeft - minusLeft;
+        //console.log(storyLeft);
+        console.log($(this).css({'left':storyLeft}));
+    })*/
     $('.header-menu .menu-item').on('click', function(event) {
         // отменяем стандартное действие
         $('.menu-popup').fadeOut(500);
