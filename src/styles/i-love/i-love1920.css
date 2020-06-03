@@ -631,3 +631,22 @@ padding-bottom: 2px;
         margin-top: 40px;
     }
 }
+
+@media (min-width: 1600px) and (max-width: 1920px) {
+    #compact .wrapper-card-img-3 {
+        bottom: 30px;
+        max-height: 460px;
+    }
+    #compact .wrapper-card-img-5 {
+        bottom: 90px;
+    }
+}
+@media (min-width: 1410px) and (max-width: 1600px) {
+    #compact .wrapper-card-img-3 {
+        bottom: 30px;
+        max-height: 310px;
+    }
+    #compact .wrapper-card-img-5 {
+        bottom: 90px;
+    }
+}

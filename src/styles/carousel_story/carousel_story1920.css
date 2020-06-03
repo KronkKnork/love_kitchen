@@ -172,3 +172,6 @@
     #zuck-modal-content .story-viewer .title-in-story { top: 57px; left: 20px; }
     #zuck-modal-content .story-viewer .slides-pointers { width: 87.5%; left: 20px; right: 20px; }
 }
+@media screen and (max-width: 374px) {
+    #stories { transform: translateX(-75px); width: 250%;}
+}
