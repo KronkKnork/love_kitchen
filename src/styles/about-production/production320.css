@@ -24,4 +24,8 @@
     #popup-about-production .container-fluid {
         margin: 0;
     }
+
+    .new-wrapper-20 { margin-top: 50px; }
+    .new-wrapper-number-day { min-height: 216px; }
+    .new-text-20 { margin-top: 30px; }
 }

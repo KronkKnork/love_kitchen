@@ -59,4 +59,9 @@
         margin-right: 0px;
     }
 
+    .new-number-20 { font-size: 220px; line-height: 264px;  }
+    .new-day-20 { left: 144px; top: 207px; font-size: 52px; line-height: 62px; }
+    .new-text-20 { margin-top: 80px; font-size: 18px; line-height: 22px; }
+    .new-btn-20 { margin-top: 40px; font-size: 14px; line-height: 17px; padding-top: 32px; }
+
 }

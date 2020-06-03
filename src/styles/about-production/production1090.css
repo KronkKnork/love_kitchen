@@ -52,4 +52,8 @@
     .product-block .quote {
         margin-top: 30px;
     }
+
+    .new-number-20 { font-size: 160px; line-height: 192px;  }
+    .new-day-20 { left: 115px; top: 156px; font-size: 36px; line-height: 43px; }
+    .new-btn-20 { padding: 23px 62px 23px 63px; }
 }

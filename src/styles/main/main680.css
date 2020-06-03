@@ -255,7 +255,7 @@ top: 24.3%;
   .bs-items.wrapper-card-items.bsi-2 { padding-right: 20px !important; }
   .bs-items.wrapper-card-items.bsi-3 { padding-left: 20px !important; }
 
-    .updeted-main-title div { white-space: normal; }
+    .updeted-main-title div { white-space: nowrap; }
     .updeted-main-title div span { white-space: pre; }
     .logo-2 { margin-left: 20px; }
     .menu-popup .logo-2 { margin-left: 0; }

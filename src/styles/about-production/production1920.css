@@ -195,3 +195,10 @@
     min-height: 500px;
 }
 #poopup-about-product-img { object-fit: cover; }
+
+.new-wrapper-20 { margin-top: 40px; }
+.new-number-20 { position: absolute; font-weight: bold; font-size: 260px; line-height: 312px; color: #FDB73B; }
+.new-day-20 { position: absolute; left: 180px; top: 241px; font-weight: bold; font-size: 60px; line-height: 72px; color: #FDB73B; }
+.new-text-20 { margin-top: 100px; font-weight: 300; font-size: 20px; line-height: 24px; }
+.new-btn-20 { margin-top: 60px; background: #FFFFFF; border: 1px dashed #505050; box-sizing: border-box; border-radius: 40px; height: 80px; cursor: pointer; text-align: center; font-weight: bold; font-size: 16px; line-height: 19px; text-transform: uppercase; padding-top: 31px; transition: .5s linear; }
+.new-btn-20:hover { color: #fff; background: #D21F39; border: 1px dashed #D21F39; }
