@@ -25,7 +25,8 @@
         margin: 0;
     }
 
-    .new-wrapper-20 { margin-top: 50px; }
+    .new-wrapper-20 { margin-top: 50px; margin-left: 0; margin-right: 0; }
+    .new-wrapper-20 div:not(.new-btn-20) { padding: 0; }
     .new-wrapper-number-day { min-height: 216px; }
     .new-text-20 { margin-top: 30px; }
 }
