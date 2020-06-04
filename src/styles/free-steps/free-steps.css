@@ -99,9 +99,9 @@
 @media screen and (max-width: 500px) {
 .btn-text-free-steps { width: 109%; }
  }
-/* @media screen and (max-width: 490px) {
-.btn-text-free-steps { width: 109%; }
- } */
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 420px) {
+.btn-text-free-steps { width: 110%; }
+ }
+@media screen and (max-width: 360px) {
 .btn-text-free-steps { width: 113%; }
  }
