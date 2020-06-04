@@ -3,7 +3,7 @@
     min-height: 50px;
 }
 .wrapper-i-love {
-    margin-top: 141px;
+    margin-top: 140px;
 }
 /* .i-love-title {
     font-weight: bold;
@@ -314,7 +314,7 @@ padding-bottom: 2px;
 
 @media screen and (max-width: 1599px) {
     .wrapper-i-love {
-        margin-top: 143px;
+        margin-top: 120px;
     }
     .wrapper-card-items {
         min-height: 480px;
@@ -328,9 +328,6 @@ padding-bottom: 2px;
 }
 
 @media screen and (max-width: 1409px) {
-    .wrapper-i-love {
-        margin-top: 143px;
-    }
 
     .wrapper-cards {
         margin-top: 28px;
@@ -420,7 +417,7 @@ padding-bottom: 2px;
 }
 @media screen and (max-width: 1089px) {
     .wrapper-i-love {
-        margin-top: 231px;
+        margin-top: 80px;
     }
     .i-love-cards-a {
         margin-top: 22px;
