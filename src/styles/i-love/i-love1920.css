@@ -650,3 +650,7 @@ padding-bottom: 2px;
         bottom: 90px;
     }
 }
+@media (min-width: 680px) and (max-width: 1090px) {
+    #compact-i-love .card-item { height: 1px; margin-right: 40px; }
+    #compact-i-love .wrapper-card-img { left: 20px; right: 20px; }
+}
