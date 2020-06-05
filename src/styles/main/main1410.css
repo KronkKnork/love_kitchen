@@ -267,7 +267,7 @@
       }
       .reviews-soc a {
       padding: 17px 19px; }
-
+      .wrapper-flamp { max-height: 680px; }
       #popup-free-design .popup-label-checkbox { display: inline-block; }
       #popup-offer-2 .popup-label-checkbox { display: inline-block; }
 }
