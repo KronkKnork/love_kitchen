@@ -539,6 +539,17 @@ line-height: 29px; }
 .wrapper-card-items:hover { transform: translateY(-20px); }
 .wrapper-card-items:hover .card-title { color: #D21F39; }
 .footer .col-sm-3:first-child { padding-left: 0; }
+
+.base-service .wrapper-card-items:hover .card-item .wrapper-card-text .card-title{
+    color: #D21F39; transform: translateY(-20px);
+}
+.base-service .wrapper-card-items:hover .card-item .wrapper-card-text,
+.base-service .wrapper-card-items:hover .card-item .wrapper-card-text  .card-price{
+    transform: translateY(-20px);
+}
+
+
+
 /* .bs-items.wrapper-card-items:hover .card-item  {
     transform: translateY(-20px);
 } */

@@ -43,9 +43,11 @@
 #catalogue .wrapper-card-items:hover .card-item .wrapper-card-text {
     transform: translateY(-20px);
 }
+#offers .wrapper-card-items:hover .card-item .wrapper-card-img,
 #catalogue .wrapper-card-items:hover .card-item .wrapper-card-img {
     transform: translateY(-20px);
 }
+#offers .wrapper-card-items:hover .card-item .wrapper-card-img img,
 #catalogue .wrapper-card-items:hover .card-item .wrapper-card-img img{
     transform: scale(1.1);
     /*overflow: hidden; */
@@ -378,7 +380,7 @@ padding-bottom: 2px;
         font-size: 14px;
         line-height: 17px;
     }
-    .wrapper-card-img-4 { 
+    .wrapper-card-img-4 {
         bottom: 140px;
     }
     .wrapper-card-gradient-4 {

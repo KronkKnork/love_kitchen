@@ -270,4 +270,13 @@
 
       #popup-free-design .popup-label-checkbox { display: inline-block; }
       #popup-offer-2 .popup-label-checkbox { display: inline-block; }
+
+
+}
+
+@media screen (min-width: 1487px) and (max-width: 1599px) {
+
+  .wrapper-offers #compact-down {
+    top: -41px;
+
 }
