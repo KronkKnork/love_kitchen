@@ -273,7 +273,7 @@ top: 24.3%;
     .header-phone { width: 280px; }
     .updeted-main-text  { margin-bottom: 40px; padding-right: 20px; }
 
-    .header-but { right: 40px; }
+    .header-but { right: 40px; cursor: pointer; }
 
     .kitchen-test {
         margin-top: 0px;
@@ -374,4 +374,13 @@ line-height: 43px; /*transform: translateY(-63px);*/ }
     .btn-popup-record-salon {
         width: 90%;
     }
+    #popup-free-design .popup-label-checkbox { width: 90%; }
+    #popup-free-design .popup-free-design__name { width: 90%; }
+    #popup-free-design .popup-free-design__phone { width: 90%; }
+    #popup-free-design .popup-free-design__email { width: 90%; }
+    
+    #popup-offer-2 .popup-label-checkbox { width: 90%; }
+    #popup-offer-2 .popup-free-design__name { width: 90%; }
+    #popup-offer-2 .popup-free-design__phone { width: 90%; }
+    #popup-offer-2 .popup-free-design__email { width: 90%; }
 }

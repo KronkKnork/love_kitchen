@@ -37,16 +37,16 @@
 .card-title {
     transition: .5s;
 }
-.wrapper-card-items:hover .card-item .wrapper-card-text .card-title{
+#catalogue .wrapper-card-items:hover .card-item .wrapper-card-text .card-title{
     color: #D21F39;
 }
-.wrapper-card-items:hover .card-item .wrapper-card-text {
+#catalogue .wrapper-card-items:hover .card-item .wrapper-card-text {
     transform: translateY(-20px);
 }
-.wrapper-card-items:hover .card-item .wrapper-card-img {
+#catalogue .wrapper-card-items:hover .card-item .wrapper-card-img {
     transform: translateY(-20px);
 }
-.wrapper-card-items:hover .card-item .wrapper-card-img img{
+#catalogue .wrapper-card-items:hover .card-item .wrapper-card-img img{
     transform: scale(1.1);
     /*overflow: hidden; */
     /* max-width: 500px;
@@ -313,11 +313,11 @@ padding-bottom: 2px;
 
 
 @media screen and (max-width: 1599px) {
-    .wrapper-i-love {
+     .wrapper-i-love {
         margin-top: 120px;
     }
     .wrapper-card-items {
-        min-height: 480px;
+        min-height: 530px;
     }
     .card-btn {
         height: 300px;

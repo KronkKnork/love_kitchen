@@ -13,7 +13,6 @@
 	font-style: normal;
 }
 
-html { overflow-x: hidden; }
 
 body {
     font-family: "PFBeauSansPro";
@@ -533,13 +532,16 @@ line-height: 29px; }
         margin-top: 47px; padding-bottom: 272px; margin-bottom: 139px; }
 
 .bs-items .bs-img { transition: .5s;     padding: 59px 0 0 26px; }
-.wrapper-card-items:hover .card-item .bs-img {
+/* .wrapper-card-items:hover .card-item .bs-img {
     transform: translateY(-20px);
-}
+} */
+.wrapper-card-items { transition: .5s; }
+.wrapper-card-items:hover { transform: translateY(-20px); }
+.wrapper-card-items:hover .card-title { color: #D21F39; }
 .footer .col-sm-3:first-child { padding-left: 0; }
-.bs-items.wrapper-card-items:hover .card-item  {
+/* .bs-items.wrapper-card-items:hover .card-item  {
     transform: translateY(-20px);
-}
+} */
 .bs-items.wrapper-card-items .card-item  {
 	cursor: default;
 	min-height: 240px;
@@ -619,7 +621,7 @@ border-radius: 5px; -webkit-box-flex: 0;
 	border-radius: 5px; display: block;
 	    height: 4px;
 	}
-	.execute-test { color: #787878; }
+
  .tpl span.active { background-colo: #FDB73B; }
 
 /*updeted first-modul main*/
@@ -627,7 +629,7 @@ border-radius: 5px; -webkit-box-flex: 0;
 .updeted-main-title { z-index: 2; margin-top: 118px; font-weight: bold; font-size: 72px; line-height: 86px;
     padding: 0; white-space: pre; }
 /* .updeted-main-title span { display: block; } */
-.updeted-btn-main { cursor: pointer; background: #B22432; border-radius: 40px; text-align: center; padding-top: 31px;
+.updeted-btn-main { transition: .5s; cursor: pointer; background: #B22432; border-radius: 40px; text-align: center; padding-top: 31px;
 max-width: 94%; margin-top: 80px; color: #fff; font-weight: bold; font-size: 16px; line-height: 19px; text-transform: uppercase; height: 80px; }
 .updeted-btn-main:hover { background: #D21F39; }
 .updeted-main-text { margin-top: 60px;     padding-left: 0; }
@@ -657,6 +659,16 @@ max-width: 94%; margin-top: 80px; color: #fff; font-weight: bold; font-size: 16p
 #plus-5 { right: 16.4%; bottom: 160px; }
 
 .show-more-offers { display: none; font-size: 0; }
+
+#popup-offer-2 .popup-label-checkbox { width: 47%; height: 80px; }
+#popup-offer-2 .text-checkbox { width: auto; }
+#popup-offer-2 .fake-checkbox { top: 45%; transform: translate(0,-45%); }
+#popup-offer-2 .popup-free-design__email { margin-right: 20px; margin-top: 30px; }
+
+#popup-free-design .popup-label-checkbox { width: 47%; height: 80px; }
+#popup-free-design .text-checkbox { width: auto; }
+#popup-free-design .fake-checkbox { top: 45%; transform: translate(0,-45%); }
+#popup-free-design .popup-free-design__email { margin-right: 20px; margin-top: 30px; }
 
 @media screen and (max-width: 1750px) {
 	#plus-4 { left: 80%; }
@@ -691,7 +703,7 @@ line-height: 12px; }
 
 
 @media screen and (max-width: 1089px) {
-	.header-but { display: block; position: absolute; top: 23px; right: 20px; width: 24px; height: 18px; }
+	.header-but { display: block; position: absolute; top: 23px; right: 25px; width: 24px; height: 18px; }
 	.header-but { background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAASCAYAAABB7B6eAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAnSURBVHgB7dMBDQAABEVBXxYJRFeQFDazdx1OFdm2yA04TzwAHjwYIu0GH15trPMAAAAASUVORK5CYII=') no-repeat; }
 	.header-but.close { right: 40px; height: 24px; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACSSURBVHgBxZbbCYAwDEWDk7j/jyM4giM4yjWF6ofSNE8s5Kdwz+kj0BKAg+vkWilpNBbXzrVRhyNL0uEP8zMRkQxZGZIpIyJRZz0Sc8YScO9aE0T03iRAGC6B0uCCJA8+kJjgC/09So+o9JJL21QDcEssQbPEsyp1JnKu0ywQ7wxUvmaiJAs+ktyCFPhL0r5D+wWLUvUXm9XzTQAAAABJRU5ErkJggg==') no-repeat; }
 
@@ -709,9 +721,8 @@ line-height: 12px; }
     flex: 0 0 50%;
     max-width: 50%;}
 	.logo-1 { width: 85px; height: auto; }
-	.main-header.menu-popup { background: #B22432; color: #fff;     position: absolute;
-		/* width: 100vw; */
-		width: 100%;
+	.main-header.menu-popup { background: #B22432; color: #fff;     position: fixed;
+		width: 100vw;
 	min-height: 100vh;
     z-index: 20;
     top: 0;
