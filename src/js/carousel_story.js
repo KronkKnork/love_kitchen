@@ -17,7 +17,7 @@ $(window).ready(function(){
         //console.log(storyLeft);
         console.log($(this).css({'left':storyLeft}));
     })*/
-    $('.header-menu .menu-item').on('click', function(event) {
+    /*$('.header-menu .menu-item').on('click', function(event) {
         // отменяем стандартное действие
         $('.menu-popup').fadeOut(500);
         event.preventDefault();
@@ -27,6 +27,6 @@ $(window).ready(function(){
         * sc - в переменную заносим информацию о том, к какому блоку надо перейти
         * dn - определяем положение блока на странице
         */
-        $('html, body').animate({scrollTop: dn}, 2000);
-    }); 
+        /*$('html, body').animate({scrollTop: dn}, 2000);
+    }); */
 })
