@@ -327,6 +327,7 @@ line-height: 43px; /*transform: translateY(-63px);*/ }
 .reviews .h2-title.sc-title {
     width: auto;
 }
+.wrapper-flamp { max-height: none; }
 .reviews-soc {
     /* margin-top: 81px; */
 }

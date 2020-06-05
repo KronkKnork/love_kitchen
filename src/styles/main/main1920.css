@@ -565,8 +565,8 @@ line-height: 29px; }
 }
 .base-service .title-free-steps {transform: translateY(-36px);}
 
-
-.reviews { margin: 150px 0; }
+.wrapper-flamp { max-height: 600px; }
+.reviews { margin: 140px 0; }
 .reviews-flamp img { width: 100%; }
 .sc-title { font-size: 36px; line-height: 43px;     padding: 0 0 59px; }
 .sc-vk:before { transition: .5s; border-radius: 50%; content: ""; padding: 10px; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAMCAYAAACNzvbFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAF5SURBVHgBlZNLUsJAEIa7Ow+LHUfIEWSnRqvCxiqyghPIDeQGyAnAEwgnADeEnViKuuQIuYHs5JGZdkJIGCBC+VclVZNMf/PNC8XI/QaGIiQJaW6VsDaexY3l8LJhILVBC7Osmf7nIG1Hw5sqosj6sIQWIcNUq3HE2cJLG9birAsIMx0qGYt6OwGikz5MFJKQ/Kp3IqT7rEAZs5TP8Eei4KqewLJ0rcr7mMyl3dFtGMBbBdcenAgHFw4CNLfKMFuCaCViykYKftQLDOb2SSgbfd1SqLUsVL7CNTR+HdginPPIzQUbpNY9cJ/iPpkk8sD2J52t9CbJLsq+DiDgB2as6oB8690TgfrPKHC76sMd/D+hWs/yzvTTGHOrocYNj1WrQcfM0Nv77NhgvPyozTuAxptGIMvHwJHknulP6sxU2zvDazD3vSIdmKgp0Nwu5djsxPTfBoK4vA+GwqpJeQWxcWyjLsYGvjFXAFQ3Ju1n335M12BtZhKg/gv2OKsblgqqjAAAAABJRU5ErkJggg==') center no-repeat; }
