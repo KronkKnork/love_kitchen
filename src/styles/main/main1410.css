@@ -274,9 +274,10 @@
 
 }
 
-@media screen (min-width: 1487px) and (max-width: 1599px) {
+@media screen and (min-width: 1487px) and (max-width: 1599px) {
 
   .wrapper-offers #compact-down {
     top: -41px;
 
+}
 }
