@@ -12,6 +12,13 @@
 	font-weight: bold;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'Conv_rouble';
+	src: url('../../fonts/rouble.eot');
+	src: local('☺'), url('../../fonts/rouble.woff') format('woff'), url('../../fonts/rouble.ttf') format('truetype'), url('../../fonts/rouble.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
 
 body {
@@ -39,6 +46,8 @@ a:hover { color: #787878; }
     margin: 0;
     padding: 0 36px 0 80px;
 }
+
+.rub { font-family: "Conv_rouble";  font-style: italic;}
 /*изображение на главном модуле*/
 .main-img {
     position: absolute;
