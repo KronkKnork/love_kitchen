@@ -100,6 +100,7 @@
 .name-client { font-weight: bold; font-size: 20px; line-height: 24px; color: #000000; }
 .text-mobile-story { display: none; }
 #zuck-modal-content .story-viewer .head .right .time { display: none; }
+/* #stories { overflow-x: hidden; } */
 
 @media screen and (max-width: 1599px) {
     .next img { width: 32px; height: 60px; }
@@ -163,10 +164,7 @@
     #stories { transform: translateX(-20px); width: 150%;}
 }
 @media screen and (max-width: 679px) {
-    #stories { transform: translateX(-160px); width: 250%;}
-    #stories .story:first-child {
-        transform: translateX(-65px);
-    }
+    #stories { transform: translateX(-230px); width: 250%;}
     .main-name-story { margin-left: 20px; }
     #zuck-modal-content .story-viewer .head { position: relative; }
     #zuck-modal-content .story-viewer .head .right .close { position: absolute; left: 20px; top: 0; transform: translateY(-27px);}
@@ -175,5 +173,5 @@
     #zuck-modal-content .story-viewer .slides-pointers { width: 87.5%; left: 20px; right: 20px; }
 }
 @media screen and (max-width: 374px) {
-    #stories { transform: translateX(-75px); width: 250%;}
+    #stories { transform: translateX(-145px); width: 250%;}
 }
