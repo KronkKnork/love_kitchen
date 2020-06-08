@@ -434,8 +434,8 @@ padding-bottom: 2px;
         line-height: 22px;
     }
     .wrapper-animation-i-love {
-        min-height: 1140px;
-    }
+        min-height: 1760px;
+    }    
 }
 @media screen and (max-width: 992px) {
     .desctop-text-gallery {
@@ -446,7 +446,9 @@ padding-bottom: 2px;
     }
 }
 @media screen and (max-width: 800px) {
-
+    .wrapper-animation-i-love {
+        min-height: 1140px;
+    }
 }
 @media screen and (max-width: 767px) {
     .wrapper-cards {
