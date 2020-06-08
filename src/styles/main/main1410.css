@@ -281,3 +281,9 @@
 
 }
 }
+@media screen and (min-width: 1507px) and (max-width: 1599px) {
+
+  #compact-i-love-down {
+    top: -8px;
+}
+}

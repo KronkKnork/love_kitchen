@@ -47,7 +47,7 @@ a:hover { color: #787878; }
     padding: 0 36px 0 80px;
 }
 
-.rub { font-family: "Conv_rouble";  font-style: italic;}
+.rub { font-family: "Conv_rouble";  font-style: normal;}
 /*изображение на главном модуле*/
 .main-img {
     position: absolute;
