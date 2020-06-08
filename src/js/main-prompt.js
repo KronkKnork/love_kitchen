@@ -184,6 +184,13 @@ $('.js-menu-toggle').on('click', function(){
     $('.header-nav').toggleClass('mhn');
 });
 
+$('.menu-item').click(function() {
+    $('.js-menu-toggle').removeClass('close');
+    $('.main-header').removeClass('menu-popup');
+    $('.logo-1').removeClass('dn');
+    $('.logo-2').addClass('dn');
+    $('.header-nav').addClass('mhn');
+});
 
 /** Принятая заявка */
     $('.js-btn-buy').on('click', function(){

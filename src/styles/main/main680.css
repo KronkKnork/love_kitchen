@@ -259,6 +259,8 @@ top: 24.3%;
     .updeted-main-title div { white-space: nowrap; }
     .updeted-main-title div span { white-space: pre; }
     .logo-2 { margin-left: 20px; }
+    /* .menu-popup  { transform:translateX(100%); transition: .5s; }
+    .active-popup.menu-popup  { transform:translateX(0); transition: .5s; } */
     .menu-popup .logo-2 { margin-left: 0; }
     .main-header.menu-popup .region-mobile { position: absolute;
     top: 20px;
@@ -331,6 +333,7 @@ line-height: 43px; /*transform: translateY(-63px);*/ }
 .reviews-soc {
     /* margin-top: 81px; */
 }
+.popup-about-production-close { background-image: none !important; }
 .popup-close  {
      width: 24px;
      height: 24px;
@@ -379,7 +382,7 @@ line-height: 43px; /*transform: translateY(-63px);*/ }
     #popup-free-design .popup-free-design__name { width: 90%; }
     #popup-free-design .popup-free-design__phone { width: 90%; }
     #popup-free-design .popup-free-design__email { width: 90%; }
-    
+
     #popup-offer-2 .popup-label-checkbox { width: 90%; }
     #popup-offer-2 .popup-free-design__name { width: 90%; }
     #popup-offer-2 .popup-free-design__phone { width: 90%; }

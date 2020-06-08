@@ -1,4 +1,4 @@
-$(window).ready(function(){ 
+$(window).ready(function(){
 
     $('#stories div:last-child').fadeTo(0, 0);
     $('#stories div:nth-last-child(2)').fadeTo(0, 0);
@@ -29,7 +29,4 @@ $(window).ready(function(){
         */
         /*$('html, body').animate({scrollTop: dn}, 2000);
     }); */
-    $('.header-menu .menu-item').on('click', function(){
-        /**Добавить код на исчезновение попап-меню при клике на якоря*/
-    })
 })
