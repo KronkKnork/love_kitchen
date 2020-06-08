@@ -52,7 +52,7 @@
 
 /*popup-about-production*/
 #popup-about-production {
-    display: none;
+    display: block;
     position: fixed; 
     width: 100vw;
     margin-top: 0;

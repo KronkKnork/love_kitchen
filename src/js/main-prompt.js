@@ -63,83 +63,89 @@ $(window).ready(function(){
     $('.updeted-btn-main').on('click', function(){
         console.log('click-tap');
     })
+    // $('.main-btn, .popup-i-btn-2, .updeted-btn-main').on('click', function(){
+    //     $('.popup:not(#popup-i-love)').fadeOut(500);
+    //     $('.overlay_popup').fadeIn(500);
+    //     $('#popup-free-design').fadeIn(500);
+    //     // document.body.style.overflowY = $('#popup-free-design').is(':hidden') ? "scroll" : "hidden";
+    // });
     $('.main-btn, .popup-i-btn-2, .updeted-btn-main').on('click', function(){
-        $('.popup:not(#popup-i-love)').fadeOut(500);
+        $('.popup:not(#popup-i-love)').removeClass('active-popup');
         $('.overlay_popup').fadeIn(500);
-        $('#popup-free-design').fadeIn(500);
+        $('#popup-free-design').addClass('active-popup');
         // document.body.style.overflowY = $('#popup-free-design').is(':hidden') ? "scroll" : "hidden";
     });
 
 /**клик для записи в салон*/
     $('#record-salon').on('click', function(){
-        $('.popup').fadeOut(500);
+        $('.popup').removeClass('active-popup');
         $('.overlay_popup').fadeIn(500);
-        $('#popup-record-salon').fadeIn(500);
+        $('#popup-record-salon').addClass('active-popup');
         //document.body.style.overflowY = $('#popup-record-salon').is(':hidden') ? "scroll" : "hidden";
     });
 /** клик для вывозва дизайнера*/
     $('#visit-designer').on('click', function(){
-        $('.popup').fadeOut(500);
+        $('.popup').removeClass('active-popup');
         $('.overlay_popup').fadeIn(500);
-        $('#popup-visit-designer').fadeIn(500);
+        $('#popup-visit-designer').addClass('active-popup');
         //document.body.style.overflowY = $('#popup-visit-designer').is(':hidden') ? "scroll" : "hidden";
     });
 /** клик понравилось решение*/
     var popup_plus = "";
     $('.js-btn-like-buy').on('click', function(){
         $('.overlay_popup_like_design').fadeIn(500);
-        $('#popup-like-design').fadeIn(500);
-        $(this).parents('.popup').first().fadeOut(500);
+        $('#popup-like-design').addClass('active-popup');
+        $(this).parents('.popup').first().removeClass('active-popup')
         popup_plus = $(this).parents('.popup').first();
         //document.body.style.overflowY = $('#popup-like-design').is(':hidden') ? "scroll" : "hidden";
     });
     $('.close-like-design, .overlay_popup_like_design').on('click', function(){
         $('.overlay_popup_like_design').fadeOut(500);
-        $(this).parents('.popup').first().fadeOut(500);
-        popup_plus.fadeIn(500);
+        $(this).parents('.popup').first().removeClass('active-popup');
+        popup_plus.addClass('active-popup');
     });
 /*клик на плюсики*/
     $('.wrapper-circle-plus-1, #plus-1').on('click', function(){
-        $('.popup').fadeOut(500);
+        $('.popup').removeClass('active-popup');
         $('.overlay_popup').fadeIn(500);
-        $('#popup-plus-1').fadeIn(500);
+        $('#popup-plus-1').addClass('active-popup');
         console.log('jsdgjsdkfjklds');
         //document.body.style.overflowY = $('.wrapper-circle-plus-1').is(':hidden') ? "scroll" : "hidden";
     });
     $('.wrapper-circle-plus-2, #plus-2').on('click', function(){
-        $('.popup').fadeOut(500);
+        $('.popup').removeClass('active-popup');
         $('.overlay_popup').fadeIn(500);
-        $('#popup-plus-2').fadeIn(500);
+        $('#popup-plus-2').addClass('active-popup');
         //document.body.style.overflowY = $('.wrapper-circle-plus-2').is(':hidden') ? "scroll" : "hidden";
     });
     $('.wrapper-circle-plus-3, #plus-3').on('click', function(){
         //$('.popup').fadeOut(500);
         $('.overlay_popup').fadeIn(500);
-        $('#popup-plus-3').fadeIn(500);
+        $('#popup-plus-3').addClass('active-popup');
         //document.body.style.overflowY = $('.wrapper-circle-plus-3').is(':hidden') ? "scroll" : "hidden";
     });
     $('.wrapper-circle-plus-4, #plus-4').on('click', function(){
-        $('.popup').fadeOut(500);
+        $('.popup').removeClass('active-popup');
         $('.overlay_popup').fadeIn(500);
-        $('#popup-plus-4').fadeIn(500);
+        $('#popup-plus-4').addClass('active-popup');
         //document.body.style.overflowY = $('wrapper-circle-plus-4').is(':hidden') ? "scroll" : "hidden";
     });
     $('.wrapper-circle-plus-5, #plus-5').on('click', function(){
-        $('.popup').fadeOut(500);
+        $('.popup').removeClass('active-popup');
         $('.overlay_popup').fadeIn(500);
-        $('#popup-plus-5').fadeIn(500);
+        $('#popup-plus-5').addClass('active-popup');
         //document.body.style.overflowY = $('.wrapper-circle-plus-5').is(':hidden') ? "scroll" : "hidden";
     });
     $('.circle-plus-1').on('click', function(){
-        $('.popup').fadeOut(500);
+        $('.popup').removeClass('active-popup');
         $('.overlay_popup').fadeIn(500);
-        $('#popup-plus-1').fadeIn(500);
+        $('#popup-plus-1').addClass('active-popup');
         //document.body.style.overflowY = $('#popup-plus-1').is(':hidden') ? "scroll" : "hidden";
     });
     $('.circle-plus-2').on('click', function(){
-        $('.popup').fadeOut(500);
+        $('.popup').removeClass('active-popup');
         $('.overlay_popup').fadeIn(500);
-        $('#popup-plus-2').fadeIn(500);
+        $('#popup-plus-2').addClass('active-popup');
         //document.body.style.overflowY = $('#popup-plus-2').is(':hidden') ? "scroll" : "hidden";
     });
     // $('.circle-plus-3').on('click', function(){
@@ -149,22 +155,22 @@ $(window).ready(function(){
     //     document.body.style.overflowY = $('#popup-plus-3').is(':hidden') ? "scroll" : "hidden";
     // });
     $('.circle-plus-4').on('click', function(){
-        $('.popup').fadeOut(500);
+        $('.popup').removeClass('active-popup');
         $('.overlay_popup').fadeIn(500);
-        $('#popup-plus-4').fadeIn(500);
+        $('#popup-plus-4').addClass('active-popup');
         //document.body.style.overflowY = $('#popup-plus-4').is(':hidden') ? "scroll" : "hidden";
     });
     $('.circle-plus-5').on('click', function(){
-        $('.popup').fadeOut(500);
+        $('.popup').removeClass('active-popup');
         $('.overlay_popup').fadeIn(500);
-        $('#popup-plus-5').fadeIn(500);
+        $('#popup-plus-5').addClass('active-popup');
         //document.body.style.overflowY = $('#popup-plus-5').is(':hidden') ? "scroll" : "hidden";
     });
 
     /*offers*/
     $('.js-offer2').on('click', function(){
         $('.overlay_popup').fadeIn(500);
-        $('#popup-offer-2').fadeIn(500);
+        $('#popup-offer-2').addClass('active-popup');
         //document.body.style.overflowY = $('#popup-offer-2').is(':hidden') ? "scroll" : "hidden";
     });
 
@@ -181,24 +187,24 @@ $('.js-menu-toggle').on('click', function(){
 
 /** Принятая заявка */
     $('.js-btn-buy').on('click', function(){
-        $('.popup').fadeOut(500);
+        $('.popup').removeClass('active-popup');
         $('.overlay_popup').fadeIn(500);
-        $('#popup-success').fadeIn(500);
+        $('#popup-success').addClass('active-popup');
         //document.body.style.overflowY = $('#popup-success').is(':hidden') ? "scroll" : "hidden";
     });
     $('.js-close-popups').on('click', function(){
         $('.overlay_popup, .overlay_popup_like_design').fadeOut();
-        $('.popup').fadeOut(500);
+        $('.popup').removeClass('active-popup');
         //document.body.style.overflowY = "scroll";
     });
 /* Ззакрытие попапов*/
     $('.popup-close, .overlay_popup').on('click', function(){
         $('.overlay_popup, .overlay_popup_like_design').fadeOut(500);
-        $(this).parents('.popup').first().fadeOut(500);
+        $(this).parents('.popup').first().removeClass('active-popup');
         //document.body.style.overflowY = "scroll";
     });
     $('.overlay_popup').on('click', function(){
-        $('.popup:not(#popup-i-love)').fadeOut(500);
+        $('.popup:not(#popup-i-love)').removeClass('active-popup');
         //document.body.style.overflowY = "scroll";
     });
 })

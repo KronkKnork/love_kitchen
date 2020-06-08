@@ -20,7 +20,7 @@
 #popup-get-designer-advice .popup-label-checkbox-record-salon { width: 98%; }
 #popup-get-designer-advice .text-checkbox { margin-top: 15px; }
 /*popup-experts*/
-#popup-experts { display: none; position: fixed; width: 100%; z-index: 12; }
+#popup-experts { display: block; position: fixed; width: 100%; z-index: 12; }
 .title-popup-expert { margin-bottom: 60px; }
 .wrapper-img-expert-popup-main { width: 100%; border-radius: 20px; margin-top: 60px; }
 .wrapper-img-expert-popup-main img { width: 100%; border-radius: 20px; }

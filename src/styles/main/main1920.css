@@ -237,7 +237,7 @@ a:hover { color: #787878; }
     /*popups-design-main*/
     position: fixed;
     overflow-y: scroll;
-    display: none;
+    display: block;
     z-index: 10;
     width: 48.96%;
     height: 100vh;
@@ -274,6 +274,9 @@ a:hover { color: #787878; }
 .close-like-design:hover {
     background: url("../../img/close_popup_hover1090.jpg") no-repeat;
 }
+/* slide left/right */
+.popup { transform:translateX(100%); transition: .5s; }
+.active-popup { transform:translateX(0); transition: .5s; }
 .popup-title {
     position: relative;
     z-index: 11;
@@ -393,7 +396,7 @@ transform: translate(0,-50%);
 .btn-popup-free-design:hover { background: #D21F39; }
 /*popup-record-salon*/
 .popup-record-salon {
-    display: none;
+    display: block;
 }
 .popup-record-salon .input-popup {
     width: 47.55%;
@@ -416,7 +419,7 @@ transform: translate(0,-50%);
 }
 /*popup-plus*/
 .popup-plus {
-    display: none;
+    display: block;
     position: fixed;
 }
 .popup-plus .btn-popup-free-design {

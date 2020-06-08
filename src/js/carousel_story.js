@@ -29,4 +29,7 @@ $(window).ready(function(){
         */
         /*$('html, body').animate({scrollTop: dn}, 2000);
     }); */
+    $('.header-menu .menu-item').on('click', function(){
+        /**Добавить код на исчезновение попап-меню при клике на якоря*/
+    })
 })
