@@ -42,16 +42,16 @@ $(window).ready(function(){
 
     /** open popup get katalog*/
     $('.js-get-katalog').on('click', function(){
-        $('.popup').fadeOut(500);
+        $('.popup').removeClass('active-popup');
         $('.overlay_popup').fadeIn(500);
-        $('#popup-get-katalog-kitchen').fadeIn(500);
+        $('#popup-get-katalog-kitchen').addClass('active-popup');
        // document.body.style.overflowY = $('#popup-get-katalog-kitchen').is(':hidden') ? "scroll" : "hidden";
     });
 
     /**open popup i love */
     $('.js-open-popup-i-love').on('click', function(){
-        $('.popup:not(#popup-i-love)').fadeOut(500);
-        $('#popup-i-love').fadeIn(500);
+        $('.popup:not(#popup-i-love)').removeClass('active-popup');
+        $('#popup-i-love').addClass('active-popup');
         //document.body.style.overflowY = $('.popup-i-love').is(':hidden') ? "scroll" : "hidden";
     });
 
@@ -70,16 +70,16 @@ $(window).ready(function(){
     })
     /** open popup kitchen i love */
     $('.popup-i-btn-1').on('click', function(){
-        $('.popup:not(#popup-i-love)').fadeOut(500);
+        $('.popup:not(#popup-i-love)').removeClass('active-popup');
         $('.overlay_popup').fadeIn(500);
-        $('#popup-it-kitchen').fadeIn(500);
+        $('#popup-it-kitchen').addClass('active-popup');
         //document.body.style.overflowY = $('#popup-it-kitchen').is(':hidden') ? "scroll" : "hidden";
     });
     /** open popup free-steps*/
     $('.btn-text-free-steps').on('click', function(){
-        $('.popup:not(#popup-i-love)').fadeOut(500);
+        $('.popup:not(#popup-i-love)').removeClass('active-popup');
         $('.overlay_popup').fadeIn(500);
-        $('#popup-free-steps').fadeIn(500);
+        $('#popup-free-steps').addClass('active-popup');
         //document.body.style.overflowY = $('#popup-free-steps').is(':hidden') ? "scroll" : "hidden";
     });
 })

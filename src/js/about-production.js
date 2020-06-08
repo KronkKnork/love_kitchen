@@ -24,8 +24,8 @@ $(window).ready(function(){
 
 /**клик узнать о производстве*/
     $('.js-btn-about-production').on('click', function(){
-        $('.popup').fadeOut(500);
-        $('#popup-about-production').fadeIn(500);
+        $('.popup').removeClass('active-popup');
+        $('#popup-about-production').addClass('active-popup');
         //document.body.style.overflowY = $('#popup-about-production').is(':hidden') ? "scroll" : "hidden";
     });
 

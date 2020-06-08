@@ -6,14 +6,11 @@ $(window).ready(function(){
         }
         $(this).find('.list-salon-dn').slideToggle(500);
     })
-    $('.btn-list-salon').on('click',function(){
-        console.log('sfsdfsdf');
-    })
         /** open popup get katalog*/
     $('.btn-list-salon').on('click', function(){
-        $('.popup').fadeOut(500);
+        $('.popup').removeClass('active-popup');
         $('.overlay_popup').fadeIn(500);            
-        $('#popup-record-salon').fadeIn(500);
+        $('#popup-record-salon').addClass('active-popup');
         //document.body.style.overflowY = $('#popup-record-salon').is(':hidden') ? "scroll" : "hidden";
     });
 
