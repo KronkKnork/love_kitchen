@@ -185,7 +185,7 @@ padding-bottom: 2px;
     display: none;
 }
 .wrapper-animation-i-love {
-    /* min-height: 1190px; */
+    min-height: 1190px;
 }
 .i-love-position-absolute {
     position: absolute;
@@ -327,6 +327,9 @@ padding-bottom: 2px;
     .wrapper-popup-i-img-mimi {
         height: 80px;
     }
+    .wrapper-animation-i-love {
+        min-height: 1060px;
+    }
 }
 
 @media screen and (max-width: 1409px) {
@@ -415,6 +418,9 @@ padding-bottom: 2px;
         margin-top: 40px;
         margin-bottom: 60px;
     }
+    .wrapper-animation-i-love {
+        min-height: 880px;
+    }
 
 }
 @media screen and (max-width: 1089px) {
@@ -426,6 +432,9 @@ padding-bottom: 2px;
         margin-right: 41px;
         font-size: 18px;
         line-height: 22px;
+    }
+    .wrapper-animation-i-love {
+        min-height: 1140px;
     }
 }
 @media screen and (max-width: 992px) {
@@ -541,6 +550,10 @@ padding-bottom: 2px;
     .i-love-cards-a {
         margin-top: 19px;
         margin-right: 32px; }
+    
+    .wrapper-animation-i-love {
+        min-height: 1720px;
+    }    
 }
 @media screen and (max-width: 679px) {
     .wrapper-i-love {
