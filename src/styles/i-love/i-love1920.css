@@ -3,7 +3,8 @@
     min-height: 50px;
 }
 .wrapper-i-love {
-    margin-top: 140px;
+    margin-top: 60px;
+    padding-top: 80px;
 }
 /* .i-love-title {
     font-weight: bold;
@@ -425,7 +426,8 @@ padding-bottom: 2px;
 }
 @media screen and (max-width: 1089px) {
     .wrapper-i-love {
-        margin-top: 80px;
+        margin-top: 0;
+        padding-top: 80px;
     }
     .i-love-cards-a {
         margin-top: 22px;
@@ -435,7 +437,7 @@ padding-bottom: 2px;
     }
     .wrapper-animation-i-love {
         min-height: 1760px;
-    }    
+    }
 }
 @media screen and (max-width: 992px) {
     .desctop-text-gallery {
@@ -458,7 +460,8 @@ padding-bottom: 2px;
         min-height: 380px;
     }
     .wrapper-i-love {
-        margin-top: 157px;
+        margin-top: 77px;
+        padding-top: 80px;
     }
     .i-love-a .main-text-a {
         font-size: 16px;
@@ -552,20 +555,14 @@ padding-bottom: 2px;
     .i-love-cards-a {
         margin-top: 19px;
         margin-right: 32px; }
-    
+
     .wrapper-animation-i-love {
         min-height: 1720px;
-    }    
+    }
 }
 @media screen and (max-width: 679px) {
-    .wrapper-i-love {
-        margin-top: 363px;
-    }
     .wrapper-card-items {
         min-height: 380px;
-    }
-    .wrapper-i-love {
-        margin-top: 157px;
     }
     .card-title {
         font-size: 24px;
@@ -586,16 +583,12 @@ padding-bottom: 2px;
     .wrapper-card-items-1 {
         min-height: 200px;
     }
-}
-@media screen and (max-width: 679px) {
-    .wrapper-i-love {
-        margin-top: 363px;
-    }
     .wrapper-card-items {
         min-height: 380px;
     }
     .wrapper-i-love {
-        margin-top: 80px;
+      padding-top: 80px;
+  margin-top: 0;
     }
     .card-title {
         font-size: 24px;

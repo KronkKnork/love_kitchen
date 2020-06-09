@@ -151,9 +151,9 @@
       max-width: 100%; }
 
     .sc-title {font-size: 24px; line-height: 29px;}
-    .base-service.container-fluid { margin-top: 71px; padding-bottom: 107px;  margin-bottom: 80px; }
+    .base-service.container-fluid { margin-top: 71px; padding-bottom: 107px;  margin-bottom: 0; }
     .bs-sub-title { font-size: 16px; line-height: 19px; }
-    .blog { margin-top: 80px; }
+    .blog { margin-top: 0; padding-top: 80px !important; }
     .bs-items .bs-img { padding: 40px 0 0 30px;}
     .bs-svg { width: 100px; height: 100px; }
     .bs-items.wrapper-card-items { min-height: 180px;  margin-bottom: 80px; }
@@ -321,7 +321,7 @@ top: 24.3%;
 line-height: 43px; /*transform: translateY(-63px);*/ }
 .wrapper-offers .wrapper-card-img {
     bottom: 0; position: relative; }
-.container-fluid#offers { padding: 0 40px; }
+.container-fluid#offers { padding: 80px 40px 0; }
 .wrapper-offers .wrapper-card-items {
     margin-top: 10px;
 }

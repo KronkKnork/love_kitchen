@@ -177,19 +177,21 @@ $(window).ready(function(){
 /*/offers*/
 
 $('.js-menu-toggle').on('click', function(){
-    $(this).toggleClass('close');
-    $('.main-header').toggleClass('menu-popup');
-    $('.logo-1').toggleClass('dn');
-    $('.logo-2').toggleClass('dn');
-    $('.header-nav').toggleClass('mhn');
+    // $(this).toggleClass('close');
+    $('.menu-popup').toggleClass('active-menu-popup');
+    // $('.main-header').toggleClass('menu-popup');
+    // $('.logo-1').toggleClass('dn');
+    // $('.logo-2').toggleClass('dn');
+    // $('.header-nav').toggleClass('mhn');
 });
 
 $('.menu-item').click(function() {
-    $('.js-menu-toggle').removeClass('close');
-    $('.main-header').removeClass('menu-popup');
-    $('.logo-1').removeClass('dn');
-    $('.logo-2').addClass('dn');
-    $('.header-nav').addClass('mhn');
+    $('.menu-popup').toggleClass('active-menu-popup');
+    // $('.js-menu-toggle').removeClass('close');
+    // $('.main-header').removeClass('menu-popup');
+    // $('.logo-1').removeClass('dn');
+    // $('.logo-2').addClass('dn');
+    // $('.header-nav').addClass('mhn');
 });
 
 /** Принятая заявка */

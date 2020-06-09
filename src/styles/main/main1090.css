@@ -152,8 +152,9 @@
               margin-top: 83px;
           }
 
-          #offers {
-              margin-top: 114px;
+          .container-fluid#offers {
+              margin-top: 34px;
+              padding-top: 80px;
           }
 
           .base-service .title-free-steps {
@@ -166,12 +167,12 @@
               line-height: 22px;
           }
       .base-service .card-price { top: 19px; }
-      
+
 
           .h2-title.sc-title {padding: 0 0 38px;
           }
           .reviews {
-              margin-bottom: 78px;
+              margin-bottom: 0;
           }
 
 
@@ -230,5 +231,5 @@ line-height: 48px; }
 .reviews { overflow: hidden; }
 .reviews .col-lg-9 { float: left; }
 .reviews .col-lg-3 { float: right; }
-
+.main-header.menu-popup { display: none;}
 }

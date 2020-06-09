@@ -1,4 +1,4 @@
-.section-map { margin: 0; overflow-x: hidden; }
+.section-map { margin: 0; overflow-x: hidden; padding-top: 80px; }
 .map-title { font-weight: bold; font-size: 60px; line-height: 72px; margin-bottom: 80px; margin-left: 80px; margin-right: 80px;}
 .wrapper-map-img { height: 700px; width: 100%; position: absolute; left: 0;}
 .wrapper-map-img div{ width: 93%; }
@@ -43,6 +43,8 @@
     .list-salon { height: 500px; }
     .map-title { margin-left: 40px; font-size: 36px; line-height: 43px;}
     .list-salon { margin-right: 40px; }
+    .section-map { padding-top: 80px; }
+
 }
 @media screen and (max-width: 679px) {
     .wrapper-map-img { height: 400px; }

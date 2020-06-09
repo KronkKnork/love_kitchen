@@ -221,7 +221,8 @@
     }
     .test-btn {
         margin-top: 39px; }
-    #offers { margin-top: 69px; }
+    #offers { margin-top: 0px; }
+    #offers { padding-top: 69px; }
     .base-service.container-fluid {  margin-top: 55px;     padding-bottom: 176px;     margin-bottom: 121px; }
     .base-service .title-free-steps { transform: translateY(-62px); margin-bottom: -46px;
     }
@@ -240,7 +241,7 @@
       .free-steps { margin-top: 205px; }
       .h2-title.sc-title { font-size: 30px; line-height: 36px; }
       .reviews {
-          margin: 120px 0;
+          margin: 120px 0 40px;
       }
       .footer.container-fluid {
           padding-top: 55px;

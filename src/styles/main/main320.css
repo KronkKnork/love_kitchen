@@ -152,7 +152,7 @@
     .header-but.close { right: 20px; }
   .wrapper-20 {height: 400px; }
   .container-fluid#offers {
-      padding: 0 20px;
+      padding: 80px 20px 0;
   }
   #offers .wrapper-card-img {
       padding-right: 0;
